@@ -31,7 +31,6 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.btn_menu_attendance = new System.Windows.Forms.Button();
             this.btn_menu_filter = new System.Windows.Forms.Button();
             this.SidePanel = new System.Windows.Forms.Panel();
@@ -66,7 +65,6 @@
             this.secondUserControl1 = new FastFoodDemo.Register.LoginUserControl();
             this.mySecondCustmControl1 = new FastFoodDemo.MySecondCustmControl();
             this.firstCustomControl1 = new FastFoodDemo.FirstCustomControl();
-            this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -76,8 +74,6 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(40)))));
-            this.panel1.Controls.Add(this.button1);
-            this.panel1.Controls.Add(this.dateTimePicker1);
             this.panel1.Controls.Add(this.btn_menu_attendance);
             this.panel1.Controls.Add(this.btn_menu_filter);
             this.panel1.Controls.Add(this.SidePanel);
@@ -90,15 +86,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(211, 583);
             this.panel1.TabIndex = 0;
-            // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker1.Location = new System.Drawing.Point(54, 417);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(107, 20);
-            this.dateTimePicker1.TabIndex = 7;
-            this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
             // btn_menu_attendance
             // 
@@ -458,16 +445,6 @@
             this.firstCustomControl1.Size = new System.Drawing.Size(803, 423);
             this.firstCustomControl1.TabIndex = 5;
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(54, 444);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 8;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click_1);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -549,8 +526,6 @@
         private System.Windows.Forms.Label label2;
         public System.Windows.Forms.Label lbl_header_line;
         private System.Windows.Forms.Button btn_menu_attendance;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.Button button1;
     }
 }
 

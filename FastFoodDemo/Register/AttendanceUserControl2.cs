@@ -35,11 +35,14 @@ namespace FastFoodDemo.Register
 
         //===================================================
         bool startDateIsNotChanged = true;
-        bool endDateIsNotChanged = true;
+        bool endDateIsNotChanged = true;       
+
 
         public AttendanceUserControl2()
         {
             InitializeComponent();
+            lbl_start_date.Text = "";
+            lbl_end_date.Text = "";
         }
 
         private void cmb_attendance_add_date_year_SelectedIndexChanged(object sender, EventArgs e)
@@ -368,6 +371,24 @@ namespace FastFoodDemo.Register
             if(success > 0)
             {
                 MessageBox.Show("መረጃው በትክክል ተመዝግቧል");
+
+                dgv_attendance_add.DataSource = null;
+                panel_attendance_add_table.Visible = false;
+
+                lbl_participation_number.Text = "";
+                lbl_name.Text = "";
+                pictureBox_photo.Image = pictureBox_photo.InitialImage;
+                panel_attendance_add_info.Visible = false;
+
+                icon_attendance_add_participation_number_success.Visible = false;
+                txt_participation_number.Text = "";
+                lbl_attendance_add_participation_number_error.Text = "";
+                cmb_attendance_type.SelectedIndex = 0;
+                panel_attendance_add.Visible = false;
+
+                cmb_attendance_add_date_day.SelectedIndex = 0;
+                cmb_attendance_add_date_month.SelectedIndex = 0;
+                cmb_attendance_add_date_year.SelectedIndex = 0;
             }
         }
 
@@ -506,12 +527,13 @@ namespace FastFoodDemo.Register
         private void dtp_end_ValueChanged(object sender, EventArgs e)
         {
             endDateIsNotChanged = false;
+            lbl_end_date.Text = MyDateConverter.FromGrigorianToEthiopian(dtp_end.Value);
         }
 
         private void dtp_start_ValueChanged(object sender, EventArgs e)
         {
             startDateIsNotChanged = false;
-
+            lbl_start_date.Text = MyDateConverter.FromGrigorianToEthiopian(dtp_start.Value);
         }
     }
 }

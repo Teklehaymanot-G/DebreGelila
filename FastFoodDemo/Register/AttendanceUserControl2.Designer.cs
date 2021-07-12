@@ -29,9 +29,9 @@ namespace FastFoodDemo.Register
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AttendanceUserControl2));
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage_attendance_add = new System.Windows.Forms.TabPage();
@@ -64,6 +64,8 @@ namespace FastFoodDemo.Register
             this.btn_filter = new Guna.UI.WinForms.GunaImageButton();
             this.cmb_type = new Guna.UI.WinForms.GunaComboBox();
             this.cmb_sex = new Guna.UI.WinForms.GunaComboBox();
+            this.lbl_start_date = new System.Windows.Forms.Label();
+            this.lbl_end_date = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage_attendance_add.SuspendLayout();
             this.panel_attendance_add_table.SuspendLayout();
@@ -115,32 +117,32 @@ namespace FastFoodDemo.Register
             this.dgv_attendance_add.AllowUserToDeleteRows = false;
             this.dgv_attendance_add.AllowUserToResizeColumns = false;
             this.dgv_attendance_add.AllowUserToResizeRows = false;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.dgv_attendance_add.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.dgv_attendance_add.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
             this.dgv_attendance_add.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgv_attendance_add.BackgroundColor = System.Drawing.SystemColors.Control;
             this.dgv_attendance_add.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgv_attendance_add.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
             this.dgv_attendance_add.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Silver;
-            dataGridViewCellStyle2.Padding = new System.Windows.Forms.Padding(0, 5, 0, 5);
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_attendance_add.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.Silver;
+            dataGridViewCellStyle5.Padding = new System.Windows.Forms.Padding(0, 5, 0, 5);
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_attendance_add.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
             this.dgv_attendance_add.ColumnHeadersHeight = 30;
             this.dgv_attendance_add.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Gray;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.ControlDark;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgv_attendance_add.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.Gray;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.ControlDark;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgv_attendance_add.DefaultCellStyle = dataGridViewCellStyle6;
             this.dgv_attendance_add.EnableHeadersVisualStyles = false;
             this.dgv_attendance_add.GridColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.dgv_attendance_add.ImeMode = System.Windows.Forms.ImeMode.NoControl;
@@ -436,6 +438,8 @@ namespace FastFoodDemo.Register
             // tab_attendance_report
             // 
             this.tab_attendance_report.BackColor = System.Drawing.SystemColors.Control;
+            this.tab_attendance_report.Controls.Add(this.lbl_end_date);
+            this.tab_attendance_report.Controls.Add(this.lbl_start_date);
             this.tab_attendance_report.Controls.Add(this.check_add_photo);
             this.tab_attendance_report.Controls.Add(this.dtp_end);
             this.tab_attendance_report.Controls.Add(this.dtp_start);
@@ -469,7 +473,7 @@ namespace FastFoodDemo.Register
             // dtp_end
             // 
             this.dtp_end.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtp_end.Location = new System.Drawing.Point(94, 25);
+            this.dtp_end.Location = new System.Drawing.Point(94, 12);
             this.dtp_end.Name = "dtp_end";
             this.dtp_end.Size = new System.Drawing.Size(82, 20);
             this.dtp_end.TabIndex = 332;
@@ -478,7 +482,7 @@ namespace FastFoodDemo.Register
             // dtp_start
             // 
             this.dtp_start.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtp_start.Location = new System.Drawing.Point(6, 25);
+            this.dtp_start.Location = new System.Drawing.Point(6, 12);
             this.dtp_start.Name = "dtp_start";
             this.dtp_start.Size = new System.Drawing.Size(82, 20);
             this.dtp_start.TabIndex = 331;
@@ -501,7 +505,7 @@ namespace FastFoodDemo.Register
             this.btn_filter.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_filter.Image = ((System.Drawing.Image)(resources.GetObject("btn_filter.Image")));
             this.btn_filter.ImageSize = new System.Drawing.Size(32, 32);
-            this.btn_filter.Location = new System.Drawing.Point(429, 19);
+            this.btn_filter.Location = new System.Drawing.Point(429, 6);
             this.btn_filter.Name = "btn_filter";
             this.btn_filter.OnHoverImage = null;
             this.btn_filter.OnHoverImageOffset = new System.Drawing.Point(0, 0);
@@ -525,7 +529,7 @@ namespace FastFoodDemo.Register
             "ተገኝቷል",
             "አርፍዷል",
             "አስፈቅዷል"});
-            this.cmb_type.Location = new System.Drawing.Point(182, 22);
+            this.cmb_type.Location = new System.Drawing.Point(182, 9);
             this.cmb_type.Name = "cmb_type";
             this.cmb_type.OnHoverItemBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.cmb_type.OnHoverItemForeColor = System.Drawing.Color.White;
@@ -548,13 +552,31 @@ namespace FastFoodDemo.Register
             "ጾታ",
             "ወንድ",
             "ሴት"});
-            this.cmb_sex.Location = new System.Drawing.Point(318, 22);
+            this.cmb_sex.Location = new System.Drawing.Point(318, 9);
             this.cmb_sex.Name = "cmb_sex";
             this.cmb_sex.OnHoverItemBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.cmb_sex.OnHoverItemForeColor = System.Drawing.Color.White;
             this.cmb_sex.Size = new System.Drawing.Size(97, 26);
             this.cmb_sex.StartIndex = 0;
             this.cmb_sex.TabIndex = 326;
+            // 
+            // lbl_start_date
+            // 
+            this.lbl_start_date.AutoSize = true;
+            this.lbl_start_date.Location = new System.Drawing.Point(7, 41);
+            this.lbl_start_date.Name = "lbl_start_date";
+            this.lbl_start_date.Size = new System.Drawing.Size(70, 13);
+            this.lbl_start_date.TabIndex = 335;
+            this.lbl_start_date.Text = "lbl_start_date";
+            // 
+            // lbl_end_date
+            // 
+            this.lbl_end_date.AutoSize = true;
+            this.lbl_end_date.Location = new System.Drawing.Point(91, 41);
+            this.lbl_end_date.Name = "lbl_end_date";
+            this.lbl_end_date.Size = new System.Drawing.Size(68, 13);
+            this.lbl_end_date.TabIndex = 336;
+            this.lbl_end_date.Text = "lbl_end_date";
             // 
             // AttendanceUserControl2
             // 
@@ -614,5 +636,7 @@ namespace FastFoodDemo.Register
         private System.Windows.Forms.DateTimePicker dtp_start;
         private System.Windows.Forms.DateTimePicker dtp_end;
         private MaterialSkin.Controls.MaterialCheckBox check_add_photo;
+        private System.Windows.Forms.Label lbl_start_date;
+        private System.Windows.Forms.Label lbl_end_date;
     }
 }
