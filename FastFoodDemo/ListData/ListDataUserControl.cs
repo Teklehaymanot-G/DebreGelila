@@ -254,5 +254,156 @@ namespace FastFoodDemo.ListData
 
             }
         }
+
+        private void dgv_main_ColumnHeaderMouseClick(object sender, DataGridViewCellMouseEventArgs e)
+        {
+            int column = e.ColumnIndex;
+
+            if (column == 1)
+            {
+                if(dgv_main.Columns[1].HeaderText == "የተሳትፎ ቁጥር ˄")
+                {
+                    dgv_main.Sort(dgv_main.Columns[1], ListSortDirection.Descending);
+                    dgv_main.Columns[1].HeaderText = "የተሳትፎ ቁጥር ˅";
+                }
+                else {
+                    dgv_main.Sort(dgv_main.Columns[1], ListSortDirection.Ascending);
+                    dgv_main.Columns[1].HeaderText = "የተሳትፎ ቁጥር ˄";
+                }
+
+                dgv_main.Columns[2].HeaderText = "ሙሉ ስም";
+                dgv_main.Columns[3].HeaderText = "የክርስትና ስም";
+                dgv_main.Columns[4].HeaderText = "የእናት ስም";
+                dgv_main.Columns[5].HeaderText = "ስልክ";
+                dgv_main.Columns[6].HeaderText = "ጾታ";
+                dgv_main.Columns[7].HeaderText = "የምዝገባ ቀን";
+            }
+
+            else if (column == 2)
+            {
+                if (dgv_main.Columns[2].HeaderText == "ሙሉ ስም ˄")
+                {
+                    dgv_main.Sort(dgv_main.Columns[2], ListSortDirection.Descending);
+                    dgv_main.Columns[2].HeaderText = "ሙሉ ስም ˅";
+                }
+                else
+                {
+                    dgv_main.Sort(dgv_main.Columns[2], ListSortDirection.Ascending);
+                    dgv_main.Columns[2].HeaderText = "ሙሉ ስም ˄";
+                }
+
+                dgv_main.Columns[1].HeaderText = "የተሳትፎ ቁጥር";
+                dgv_main.Columns[3].HeaderText = "የክርስትና ስም";
+                dgv_main.Columns[4].HeaderText = "የእናት ስም";
+                dgv_main.Columns[5].HeaderText = "ስልክ";
+                dgv_main.Columns[6].HeaderText = "ጾታ";
+                dgv_main.Columns[7].HeaderText = "የምዝገባ ቀን";
+            }
+
+            else if (column == 3)
+            {
+                if (dgv_main.Columns[3].HeaderText == "የክርስትና ስም ˄")
+                {
+                    dgv_main.Sort(dgv_main.Columns[3], ListSortDirection.Descending);
+                    dgv_main.Columns[3].HeaderText = "የክርስትና ስም ˅";
+                }
+                else
+                {
+                    dgv_main.Sort(dgv_main.Columns[3], ListSortDirection.Ascending);
+                    dgv_main.Columns[3].HeaderText = "የክርስትና ስም ˄";
+                }
+
+                dgv_main.Columns[1].HeaderText = "የተሳትፎ ቁጥር";
+                dgv_main.Columns[2].HeaderText = "ሙሉ ስም";
+                dgv_main.Columns[4].HeaderText = "የእናት ስም";
+                dgv_main.Columns[5].HeaderText = "ስልክ";
+                dgv_main.Columns[6].HeaderText = "ጾታ";
+                dgv_main.Columns[7].HeaderText = "የምዝገባ ቀን";
+            }
+
+            else if (column == 4)
+            {
+                if (dgv_main.Columns[4].HeaderText == "የእናት ስም ˄")
+                {
+                    dgv_main.Sort(dgv_main.Columns[4], ListSortDirection.Descending);
+                    dgv_main.Columns[4].HeaderText = "የእናት ስም ˅";
+                }
+                else
+                {
+                    dgv_main.Sort(dgv_main.Columns[4], ListSortDirection.Ascending);
+                    dgv_main.Columns[4].HeaderText = "የእናት ስም ˄";
+                }
+
+                dgv_main.Columns[1].HeaderText = "የተሳትፎ ቁጥር";
+                dgv_main.Columns[2].HeaderText = "ሙሉ ስም";
+                dgv_main.Columns[3].HeaderText = "የክርስትና ስም";
+                dgv_main.Columns[5].HeaderText = "ስልክ";
+                dgv_main.Columns[6].HeaderText = "ጾታ";
+                dgv_main.Columns[7].HeaderText = "የምዝገባ ቀን";
+            }
+
+            else if (column == 5)
+            {
+                if (dgv_main.Columns[5].HeaderText == "ስልክ ˄")
+                {
+                    dgv_main.Sort(dgv_main.Columns[4], ListSortDirection.Descending);
+                    dgv_main.Columns[5].HeaderText = "ስልክ ˅";
+                }
+                else
+                {
+                    dgv_main.Sort(dgv_main.Columns[5], ListSortDirection.Ascending);
+                    dgv_main.Columns[5].HeaderText = "ስልክ ˄";
+                }
+
+                dgv_main.Columns[1].HeaderText = "የተሳትፎ ቁጥር";
+                dgv_main.Columns[2].HeaderText = "ሙሉ ስም";
+                dgv_main.Columns[3].HeaderText = "የክርስትና ስም";
+                dgv_main.Columns[4].HeaderText = "የእናት ስም";
+                dgv_main.Columns[6].HeaderText = "ጾታ";
+                dgv_main.Columns[7].HeaderText = "የምዝገባ ቀን";
+            }
+
+            else if (column == 6)
+            {
+                if (dgv_main.Columns[6].HeaderText == "ጾታ ˄")
+                {
+                    dgv_main.Sort(dgv_main.Columns[6], ListSortDirection.Descending);
+                    dgv_main.Columns[6].HeaderText = "ጾታ ˅";
+                }
+                else
+                {
+                    dgv_main.Sort(dgv_main.Columns[6], ListSortDirection.Ascending);
+                    dgv_main.Columns[6].HeaderText = "ጾታ ˄";
+                }
+
+                dgv_main.Columns[1].HeaderText = "የተሳትፎ ቁጥር";
+                dgv_main.Columns[2].HeaderText = "ሙሉ ስም";
+                dgv_main.Columns[3].HeaderText = "የክርስትና ስም";
+                dgv_main.Columns[4].HeaderText = "የእናት ስም";
+                dgv_main.Columns[5].HeaderText = "ስልክ";
+                dgv_main.Columns[7].HeaderText = "የምዝገባ ቀን";
+            }
+
+            else if (column == 7)
+            {
+                if (dgv_main.Columns[7].HeaderText == "የምዝገባ ቀን ˄")
+                {
+                    dgv_main.Sort(dgv_main.Columns[7], ListSortDirection.Descending);
+                    dgv_main.Columns[7].HeaderText = "የምዝገባ ቀን ˅";
+                }
+                else
+                {
+                    dgv_main.Sort(dgv_main.Columns[7], ListSortDirection.Ascending);
+                    dgv_main.Columns[7].HeaderText = "የምዝገባ ቀን ˄";
+                }
+
+                dgv_main.Columns[1].HeaderText = "የተሳትፎ ቁጥር";
+                dgv_main.Columns[2].HeaderText = "ሙሉ ስም";
+                dgv_main.Columns[3].HeaderText = "የክርስትና ስም";
+                dgv_main.Columns[4].HeaderText = "የእናት ስም";
+                dgv_main.Columns[5].HeaderText = "ስልክ";
+                dgv_main.Columns[6].HeaderText = "ጾታ";
+            }
+        }
     }
 }

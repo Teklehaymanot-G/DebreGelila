@@ -99,6 +99,7 @@
             this.dgv_setting.Size = new System.Drawing.Size(731, 201);
             this.dgv_setting.TabIndex = 1;
             this.dgv_setting.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_setting_CellClick);
+            this.dgv_setting.ColumnHeaderMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dgv_setting_ColumnHeaderMouseClick);
             // 
             // txt_password
             // 

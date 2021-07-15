@@ -94,6 +94,7 @@
             this.dgv_main.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_main_CellClick);
             this.dgv_main.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_main_CellContentClick);
             this.dgv_main.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_main_CellDoubleClick);
+            this.dgv_main.ColumnHeaderMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dgv_main_ColumnHeaderMouseClick);
             this.dgv_main.SelectionChanged += new System.EventHandler(this.dgv_main_SelectionChanged);
             this.dgv_main.KeyDown += new System.Windows.Forms.KeyEventHandler(this.dgv_main_KeyDown);
             this.dgv_main.KeyUp += new System.Windows.Forms.KeyEventHandler(this.dgv_main_KeyUp);

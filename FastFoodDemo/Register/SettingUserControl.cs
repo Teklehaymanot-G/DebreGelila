@@ -391,6 +391,62 @@ namespace FastFoodDemo.Register
             }
         }
 
+        private void dgv_setting_ColumnHeaderMouseClick(object sender, DataGridViewCellMouseEventArgs e)
+        {
+            int column = e.ColumnIndex;
+
+            if (column == 0)
+            {
+                if (dgv_setting.Columns[0].HeaderText == "የተሳትፎ ቁጥር ˄")
+                {
+                    dgv_setting.Sort(dgv_setting.Columns[0], ListSortDirection.Descending);
+                    dgv_setting.Columns[0].HeaderText = "የተሳትፎ ቁጥር ˅";
+                }
+                else
+                {
+                    dgv_setting.Sort(dgv_setting.Columns[0], ListSortDirection.Ascending);
+                    dgv_setting.Columns[0].HeaderText = "የተሳትፎ ቁጥር ˄";
+                }
+
+                dgv_setting.Columns[1].HeaderText = "ሙሉ ስም";
+                dgv_setting.Columns[6].HeaderText = "መግባት ይቻል";
+            }
+
+            else if (column == 1)
+            {
+                if (dgv_setting.Columns[1].HeaderText == "ሙሉ ስም ˄")
+                {
+                    dgv_setting.Sort(dgv_setting.Columns[1], ListSortDirection.Descending);
+                    dgv_setting.Columns[1].HeaderText = "ሙሉ ስም ˅";
+                }
+                else
+                {
+                    dgv_setting.Sort(dgv_setting.Columns[1], ListSortDirection.Ascending);
+                    dgv_setting.Columns[1].HeaderText = "ሙሉ ስም ˄";
+                }
+
+                dgv_setting.Columns[0].HeaderText = "የተሳትፎ ቁጥር";
+                dgv_setting.Columns[6].HeaderText = "መግባት ይቻል";
+            }
+
+            else if (column == 6)
+            {
+                if (dgv_setting.Columns[6].HeaderText == "መግባት ይቻል ˄")
+                {
+                    dgv_setting.Sort(dgv_setting.Columns[6], ListSortDirection.Descending);
+                    dgv_setting.Columns[6].HeaderText = "መግባት ይቻል ˅";
+                }
+                else
+                {
+                    dgv_setting.Sort(dgv_setting.Columns[6], ListSortDirection.Ascending);
+                    dgv_setting.Columns[6].HeaderText = "መግባት ይቻል ˄";
+                }
+
+                dgv_setting.Columns[0].HeaderText = "የተሳትፎ ቁጥር";
+                dgv_setting.Columns[1].HeaderText = "ሙሉ ስም";
+            }
+        }
+
         public void reset_form()
         {
             txt_participation_number.Text = "";
