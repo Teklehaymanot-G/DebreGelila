@@ -57,6 +57,8 @@ namespace FastFoodDemo.Register
             this.cmb_attendance_add_date_day = new Guna.UI.WinForms.GunaComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.tab_attendance_report = new System.Windows.Forms.TabPage();
+            this.lbl_end_date = new System.Windows.Forms.Label();
+            this.lbl_start_date = new System.Windows.Forms.Label();
             this.check_add_photo = new MaterialSkin.Controls.MaterialCheckBox();
             this.dtp_end = new System.Windows.Forms.DateTimePicker();
             this.dtp_start = new System.Windows.Forms.DateTimePicker();
@@ -64,8 +66,8 @@ namespace FastFoodDemo.Register
             this.btn_filter = new Guna.UI.WinForms.GunaImageButton();
             this.cmb_type = new Guna.UI.WinForms.GunaComboBox();
             this.cmb_sex = new Guna.UI.WinForms.GunaComboBox();
-            this.lbl_start_date = new System.Windows.Forms.Label();
-            this.lbl_end_date = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.btn_reload = new Guna.UI.WinForms.GunaImageButton();
             this.tabControl1.SuspendLayout();
             this.tabPage_attendance_add.SuspendLayout();
             this.panel_attendance_add_table.SuspendLayout();
@@ -86,7 +88,7 @@ namespace FastFoodDemo.Register
             this.tabControl1.Location = new System.Drawing.Point(0, 0);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(817, 423);
+            this.tabControl1.Size = new System.Drawing.Size(1115, 634);
             this.tabControl1.TabIndex = 0;
             // 
             // tabPage_attendance_add
@@ -96,8 +98,8 @@ namespace FastFoodDemo.Register
             this.tabPage_attendance_add.Controls.Add(this.panel1);
             this.tabPage_attendance_add.Location = new System.Drawing.Point(4, 22);
             this.tabPage_attendance_add.Name = "tabPage_attendance_add";
-            this.tabPage_attendance_add.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage_attendance_add.Size = new System.Drawing.Size(809, 397);
+            this.tabPage_attendance_add.Padding = new System.Windows.Forms.Padding(40);
+            this.tabPage_attendance_add.Size = new System.Drawing.Size(1107, 608);
             this.tabPage_attendance_add.TabIndex = 0;
             this.tabPage_attendance_add.Text = "አዲስ ያስገቡ";
             // 
@@ -105,9 +107,10 @@ namespace FastFoodDemo.Register
             // 
             this.panel_attendance_add_table.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel_attendance_add_table.Controls.Add(this.dgv_attendance_add);
-            this.panel_attendance_add_table.Location = new System.Drawing.Point(431, 3);
+            this.panel_attendance_add_table.Location = new System.Drawing.Point(642, 43);
             this.panel_attendance_add_table.Name = "panel_attendance_add_table";
-            this.panel_attendance_add_table.Size = new System.Drawing.Size(375, 391);
+            this.panel_attendance_add_table.Padding = new System.Windows.Forms.Padding(10);
+            this.panel_attendance_add_table.Size = new System.Drawing.Size(422, 522);
             this.panel_attendance_add_table.TabIndex = 1;
             this.panel_attendance_add_table.Visible = false;
             // 
@@ -146,14 +149,14 @@ namespace FastFoodDemo.Register
             this.dgv_attendance_add.EnableHeadersVisualStyles = false;
             this.dgv_attendance_add.GridColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.dgv_attendance_add.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.dgv_attendance_add.Location = new System.Drawing.Point(3, 6);
+            this.dgv_attendance_add.Location = new System.Drawing.Point(13, 13);
             this.dgv_attendance_add.MultiSelect = false;
             this.dgv_attendance_add.Name = "dgv_attendance_add";
             this.dgv_attendance_add.ReadOnly = true;
             this.dgv_attendance_add.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             this.dgv_attendance_add.RowHeadersVisible = false;
             this.dgv_attendance_add.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgv_attendance_add.Size = new System.Drawing.Size(367, 376);
+            this.dgv_attendance_add.Size = new System.Drawing.Size(394, 494);
             this.dgv_attendance_add.TabIndex = 2;
             // 
             // panel1
@@ -161,9 +164,10 @@ namespace FastFoodDemo.Register
             this.panel1.Controls.Add(this.panel_attendance_add_info);
             this.panel1.Controls.Add(this.panel_attendance_add);
             this.panel1.Controls.Add(this.panel3);
-            this.panel1.Location = new System.Drawing.Point(3, 6);
+            this.panel1.Location = new System.Drawing.Point(43, 43);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(422, 385);
+            this.panel1.Padding = new System.Windows.Forms.Padding(10);
+            this.panel1.Size = new System.Drawing.Size(501, 522);
             this.panel1.TabIndex = 0;
             // 
             // panel_attendance_add_info
@@ -172,9 +176,9 @@ namespace FastFoodDemo.Register
             this.panel_attendance_add_info.Controls.Add(this.lbl_participation_number);
             this.panel_attendance_add_info.Controls.Add(this.pictureBox_photo);
             this.panel_attendance_add_info.Controls.Add(this.lbl_name);
-            this.panel_attendance_add_info.Location = new System.Drawing.Point(3, 201);
+            this.panel_attendance_add_info.Location = new System.Drawing.Point(15, 328);
             this.panel_attendance_add_info.Name = "panel_attendance_add_info";
-            this.panel_attendance_add_info.Size = new System.Drawing.Size(415, 181);
+            this.panel_attendance_add_info.Size = new System.Drawing.Size(473, 181);
             this.panel_attendance_add_info.TabIndex = 2;
             this.panel_attendance_add_info.Visible = false;
             // 
@@ -182,7 +186,7 @@ namespace FastFoodDemo.Register
             // 
             this.lbl_participation_number.AutoSize = true;
             this.lbl_participation_number.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_participation_number.Location = new System.Drawing.Point(173, 56);
+            this.lbl_participation_number.Location = new System.Drawing.Point(226, 50);
             this.lbl_participation_number.Name = "lbl_participation_number";
             this.lbl_participation_number.Size = new System.Drawing.Size(93, 20);
             this.lbl_participation_number.TabIndex = 304;
@@ -192,7 +196,7 @@ namespace FastFoodDemo.Register
             // 
             this.pictureBox_photo.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox_photo.Image")));
             this.pictureBox_photo.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox_photo.InitialImage")));
-            this.pictureBox_photo.Location = new System.Drawing.Point(3, 17);
+            this.pictureBox_photo.Location = new System.Drawing.Point(14, 11);
             this.pictureBox_photo.Name = "pictureBox_photo";
             this.pictureBox_photo.Size = new System.Drawing.Size(164, 161);
             this.pictureBox_photo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -202,7 +206,7 @@ namespace FastFoodDemo.Register
             // lbl_name
             // 
             this.lbl_name.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_name.Location = new System.Drawing.Point(173, 93);
+            this.lbl_name.Location = new System.Drawing.Point(226, 87);
             this.lbl_name.Name = "lbl_name";
             this.lbl_name.Size = new System.Drawing.Size(230, 85);
             this.lbl_name.TabIndex = 303;
@@ -211,6 +215,7 @@ namespace FastFoodDemo.Register
             // panel_attendance_add
             // 
             this.panel_attendance_add.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel_attendance_add.Controls.Add(this.label1);
             this.panel_attendance_add.Controls.Add(this.btn_attendance_view);
             this.panel_attendance_add.Controls.Add(this.cmb_attendance_type);
             this.panel_attendance_add.Controls.Add(this.btn_attendance_finish);
@@ -218,9 +223,9 @@ namespace FastFoodDemo.Register
             this.panel_attendance_add.Controls.Add(this.icon_attendance_add_participation_number_success);
             this.panel_attendance_add.Controls.Add(this.txt_participation_number);
             this.panel_attendance_add.Controls.Add(this.label63);
-            this.panel_attendance_add.Location = new System.Drawing.Point(1, 86);
+            this.panel_attendance_add.Location = new System.Drawing.Point(13, 132);
             this.panel_attendance_add.Name = "panel_attendance_add";
-            this.panel_attendance_add.Size = new System.Drawing.Size(417, 109);
+            this.panel_attendance_add.Size = new System.Drawing.Size(475, 155);
             this.panel_attendance_add.TabIndex = 1;
             this.panel_attendance_add.Visible = false;
             // 
@@ -229,7 +234,7 @@ namespace FastFoodDemo.Register
             this.btn_attendance_view.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_attendance_view.Image = ((System.Drawing.Image)(resources.GetObject("btn_attendance_view.Image")));
             this.btn_attendance_view.ImageSize = new System.Drawing.Size(32, 32);
-            this.btn_attendance_view.Location = new System.Drawing.Point(334, 52);
+            this.btn_attendance_view.Location = new System.Drawing.Point(388, 106);
             this.btn_attendance_view.Name = "btn_attendance_view";
             this.btn_attendance_view.OnHoverImage = null;
             this.btn_attendance_view.OnHoverImageOffset = new System.Drawing.Point(0, 0);
@@ -252,11 +257,11 @@ namespace FastFoodDemo.Register
             "ተገኝቷል",
             "አርፍዷል",
             "አስፈቅዷል"});
-            this.cmb_attendance_type.Location = new System.Drawing.Point(16, 23);
+            this.cmb_attendance_type.Location = new System.Drawing.Point(121, 17);
             this.cmb_attendance_type.Name = "cmb_attendance_type";
             this.cmb_attendance_type.OnHoverItemBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.cmb_attendance_type.OnHoverItemForeColor = System.Drawing.Color.White;
-            this.cmb_attendance_type.Size = new System.Drawing.Size(117, 26);
+            this.cmb_attendance_type.Size = new System.Drawing.Size(154, 26);
             this.cmb_attendance_type.StartIndex = 0;
             this.cmb_attendance_type.TabIndex = 349;
             // 
@@ -265,7 +270,7 @@ namespace FastFoodDemo.Register
             this.btn_attendance_finish.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_attendance_finish.Image = ((System.Drawing.Image)(resources.GetObject("btn_attendance_finish.Image")));
             this.btn_attendance_finish.ImageSize = new System.Drawing.Size(32, 32);
-            this.btn_attendance_finish.Location = new System.Drawing.Point(372, 52);
+            this.btn_attendance_finish.Location = new System.Drawing.Point(426, 106);
             this.btn_attendance_finish.Name = "btn_attendance_finish";
             this.btn_attendance_finish.OnHoverImage = null;
             this.btn_attendance_finish.OnHoverImageOffset = new System.Drawing.Point(0, 0);
@@ -278,7 +283,7 @@ namespace FastFoodDemo.Register
             this.lbl_attendance_add_participation_number_error.AutoSize = true;
             this.lbl_attendance_add_participation_number_error.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.lbl_attendance_add_participation_number_error.ForeColor = System.Drawing.Color.Red;
-            this.lbl_attendance_add_participation_number_error.Location = new System.Drawing.Point(108, 84);
+            this.lbl_attendance_add_participation_number_error.Location = new System.Drawing.Point(118, 93);
             this.lbl_attendance_add_participation_number_error.Name = "lbl_attendance_add_participation_number_error";
             this.lbl_attendance_add_participation_number_error.Size = new System.Drawing.Size(35, 13);
             this.lbl_attendance_add_participation_number_error.TabIndex = 347;
@@ -291,7 +296,7 @@ namespace FastFoodDemo.Register
             this.icon_attendance_add_participation_number_success.DialogResult = System.Windows.Forms.DialogResult.None;
             this.icon_attendance_add_participation_number_success.Image = ((System.Drawing.Image)(resources.GetObject("icon_attendance_add_participation_number_success.Image")));
             this.icon_attendance_add_participation_number_success.ImageSize = new System.Drawing.Size(16, 16);
-            this.icon_attendance_add_participation_number_success.Location = new System.Drawing.Point(289, 65);
+            this.icon_attendance_add_participation_number_success.Location = new System.Drawing.Point(299, 74);
             this.icon_attendance_add_participation_number_success.Name = "icon_attendance_add_participation_number_success";
             this.icon_attendance_add_participation_number_success.OnHoverImage = null;
             this.icon_attendance_add_participation_number_success.OnHoverImageOffset = new System.Drawing.Point(0, 0);
@@ -306,7 +311,7 @@ namespace FastFoodDemo.Register
             this.txt_participation_number.FocusedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.txt_participation_number.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_participation_number.LineColor = System.Drawing.Color.Gray;
-            this.txt_participation_number.Location = new System.Drawing.Point(111, 55);
+            this.txt_participation_number.Location = new System.Drawing.Point(121, 64);
             this.txt_participation_number.Name = "txt_participation_number";
             this.txt_participation_number.PasswordChar = '\0';
             this.txt_participation_number.Size = new System.Drawing.Size(172, 26);
@@ -317,7 +322,7 @@ namespace FastFoodDemo.Register
             // 
             this.label63.AutoSize = true;
             this.label63.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label63.Location = new System.Drawing.Point(12, 61);
+            this.label63.Location = new System.Drawing.Point(22, 70);
             this.label63.Name = "label63";
             this.label63.Size = new System.Drawing.Size(93, 20);
             this.label63.TabIndex = 345;
@@ -330,9 +335,9 @@ namespace FastFoodDemo.Register
             this.panel3.Controls.Add(this.cmb_attendance_add_date_month);
             this.panel3.Controls.Add(this.cmb_attendance_add_date_day);
             this.panel3.Controls.Add(this.label2);
-            this.panel3.Location = new System.Drawing.Point(1, 4);
+            this.panel3.Location = new System.Drawing.Point(13, 13);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(417, 76);
+            this.panel3.Size = new System.Drawing.Size(475, 76);
             this.panel3.TabIndex = 0;
             // 
             // btn_attendance_add_date
@@ -438,6 +443,7 @@ namespace FastFoodDemo.Register
             // tab_attendance_report
             // 
             this.tab_attendance_report.BackColor = System.Drawing.SystemColors.Control;
+            this.tab_attendance_report.Controls.Add(this.btn_reload);
             this.tab_attendance_report.Controls.Add(this.lbl_end_date);
             this.tab_attendance_report.Controls.Add(this.lbl_start_date);
             this.tab_attendance_report.Controls.Add(this.check_add_photo);
@@ -449,17 +455,35 @@ namespace FastFoodDemo.Register
             this.tab_attendance_report.Controls.Add(this.cmb_sex);
             this.tab_attendance_report.Location = new System.Drawing.Point(4, 22);
             this.tab_attendance_report.Name = "tab_attendance_report";
-            this.tab_attendance_report.Padding = new System.Windows.Forms.Padding(3);
-            this.tab_attendance_report.Size = new System.Drawing.Size(809, 397);
+            this.tab_attendance_report.Padding = new System.Windows.Forms.Padding(40);
+            this.tab_attendance_report.Size = new System.Drawing.Size(1107, 608);
             this.tab_attendance_report.TabIndex = 1;
             this.tab_attendance_report.Text = "አቴንዳስ ሪፖርት";
+            // 
+            // lbl_end_date
+            // 
+            this.lbl_end_date.AutoSize = true;
+            this.lbl_end_date.Location = new System.Drawing.Point(166, 69);
+            this.lbl_end_date.Name = "lbl_end_date";
+            this.lbl_end_date.Size = new System.Drawing.Size(68, 13);
+            this.lbl_end_date.TabIndex = 336;
+            this.lbl_end_date.Text = "lbl_end_date";
+            // 
+            // lbl_start_date
+            // 
+            this.lbl_start_date.AutoSize = true;
+            this.lbl_start_date.Location = new System.Drawing.Point(43, 69);
+            this.lbl_start_date.Name = "lbl_start_date";
+            this.lbl_start_date.Size = new System.Drawing.Size(70, 13);
+            this.lbl_start_date.TabIndex = 335;
+            this.lbl_start_date.Text = "lbl_start_date";
             // 
             // check_add_photo
             // 
             this.check_add_photo.AutoSize = true;
             this.check_add_photo.Depth = 0;
             this.check_add_photo.Font = new System.Drawing.Font("Roboto", 10F);
-            this.check_add_photo.Location = new System.Drawing.Point(530, 20);
+            this.check_add_photo.Location = new System.Drawing.Point(616, 39);
             this.check_add_photo.Margin = new System.Windows.Forms.Padding(0);
             this.check_add_photo.MouseLocation = new System.Drawing.Point(-1, -1);
             this.check_add_photo.MouseState = MaterialSkin.MouseState.HOVER;
@@ -473,18 +497,18 @@ namespace FastFoodDemo.Register
             // dtp_end
             // 
             this.dtp_end.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtp_end.Location = new System.Drawing.Point(94, 12);
+            this.dtp_end.Location = new System.Drawing.Point(169, 43);
             this.dtp_end.Name = "dtp_end";
-            this.dtp_end.Size = new System.Drawing.Size(82, 20);
+            this.dtp_end.Size = new System.Drawing.Size(120, 20);
             this.dtp_end.TabIndex = 332;
             this.dtp_end.ValueChanged += new System.EventHandler(this.dtp_end_ValueChanged);
             // 
             // dtp_start
             // 
             this.dtp_start.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtp_start.Location = new System.Drawing.Point(6, 12);
+            this.dtp_start.Location = new System.Drawing.Point(43, 43);
             this.dtp_start.Name = "dtp_start";
-            this.dtp_start.Size = new System.Drawing.Size(82, 20);
+            this.dtp_start.Size = new System.Drawing.Size(120, 20);
             this.dtp_start.TabIndex = 331;
             this.dtp_start.ValueChanged += new System.EventHandler(this.dtp_start_ValueChanged);
             // 
@@ -494,9 +518,9 @@ namespace FastFoodDemo.Register
             this.filterCrystalReportViewer.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.filterCrystalReportViewer.Cursor = System.Windows.Forms.Cursors.Default;
             this.filterCrystalReportViewer.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.filterCrystalReportViewer.Location = new System.Drawing.Point(3, 60);
+            this.filterCrystalReportViewer.Location = new System.Drawing.Point(40, 95);
             this.filterCrystalReportViewer.Name = "filterCrystalReportViewer";
-            this.filterCrystalReportViewer.Size = new System.Drawing.Size(803, 334);
+            this.filterCrystalReportViewer.Size = new System.Drawing.Size(1027, 473);
             this.filterCrystalReportViewer.TabIndex = 330;
             this.filterCrystalReportViewer.ToolPanelView = CrystalDecisions.Windows.Forms.ToolPanelViewType.None;
             // 
@@ -505,7 +529,7 @@ namespace FastFoodDemo.Register
             this.btn_filter.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_filter.Image = ((System.Drawing.Image)(resources.GetObject("btn_filter.Image")));
             this.btn_filter.ImageSize = new System.Drawing.Size(32, 32);
-            this.btn_filter.Location = new System.Drawing.Point(429, 6);
+            this.btn_filter.Location = new System.Drawing.Point(717, 39);
             this.btn_filter.Name = "btn_filter";
             this.btn_filter.OnHoverImage = null;
             this.btn_filter.OnHoverImageOffset = new System.Drawing.Point(0, 0);
@@ -529,11 +553,11 @@ namespace FastFoodDemo.Register
             "ተገኝቷል",
             "አርፍዷል",
             "አስፈቅዷል"});
-            this.cmb_type.Location = new System.Drawing.Point(182, 9);
+            this.cmb_type.Location = new System.Drawing.Point(295, 41);
             this.cmb_type.Name = "cmb_type";
             this.cmb_type.OnHoverItemBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.cmb_type.OnHoverItemForeColor = System.Drawing.Color.White;
-            this.cmb_type.Size = new System.Drawing.Size(130, 26);
+            this.cmb_type.Size = new System.Drawing.Size(168, 26);
             this.cmb_type.StartIndex = 0;
             this.cmb_type.TabIndex = 328;
             // 
@@ -552,31 +576,36 @@ namespace FastFoodDemo.Register
             "ጾታ",
             "ወንድ",
             "ሴት"});
-            this.cmb_sex.Location = new System.Drawing.Point(318, 9);
+            this.cmb_sex.Location = new System.Drawing.Point(469, 41);
             this.cmb_sex.Name = "cmb_sex";
             this.cmb_sex.OnHoverItemBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.cmb_sex.OnHoverItemForeColor = System.Drawing.Color.White;
-            this.cmb_sex.Size = new System.Drawing.Size(97, 26);
+            this.cmb_sex.Size = new System.Drawing.Size(135, 26);
             this.cmb_sex.StartIndex = 0;
             this.cmb_sex.TabIndex = 326;
             // 
-            // lbl_start_date
+            // label1
             // 
-            this.lbl_start_date.AutoSize = true;
-            this.lbl_start_date.Location = new System.Drawing.Point(7, 41);
-            this.lbl_start_date.Name = "lbl_start_date";
-            this.lbl_start_date.Size = new System.Drawing.Size(70, 13);
-            this.lbl_start_date.TabIndex = 335;
-            this.lbl_start_date.Text = "lbl_start_date";
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(12, 23);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(103, 20);
+            this.label1.TabIndex = 351;
+            this.label1.Text = "የአቴንዳሱ አይነት";
             // 
-            // lbl_end_date
+            // btn_reload
             // 
-            this.lbl_end_date.AutoSize = true;
-            this.lbl_end_date.Location = new System.Drawing.Point(91, 41);
-            this.lbl_end_date.Name = "lbl_end_date";
-            this.lbl_end_date.Size = new System.Drawing.Size(68, 13);
-            this.lbl_end_date.TabIndex = 336;
-            this.lbl_end_date.Text = "lbl_end_date";
+            this.btn_reload.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btn_reload.Image = ((System.Drawing.Image)(resources.GetObject("btn_reload.Image")));
+            this.btn_reload.ImageSize = new System.Drawing.Size(32, 32);
+            this.btn_reload.Location = new System.Drawing.Point(1032, 39);
+            this.btn_reload.Name = "btn_reload";
+            this.btn_reload.OnHoverImage = null;
+            this.btn_reload.OnHoverImageOffset = new System.Drawing.Point(0, 0);
+            this.btn_reload.Size = new System.Drawing.Size(32, 32);
+            this.btn_reload.TabIndex = 348;
+            this.btn_reload.Click += new System.EventHandler(this.btn_reload_Click);
             // 
             // AttendanceUserControl2
             // 
@@ -584,7 +613,7 @@ namespace FastFoodDemo.Register
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.tabControl1);
             this.Name = "AttendanceUserControl2";
-            this.Size = new System.Drawing.Size(817, 423);
+            this.Size = new System.Drawing.Size(1115, 634);
             this.tabControl1.ResumeLayout(false);
             this.tabPage_attendance_add.ResumeLayout(false);
             this.panel_attendance_add_table.ResumeLayout(false);
@@ -638,5 +667,7 @@ namespace FastFoodDemo.Register
         private MaterialSkin.Controls.MaterialCheckBox check_add_photo;
         private System.Windows.Forms.Label lbl_start_date;
         private System.Windows.Forms.Label lbl_end_date;
+        private System.Windows.Forms.Label label1;
+        private Guna.UI.WinForms.GunaImageButton btn_reload;
     }
 }

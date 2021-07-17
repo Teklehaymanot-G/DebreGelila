@@ -42,9 +42,9 @@
             this.filterCrystalReportViewer.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.filterCrystalReportViewer.Cursor = System.Windows.Forms.Cursors.Default;
             this.filterCrystalReportViewer.DisplayStatusBar = false;
-            this.filterCrystalReportViewer.Location = new System.Drawing.Point(43, 75);
+            this.filterCrystalReportViewer.Location = new System.Drawing.Point(43, 87);
             this.filterCrystalReportViewer.Name = "filterCrystalReportViewer";
-            this.filterCrystalReportViewer.Size = new System.Drawing.Size(731, 328);
+            this.filterCrystalReportViewer.Size = new System.Drawing.Size(1029, 504);
             this.filterCrystalReportViewer.TabIndex = 214;
             this.filterCrystalReportViewer.ToolPanelView = CrystalDecisions.Windows.Forms.ToolPanelViewType.None;
             // 
@@ -63,11 +63,11 @@
             "ጾታ",
             "ወንድ",
             "ሴት"});
-            this.cmb_sex.Location = new System.Drawing.Point(43, 40);
+            this.cmb_sex.Location = new System.Drawing.Point(333, 43);
             this.cmb_sex.Name = "cmb_sex";
             this.cmb_sex.OnHoverItemBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.cmb_sex.OnHoverItemForeColor = System.Drawing.Color.White;
-            this.cmb_sex.Size = new System.Drawing.Size(97, 26);
+            this.cmb_sex.Size = new System.Drawing.Size(130, 26);
             this.cmb_sex.StartIndex = 0;
             this.cmb_sex.TabIndex = 311;
             // 
@@ -86,11 +86,11 @@
             "ትዳር",
             "ያገባ",
             "ያላገባ"});
-            this.cmb_married.Location = new System.Drawing.Point(146, 40);
+            this.cmb_married.Location = new System.Drawing.Point(469, 43);
             this.cmb_married.Name = "cmb_married";
             this.cmb_married.OnHoverItemBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.cmb_married.OnHoverItemForeColor = System.Drawing.Color.White;
-            this.cmb_married.Size = new System.Drawing.Size(97, 26);
+            this.cmb_married.Size = new System.Drawing.Size(130, 26);
             this.cmb_married.StartIndex = 0;
             this.cmb_married.TabIndex = 312;
             // 
@@ -110,7 +110,7 @@
             "ተምሬያለሁ",
             "አልተማርኩም",
             "እየተማርኩኝ ነው"});
-            this.cmb_course_before.Location = new System.Drawing.Point(249, 40);
+            this.cmb_course_before.Location = new System.Drawing.Point(605, 43);
             this.cmb_course_before.Name = "cmb_course_before";
             this.cmb_course_before.OnHoverItemBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.cmb_course_before.OnHoverItemForeColor = System.Drawing.Color.White;
@@ -123,7 +123,7 @@
             this.btn_filter.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_filter.Image = ((System.Drawing.Image)(resources.GetObject("btn_filter.Image")));
             this.btn_filter.ImageSize = new System.Drawing.Size(32, 32);
-            this.btn_filter.Location = new System.Drawing.Point(385, 37);
+            this.btn_filter.Location = new System.Drawing.Point(741, 40);
             this.btn_filter.Name = "btn_filter";
             this.btn_filter.OnHoverImage = null;
             this.btn_filter.OnHoverImageOffset = new System.Drawing.Point(0, 0);
@@ -142,7 +142,7 @@
             this.Controls.Add(this.filterCrystalReportViewer);
             this.Name = "FilterUserControl";
             this.Padding = new System.Windows.Forms.Padding(40);
-            this.Size = new System.Drawing.Size(817, 423);
+            this.Size = new System.Drawing.Size(1115, 634);
             this.Load += new System.EventHandler(this.Filter2UserControl_Load);
             this.ResumeLayout(false);
 

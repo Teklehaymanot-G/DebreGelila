@@ -258,7 +258,7 @@ namespace FastFoodDemo.ListData
         private void dgv_main_ColumnHeaderMouseClick(object sender, DataGridViewCellMouseEventArgs e)
         {
             int column = e.ColumnIndex;
-
+            
             if (column == 1)
             {
                 if(dgv_main.Columns[1].HeaderText == "የተሳትፎ ቁጥር ˄")

@@ -365,7 +365,7 @@
             this.tabControl1.Location = new System.Drawing.Point(0, 0);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(817, 423);
+            this.tabControl1.Size = new System.Drawing.Size(1115, 634);
             this.tabControl1.TabIndex = 1;
             // 
             // panel_1
@@ -414,14 +414,14 @@
             this.panel_1.Location = new System.Drawing.Point(4, 22);
             this.panel_1.Name = "panel_1";
             this.panel_1.Padding = new System.Windows.Forms.Padding(40);
-            this.panel_1.Size = new System.Drawing.Size(809, 397);
+            this.panel_1.Size = new System.Drawing.Size(1107, 608);
             this.panel_1.TabIndex = 0;
             this.panel_1.Text = "first";
             // 
             // lbl_fill_date_1
             // 
             this.lbl_fill_date_1.AutoSize = true;
-            this.lbl_fill_date_1.Location = new System.Drawing.Point(489, 230);
+            this.lbl_fill_date_1.Location = new System.Drawing.Point(581, 326);
             this.lbl_fill_date_1.Name = "lbl_fill_date_1";
             this.lbl_fill_date_1.Size = new System.Drawing.Size(0, 13);
             this.lbl_fill_date_1.TabIndex = 345;
@@ -429,7 +429,7 @@
             // lbl_registration_date_1
             // 
             this.lbl_registration_date_1.AutoSize = true;
-            this.lbl_registration_date_1.Location = new System.Drawing.Point(489, 198);
+            this.lbl_registration_date_1.Location = new System.Drawing.Point(581, 294);
             this.lbl_registration_date_1.Name = "lbl_registration_date_1";
             this.lbl_registration_date_1.Size = new System.Drawing.Size(0, 13);
             this.lbl_registration_date_1.TabIndex = 344;
@@ -437,7 +437,7 @@
             // lbl_birth_day_1
             // 
             this.lbl_birth_day_1.AutoSize = true;
-            this.lbl_birth_day_1.Location = new System.Drawing.Point(489, 137);
+            this.lbl_birth_day_1.Location = new System.Drawing.Point(584, 209);
             this.lbl_birth_day_1.Name = "lbl_birth_day_1";
             this.lbl_birth_day_1.Size = new System.Drawing.Size(0, 13);
             this.lbl_birth_day_1.TabIndex = 343;
@@ -448,7 +448,7 @@
             this.icon_participation_number_success_1.DialogResult = System.Windows.Forms.DialogResult.None;
             this.icon_participation_number_success_1.Image = ((System.Drawing.Image)(resources.GetObject("icon_participation_number_success_1.Image")));
             this.icon_participation_number_success_1.ImageSize = new System.Drawing.Size(16, 16);
-            this.icon_participation_number_success_1.Location = new System.Drawing.Point(764, 269);
+            this.icon_participation_number_success_1.Location = new System.Drawing.Point(996, 301);
             this.icon_participation_number_success_1.Name = "icon_participation_number_success_1";
             this.icon_participation_number_success_1.OnHoverImage = null;
             this.icon_participation_number_success_1.OnHoverImageOffset = new System.Drawing.Point(0, 0);
@@ -460,7 +460,7 @@
             // 
             this.panel_christian_date_other_1.Controls.Add(this.txt_why_christianity_date_1);
             this.panel_christian_date_other_1.Controls.Add(this.label53);
-            this.panel_christian_date_other_1.Location = new System.Drawing.Point(199, 291);
+            this.panel_christian_date_other_1.Location = new System.Drawing.Point(294, 444);
             this.panel_christian_date_other_1.Name = "panel_christian_date_other_1";
             this.panel_christian_date_other_1.Size = new System.Drawing.Size(316, 76);
             this.panel_christian_date_other_1.TabIndex = 341;
@@ -493,7 +493,7 @@
             // 
             this.panel3.Controls.Add(this.radio_sex_male_1);
             this.panel3.Controls.Add(this.radio_sex_female_1);
-            this.panel3.Location = new System.Drawing.Point(199, 162);
+            this.panel3.Location = new System.Drawing.Point(289, 242);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(153, 24);
             this.panel3.TabIndex = 340;
@@ -531,7 +531,7 @@
             // 
             this.panel2.Controls.Add(this.radio_christianity_date_40_80_1);
             this.panel2.Controls.Add(this.radio_christianity_date_other_1);
-            this.panel2.Location = new System.Drawing.Point(201, 253);
+            this.panel2.Location = new System.Drawing.Point(296, 406);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(178, 32);
             this.panel2.TabIndex = 339;
@@ -571,7 +571,7 @@
             // 
             this.label52.AutoSize = true;
             this.label52.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label52.Location = new System.Drawing.Point(51, 256);
+            this.label52.Location = new System.Drawing.Point(146, 409);
             this.label52.Name = "label52";
             this.label52.Size = new System.Drawing.Size(138, 20);
             this.label52.TabIndex = 334;
@@ -589,7 +589,7 @@
             this.btn_pg_1_4.ForeColor = System.Drawing.Color.White;
             this.btn_pg_1_4.Image = null;
             this.btn_pg_1_4.ImageSize = new System.Drawing.Size(52, 52);
-            this.btn_pg_1_4.Location = new System.Drawing.Point(648, 346);
+            this.btn_pg_1_4.Location = new System.Drawing.Point(942, 543);
             this.btn_pg_1_4.Name = "btn_pg_1_4";
             this.btn_pg_1_4.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.btn_pg_1_4.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -612,7 +612,7 @@
             this.btn_pg_1_5.ForeColor = System.Drawing.Color.White;
             this.btn_pg_1_5.Image = null;
             this.btn_pg_1_5.ImageSize = new System.Drawing.Size(52, 52);
-            this.btn_pg_1_5.Location = new System.Drawing.Point(666, 346);
+            this.btn_pg_1_5.Location = new System.Drawing.Point(960, 543);
             this.btn_pg_1_5.Name = "btn_pg_1_5";
             this.btn_pg_1_5.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.btn_pg_1_5.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -635,7 +635,7 @@
             this.btn_pg_1_3.ForeColor = System.Drawing.Color.White;
             this.btn_pg_1_3.Image = null;
             this.btn_pg_1_3.ImageSize = new System.Drawing.Size(52, 52);
-            this.btn_pg_1_3.Location = new System.Drawing.Point(630, 346);
+            this.btn_pg_1_3.Location = new System.Drawing.Point(924, 543);
             this.btn_pg_1_3.Name = "btn_pg_1_3";
             this.btn_pg_1_3.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.btn_pg_1_3.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -658,7 +658,7 @@
             this.btn_pg_1_6.ForeColor = System.Drawing.Color.White;
             this.btn_pg_1_6.Image = null;
             this.btn_pg_1_6.ImageSize = new System.Drawing.Size(52, 52);
-            this.btn_pg_1_6.Location = new System.Drawing.Point(684, 346);
+            this.btn_pg_1_6.Location = new System.Drawing.Point(978, 543);
             this.btn_pg_1_6.Name = "btn_pg_1_6";
             this.btn_pg_1_6.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.btn_pg_1_6.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -681,7 +681,7 @@
             this.btn_pg_1_1.ForeColor = System.Drawing.Color.White;
             this.btn_pg_1_1.Image = null;
             this.btn_pg_1_1.ImageSize = new System.Drawing.Size(52, 52);
-            this.btn_pg_1_1.Location = new System.Drawing.Point(594, 346);
+            this.btn_pg_1_1.Location = new System.Drawing.Point(888, 543);
             this.btn_pg_1_1.Name = "btn_pg_1_1";
             this.btn_pg_1_1.OnHoverBaseColor = System.Drawing.Color.Gray;
             this.btn_pg_1_1.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -704,7 +704,7 @@
             this.btn_pg_1_2.ForeColor = System.Drawing.Color.White;
             this.btn_pg_1_2.Image = null;
             this.btn_pg_1_2.ImageSize = new System.Drawing.Size(52, 52);
-            this.btn_pg_1_2.Location = new System.Drawing.Point(612, 346);
+            this.btn_pg_1_2.Location = new System.Drawing.Point(906, 543);
             this.btn_pg_1_2.Name = "btn_pg_1_2";
             this.btn_pg_1_2.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.btn_pg_1_2.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -727,7 +727,7 @@
             this.btn_pg_1_7.ForeColor = System.Drawing.Color.White;
             this.btn_pg_1_7.Image = null;
             this.btn_pg_1_7.ImageSize = new System.Drawing.Size(52, 52);
-            this.btn_pg_1_7.Location = new System.Drawing.Point(702, 346);
+            this.btn_pg_1_7.Location = new System.Drawing.Point(996, 543);
             this.btn_pg_1_7.Name = "btn_pg_1_7";
             this.btn_pg_1_7.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.btn_pg_1_7.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -750,7 +750,7 @@
             this.btn_pg_1_8.ForeColor = System.Drawing.Color.White;
             this.btn_pg_1_8.Image = null;
             this.btn_pg_1_8.ImageSize = new System.Drawing.Size(52, 52);
-            this.btn_pg_1_8.Location = new System.Drawing.Point(720, 346);
+            this.btn_pg_1_8.Location = new System.Drawing.Point(1014, 543);
             this.btn_pg_1_8.Name = "btn_pg_1_8";
             this.btn_pg_1_8.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.btn_pg_1_8.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -766,7 +766,7 @@
             this.btn_next_1.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_next_1.Image = ((System.Drawing.Image)(resources.GetObject("btn_next_1.Image")));
             this.btn_next_1.ImageSize = new System.Drawing.Size(32, 32);
-            this.btn_next_1.Location = new System.Drawing.Point(738, 336);
+            this.btn_next_1.Location = new System.Drawing.Point(1032, 533);
             this.btn_next_1.Name = "btn_next_1";
             this.btn_next_1.OnHoverImage = null;
             this.btn_next_1.OnHoverImageOffset = new System.Drawing.Point(0, 0);
@@ -779,7 +779,7 @@
             this.btn_back_1.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_back_1.Image = ((System.Drawing.Image)(resources.GetObject("btn_back_1.Image")));
             this.btn_back_1.ImageSize = new System.Drawing.Size(32, 32);
-            this.btn_back_1.Location = new System.Drawing.Point(556, 336);
+            this.btn_back_1.Location = new System.Drawing.Point(850, 533);
             this.btn_back_1.Name = "btn_back_1";
             this.btn_back_1.OnHoverImage = null;
             this.btn_back_1.OnHoverImageOffset = new System.Drawing.Point(0, 0);
@@ -880,7 +880,7 @@
             "2018",
             "2019",
             "2020"});
-            this.cmb_fill_date_year_1.Location = new System.Drawing.Point(201, 225);
+            this.cmb_fill_date_year_1.Location = new System.Drawing.Point(291, 348);
             this.cmb_fill_date_year_1.Name = "cmb_fill_date_year_1";
             this.cmb_fill_date_year_1.OnHoverItemBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.cmb_fill_date_year_1.OnHoverItemForeColor = System.Drawing.Color.White;
@@ -902,7 +902,7 @@
             this.cmb_fill_date_month_1.FormattingEnabled = true;
             this.cmb_fill_date_month_1.Items.AddRange(new object[] {
             "ወር"});
-            this.cmb_fill_date_month_1.Location = new System.Drawing.Point(304, 225);
+            this.cmb_fill_date_month_1.Location = new System.Drawing.Point(394, 348);
             this.cmb_fill_date_month_1.Name = "cmb_fill_date_month_1";
             this.cmb_fill_date_month_1.OnHoverItemBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.cmb_fill_date_month_1.OnHoverItemForeColor = System.Drawing.Color.White;
@@ -924,7 +924,7 @@
             this.cmb_fill_date_day_1.FormattingEnabled = true;
             this.cmb_fill_date_day_1.Items.AddRange(new object[] {
             "ቀን"});
-            this.cmb_fill_date_day_1.Location = new System.Drawing.Point(407, 225);
+            this.cmb_fill_date_day_1.Location = new System.Drawing.Point(497, 348);
             this.cmb_fill_date_day_1.Name = "cmb_fill_date_day_1";
             this.cmb_fill_date_day_1.OnHoverItemBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.cmb_fill_date_day_1.OnHoverItemForeColor = System.Drawing.Color.White;
@@ -1026,7 +1026,7 @@
             "2018",
             "2019",
             "2020"});
-            this.cmb_registration_date_year_1.Location = new System.Drawing.Point(201, 192);
+            this.cmb_registration_date_year_1.Location = new System.Drawing.Point(291, 293);
             this.cmb_registration_date_year_1.Name = "cmb_registration_date_year_1";
             this.cmb_registration_date_year_1.OnHoverItemBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.cmb_registration_date_year_1.OnHoverItemForeColor = System.Drawing.Color.White;
@@ -1048,7 +1048,7 @@
             this.cmb_registration_date_month_1.FormattingEnabled = true;
             this.cmb_registration_date_month_1.Items.AddRange(new object[] {
             "ወር"});
-            this.cmb_registration_date_month_1.Location = new System.Drawing.Point(304, 192);
+            this.cmb_registration_date_month_1.Location = new System.Drawing.Point(394, 293);
             this.cmb_registration_date_month_1.Name = "cmb_registration_date_month_1";
             this.cmb_registration_date_month_1.OnHoverItemBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.cmb_registration_date_month_1.OnHoverItemForeColor = System.Drawing.Color.White;
@@ -1070,7 +1070,7 @@
             this.cmb_registration_date_day_1.FormattingEnabled = true;
             this.cmb_registration_date_day_1.Items.AddRange(new object[] {
             "ቀን"});
-            this.cmb_registration_date_day_1.Location = new System.Drawing.Point(407, 192);
+            this.cmb_registration_date_day_1.Location = new System.Drawing.Point(497, 293);
             this.cmb_registration_date_day_1.Name = "cmb_registration_date_day_1";
             this.cmb_registration_date_day_1.OnHoverItemBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.cmb_registration_date_day_1.OnHoverItemForeColor = System.Drawing.Color.White;
@@ -1172,7 +1172,7 @@
             "2018",
             "2019",
             "2020"});
-            this.cmb_birth_date_year_1.Location = new System.Drawing.Point(201, 130);
+            this.cmb_birth_date_year_1.Location = new System.Drawing.Point(291, 186);
             this.cmb_birth_date_year_1.Name = "cmb_birth_date_year_1";
             this.cmb_birth_date_year_1.OnHoverItemBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.cmb_birth_date_year_1.OnHoverItemForeColor = System.Drawing.Color.White;
@@ -1194,7 +1194,7 @@
             this.cmb_birth_date_month_1.FormattingEnabled = true;
             this.cmb_birth_date_month_1.Items.AddRange(new object[] {
             "ወር"});
-            this.cmb_birth_date_month_1.Location = new System.Drawing.Point(304, 130);
+            this.cmb_birth_date_month_1.Location = new System.Drawing.Point(394, 186);
             this.cmb_birth_date_month_1.Name = "cmb_birth_date_month_1";
             this.cmb_birth_date_month_1.OnHoverItemBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.cmb_birth_date_month_1.OnHoverItemForeColor = System.Drawing.Color.White;
@@ -1216,7 +1216,7 @@
             this.cmb_birth_date_day_1.FormattingEnabled = true;
             this.cmb_birth_date_day_1.Items.AddRange(new object[] {
             "ቀን"});
-            this.cmb_birth_date_day_1.Location = new System.Drawing.Point(407, 130);
+            this.cmb_birth_date_day_1.Location = new System.Drawing.Point(497, 186);
             this.cmb_birth_date_day_1.Name = "cmb_birth_date_day_1";
             this.cmb_birth_date_day_1.OnHoverItemBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.cmb_birth_date_day_1.OnHoverItemForeColor = System.Drawing.Color.White;
@@ -1228,7 +1228,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(51, 225);
+            this.label6.Location = new System.Drawing.Point(141, 348);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(144, 20);
             this.label6.TabIndex = 312;
@@ -1238,7 +1238,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(18, 190);
+            this.label7.Location = new System.Drawing.Point(108, 291);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(177, 20);
             this.label7.TabIndex = 311;
@@ -1248,7 +1248,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(166, 162);
+            this.label8.Location = new System.Drawing.Point(256, 242);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(29, 20);
             this.label8.TabIndex = 310;
@@ -1258,7 +1258,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(12, 131);
+            this.label2.Location = new System.Drawing.Point(102, 187);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(183, 20);
             this.label2.TabIndex = 309;
@@ -1271,7 +1271,7 @@
             this.txt_mother_name_1.FocusedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.txt_mother_name_1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_mother_name_1.LineColor = System.Drawing.Color.Gray;
-            this.txt_mother_name_1.Location = new System.Drawing.Point(201, 98);
+            this.txt_mother_name_1.Location = new System.Drawing.Point(291, 135);
             this.txt_mother_name_1.Name = "txt_mother_name_1";
             this.txt_mother_name_1.PasswordChar = '\0';
             this.txt_mother_name_1.Size = new System.Drawing.Size(281, 26);
@@ -1281,7 +1281,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(91, 104);
+            this.label3.Location = new System.Drawing.Point(181, 141);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(104, 20);
             this.label3.TabIndex = 307;
@@ -1294,7 +1294,7 @@
             this.txt_christian_name_1.FocusedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.txt_christian_name_1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_christian_name_1.LineColor = System.Drawing.Color.Gray;
-            this.txt_christian_name_1.Location = new System.Drawing.Point(201, 66);
+            this.txt_christian_name_1.Location = new System.Drawing.Point(291, 89);
             this.txt_christian_name_1.Name = "txt_christian_name_1";
             this.txt_christian_name_1.PasswordChar = '\0';
             this.txt_christian_name_1.Size = new System.Drawing.Size(281, 26);
@@ -1304,7 +1304,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(103, 72);
+            this.label1.Location = new System.Drawing.Point(193, 95);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(91, 20);
             this.label1.TabIndex = 305;
@@ -1317,7 +1317,7 @@
             this.txt_full_name_1.FocusedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.txt_full_name_1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_full_name_1.LineColor = System.Drawing.Color.Gray;
-            this.txt_full_name_1.Location = new System.Drawing.Point(201, 34);
+            this.txt_full_name_1.Location = new System.Drawing.Point(291, 43);
             this.txt_full_name_1.Name = "txt_full_name_1";
             this.txt_full_name_1.PasswordChar = '\0';
             this.txt_full_name_1.Size = new System.Drawing.Size(281, 26);
@@ -1327,7 +1327,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(64, 40);
+            this.label5.Location = new System.Drawing.Point(154, 49);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(131, 20);
             this.label5.TabIndex = 303;
@@ -1341,7 +1341,7 @@
             this.txt_participation_number_1.FocusedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.txt_participation_number_1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_participation_number_1.LineColor = System.Drawing.Color.Gray;
-            this.txt_participation_number_1.Location = new System.Drawing.Point(604, 259);
+            this.txt_participation_number_1.Location = new System.Drawing.Point(836, 291);
             this.txt_participation_number_1.Name = "txt_participation_number_1";
             this.txt_participation_number_1.PasswordChar = '\0';
             this.txt_participation_number_1.Size = new System.Drawing.Size(154, 26);
@@ -1351,7 +1351,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(627, 236);
+            this.label4.Location = new System.Drawing.Point(859, 268);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(93, 20);
             this.label4.TabIndex = 301;
@@ -1360,9 +1360,9 @@
             // pictureBox
             // 
             this.pictureBox.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox.Image")));
-            this.pictureBox.Location = new System.Drawing.Point(594, 43);
+            this.pictureBox.Location = new System.Drawing.Point(797, 34);
             this.pictureBox.Name = "pictureBox";
-            this.pictureBox.Size = new System.Drawing.Size(164, 161);
+            this.pictureBox.Size = new System.Drawing.Size(229, 202);
             this.pictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox.TabIndex = 300;
             this.pictureBox.TabStop = false;
@@ -1401,7 +1401,7 @@
             this.panel_2.Location = new System.Drawing.Point(4, 22);
             this.panel_2.Name = "panel_2";
             this.panel_2.Padding = new System.Windows.Forms.Padding(40);
-            this.panel_2.Size = new System.Drawing.Size(809, 397);
+            this.panel_2.Size = new System.Drawing.Size(1107, 608);
             this.panel_2.TabIndex = 1;
             this.panel_2.Text = "second";
             // 
@@ -1412,7 +1412,7 @@
             this.txt_home_phone_2.FocusedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.txt_home_phone_2.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_home_phone_2.LineColor = System.Drawing.Color.Gray;
-            this.txt_home_phone_2.Location = new System.Drawing.Point(149, 221);
+            this.txt_home_phone_2.Location = new System.Drawing.Point(305, 317);
             this.txt_home_phone_2.Name = "txt_home_phone_2";
             this.txt_home_phone_2.PasswordChar = '\0';
             this.txt_home_phone_2.Size = new System.Drawing.Size(281, 26);
@@ -1422,7 +1422,7 @@
             // 
             this.label67.AutoSize = true;
             this.label67.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label67.Location = new System.Drawing.Point(65, 227);
+            this.label67.Location = new System.Drawing.Point(221, 317);
             this.label67.Name = "label67";
             this.label67.Size = new System.Drawing.Size(78, 20);
             this.label67.TabIndex = 317;
@@ -1435,7 +1435,7 @@
             this.txt_church_before_2.FocusedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.txt_church_before_2.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_church_before_2.LineColor = System.Drawing.Color.Gray;
-            this.txt_church_before_2.Location = new System.Drawing.Point(379, 285);
+            this.txt_church_before_2.Location = new System.Drawing.Point(535, 409);
             this.txt_church_before_2.Name = "txt_church_before_2";
             this.txt_church_before_2.PasswordChar = '\0';
             this.txt_church_before_2.Size = new System.Drawing.Size(281, 26);
@@ -1445,7 +1445,7 @@
             // 
             this.label54.AutoSize = true;
             this.label54.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label54.Location = new System.Drawing.Point(51, 291);
+            this.label54.Location = new System.Drawing.Point(210, 415);
             this.label54.Name = "label54";
             this.label54.Size = new System.Drawing.Size(319, 20);
             this.label54.TabIndex = 315;
@@ -1463,7 +1463,7 @@
             this.btn_pg_2_4.ForeColor = System.Drawing.Color.White;
             this.btn_pg_2_4.Image = null;
             this.btn_pg_2_4.ImageSize = new System.Drawing.Size(52, 52);
-            this.btn_pg_2_4.Location = new System.Drawing.Point(648, 346);
+            this.btn_pg_2_4.Location = new System.Drawing.Point(942, 543);
             this.btn_pg_2_4.Name = "btn_pg_2_4";
             this.btn_pg_2_4.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.btn_pg_2_4.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -1486,7 +1486,7 @@
             this.btn_pg_2_5.ForeColor = System.Drawing.Color.White;
             this.btn_pg_2_5.Image = null;
             this.btn_pg_2_5.ImageSize = new System.Drawing.Size(52, 52);
-            this.btn_pg_2_5.Location = new System.Drawing.Point(666, 346);
+            this.btn_pg_2_5.Location = new System.Drawing.Point(960, 543);
             this.btn_pg_2_5.Name = "btn_pg_2_5";
             this.btn_pg_2_5.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.btn_pg_2_5.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -1509,7 +1509,7 @@
             this.btn_pg_2_3.ForeColor = System.Drawing.Color.White;
             this.btn_pg_2_3.Image = null;
             this.btn_pg_2_3.ImageSize = new System.Drawing.Size(52, 52);
-            this.btn_pg_2_3.Location = new System.Drawing.Point(630, 346);
+            this.btn_pg_2_3.Location = new System.Drawing.Point(924, 543);
             this.btn_pg_2_3.Name = "btn_pg_2_3";
             this.btn_pg_2_3.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.btn_pg_2_3.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -1532,7 +1532,7 @@
             this.btn_pg_2_6.ForeColor = System.Drawing.Color.White;
             this.btn_pg_2_6.Image = null;
             this.btn_pg_2_6.ImageSize = new System.Drawing.Size(52, 52);
-            this.btn_pg_2_6.Location = new System.Drawing.Point(684, 346);
+            this.btn_pg_2_6.Location = new System.Drawing.Point(978, 543);
             this.btn_pg_2_6.Name = "btn_pg_2_6";
             this.btn_pg_2_6.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.btn_pg_2_6.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -1555,7 +1555,7 @@
             this.btn_pg_2_1.ForeColor = System.Drawing.Color.White;
             this.btn_pg_2_1.Image = null;
             this.btn_pg_2_1.ImageSize = new System.Drawing.Size(52, 52);
-            this.btn_pg_2_1.Location = new System.Drawing.Point(594, 346);
+            this.btn_pg_2_1.Location = new System.Drawing.Point(888, 543);
             this.btn_pg_2_1.Name = "btn_pg_2_1";
             this.btn_pg_2_1.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.btn_pg_2_1.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -1578,7 +1578,7 @@
             this.btn_pg_2_2.ForeColor = System.Drawing.Color.White;
             this.btn_pg_2_2.Image = null;
             this.btn_pg_2_2.ImageSize = new System.Drawing.Size(52, 52);
-            this.btn_pg_2_2.Location = new System.Drawing.Point(612, 346);
+            this.btn_pg_2_2.Location = new System.Drawing.Point(906, 543);
             this.btn_pg_2_2.Name = "btn_pg_2_2";
             this.btn_pg_2_2.OnHoverBaseColor = System.Drawing.Color.Gray;
             this.btn_pg_2_2.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -1601,7 +1601,7 @@
             this.btn_pg_2_7.ForeColor = System.Drawing.Color.White;
             this.btn_pg_2_7.Image = null;
             this.btn_pg_2_7.ImageSize = new System.Drawing.Size(52, 52);
-            this.btn_pg_2_7.Location = new System.Drawing.Point(702, 346);
+            this.btn_pg_2_7.Location = new System.Drawing.Point(996, 543);
             this.btn_pg_2_7.Name = "btn_pg_2_7";
             this.btn_pg_2_7.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.btn_pg_2_7.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -1624,7 +1624,7 @@
             this.btn_pg_2_8.ForeColor = System.Drawing.Color.White;
             this.btn_pg_2_8.Image = null;
             this.btn_pg_2_8.ImageSize = new System.Drawing.Size(52, 52);
-            this.btn_pg_2_8.Location = new System.Drawing.Point(720, 346);
+            this.btn_pg_2_8.Location = new System.Drawing.Point(1014, 543);
             this.btn_pg_2_8.Name = "btn_pg_2_8";
             this.btn_pg_2_8.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.btn_pg_2_8.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -1642,7 +1642,7 @@
             this.txt_email_2.FocusedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.txt_email_2.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_email_2.LineColor = System.Drawing.Color.Gray;
-            this.txt_email_2.Location = new System.Drawing.Point(149, 253);
+            this.txt_email_2.Location = new System.Drawing.Point(305, 363);
             this.txt_email_2.Name = "txt_email_2";
             this.txt_email_2.PasswordChar = '\0';
             this.txt_email_2.Size = new System.Drawing.Size(281, 26);
@@ -1655,7 +1655,7 @@
             this.txt_cell_phone_2.FocusedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.txt_cell_phone_2.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_cell_phone_2.LineColor = System.Drawing.Color.Gray;
-            this.txt_cell_phone_2.Location = new System.Drawing.Point(149, 189);
+            this.txt_cell_phone_2.Location = new System.Drawing.Point(305, 271);
             this.txt_cell_phone_2.Name = "txt_cell_phone_2";
             this.txt_cell_phone_2.PasswordChar = '\0';
             this.txt_cell_phone_2.Size = new System.Drawing.Size(281, 26);
@@ -1668,7 +1668,7 @@
             this.txt_house_number_2.FocusedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.txt_house_number_2.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_house_number_2.LineColor = System.Drawing.Color.Gray;
-            this.txt_house_number_2.Location = new System.Drawing.Point(149, 157);
+            this.txt_house_number_2.Location = new System.Drawing.Point(305, 225);
             this.txt_house_number_2.Name = "txt_house_number_2";
             this.txt_house_number_2.PasswordChar = '\0';
             this.txt_house_number_2.Size = new System.Drawing.Size(281, 26);
@@ -1679,7 +1679,7 @@
             this.btn_next_2.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_next_2.Image = ((System.Drawing.Image)(resources.GetObject("btn_next_2.Image")));
             this.btn_next_2.ImageSize = new System.Drawing.Size(32, 32);
-            this.btn_next_2.Location = new System.Drawing.Point(738, 336);
+            this.btn_next_2.Location = new System.Drawing.Point(1032, 533);
             this.btn_next_2.Name = "btn_next_2";
             this.btn_next_2.OnHoverImage = null;
             this.btn_next_2.OnHoverImageOffset = new System.Drawing.Point(0, 0);
@@ -1692,7 +1692,7 @@
             this.btn_back_2.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_back_2.Image = ((System.Drawing.Image)(resources.GetObject("btn_back_2.Image")));
             this.btn_back_2.ImageSize = new System.Drawing.Size(32, 32);
-            this.btn_back_2.Location = new System.Drawing.Point(556, 336);
+            this.btn_back_2.Location = new System.Drawing.Point(850, 533);
             this.btn_back_2.Name = "btn_back_2";
             this.btn_back_2.OnHoverImage = null;
             this.btn_back_2.OnHoverImageOffset = new System.Drawing.Point(0, 0);
@@ -1704,7 +1704,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(67, 66);
+            this.label9.Location = new System.Drawing.Point(223, 93);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(76, 20);
             this.label9.TabIndex = 301;
@@ -1714,7 +1714,7 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(99, 259);
+            this.label10.Location = new System.Drawing.Point(255, 369);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(44, 20);
             this.label10.TabIndex = 300;
@@ -1724,7 +1724,7 @@
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(66, 195);
+            this.label11.Location = new System.Drawing.Point(222, 271);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(77, 20);
             this.label11.TabIndex = 299;
@@ -1734,7 +1734,7 @@
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(70, 163);
+            this.label12.Location = new System.Drawing.Point(226, 225);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(73, 20);
             this.label12.TabIndex = 298;
@@ -1747,7 +1747,7 @@
             this.txt_kebele_2.FocusedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.txt_kebele_2.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_kebele_2.LineColor = System.Drawing.Color.Gray;
-            this.txt_kebele_2.Location = new System.Drawing.Point(149, 124);
+            this.txt_kebele_2.Location = new System.Drawing.Point(305, 179);
             this.txt_kebele_2.Name = "txt_kebele_2";
             this.txt_kebele_2.PasswordChar = '\0';
             this.txt_kebele_2.Size = new System.Drawing.Size(281, 26);
@@ -1757,7 +1757,7 @@
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(103, 130);
+            this.label13.Location = new System.Drawing.Point(259, 179);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(40, 20);
             this.label13.TabIndex = 296;
@@ -1770,7 +1770,7 @@
             this.txt_woreda_2.FocusedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.txt_woreda_2.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_woreda_2.LineColor = System.Drawing.Color.Gray;
-            this.txt_woreda_2.Location = new System.Drawing.Point(149, 92);
+            this.txt_woreda_2.Location = new System.Drawing.Point(305, 133);
             this.txt_woreda_2.Name = "txt_woreda_2";
             this.txt_woreda_2.PasswordChar = '\0';
             this.txt_woreda_2.Size = new System.Drawing.Size(281, 26);
@@ -1780,7 +1780,7 @@
             // 
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(104, 98);
+            this.label14.Location = new System.Drawing.Point(260, 139);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(39, 20);
             this.label14.TabIndex = 294;
@@ -1793,7 +1793,7 @@
             this.txt_sub_city_2.FocusedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.txt_sub_city_2.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_sub_city_2.LineColor = System.Drawing.Color.Gray;
-            this.txt_sub_city_2.Location = new System.Drawing.Point(149, 60);
+            this.txt_sub_city_2.Location = new System.Drawing.Point(305, 87);
             this.txt_sub_city_2.Name = "txt_sub_city_2";
             this.txt_sub_city_2.PasswordChar = '\0';
             this.txt_sub_city_2.Size = new System.Drawing.Size(281, 26);
@@ -1802,10 +1802,10 @@
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(39, 28);
+            this.label15.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Location = new System.Drawing.Point(188, 40);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(49, 20);
+            this.label15.Size = new System.Drawing.Size(60, 25);
             this.label15.TabIndex = 292;
             this.label15.Text = "አድራሻ";
             // 
@@ -1846,7 +1846,7 @@
             this.panel_3.Location = new System.Drawing.Point(4, 22);
             this.panel_3.Name = "panel_3";
             this.panel_3.Padding = new System.Windows.Forms.Padding(40);
-            this.panel_3.Size = new System.Drawing.Size(809, 397);
+            this.panel_3.Size = new System.Drawing.Size(1107, 608);
             this.panel_3.TabIndex = 2;
             this.panel_3.Text = "third";
             // 
@@ -1854,7 +1854,7 @@
             // 
             this.label71.AutoSize = true;
             this.label71.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label71.Location = new System.Drawing.Point(129, 302);
+            this.label71.Location = new System.Drawing.Point(316, 451);
             this.label71.Name = "label71";
             this.label71.Size = new System.Drawing.Size(64, 20);
             this.label71.TabIndex = 314;
@@ -1867,7 +1867,7 @@
             this.txt_work_company_name_3.FocusedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.txt_work_company_name_3.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_work_company_name_3.LineColor = System.Drawing.Color.Gray;
-            this.txt_work_company_name_3.Location = new System.Drawing.Point(199, 328);
+            this.txt_work_company_name_3.Location = new System.Drawing.Point(386, 491);
             this.txt_work_company_name_3.Name = "txt_work_company_name_3";
             this.txt_work_company_name_3.PasswordChar = '\0';
             this.txt_work_company_name_3.Size = new System.Drawing.Size(281, 26);
@@ -1877,7 +1877,7 @@
             // 
             this.label72.AutoSize = true;
             this.label72.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label72.Location = new System.Drawing.Point(81, 334);
+            this.label72.Location = new System.Drawing.Point(268, 497);
             this.label72.Name = "label72";
             this.label72.Size = new System.Drawing.Size(112, 20);
             this.label72.TabIndex = 312;
@@ -1890,7 +1890,7 @@
             this.txt_work_place_3.FocusedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.txt_work_place_3.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_work_place_3.LineColor = System.Drawing.Color.Gray;
-            this.txt_work_place_3.Location = new System.Drawing.Point(199, 296);
+            this.txt_work_place_3.Location = new System.Drawing.Point(386, 445);
             this.txt_work_place_3.Name = "txt_work_place_3";
             this.txt_work_place_3.PasswordChar = '\0';
             this.txt_work_place_3.Size = new System.Drawing.Size(281, 26);
@@ -1900,7 +1900,7 @@
             // 
             this.label68.AutoSize = true;
             this.label68.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label68.Location = new System.Drawing.Point(104, 238);
+            this.label68.Location = new System.Drawing.Point(291, 359);
             this.label68.Name = "label68";
             this.label68.Size = new System.Drawing.Size(89, 20);
             this.label68.TabIndex = 310;
@@ -1913,7 +1913,7 @@
             this.txt_work_role_3.FocusedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.txt_work_role_3.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_work_role_3.LineColor = System.Drawing.Color.Gray;
-            this.txt_work_role_3.Location = new System.Drawing.Point(199, 264);
+            this.txt_work_role_3.Location = new System.Drawing.Point(386, 399);
             this.txt_work_role_3.Name = "txt_work_role_3";
             this.txt_work_role_3.PasswordChar = '\0';
             this.txt_work_role_3.Size = new System.Drawing.Size(281, 26);
@@ -1923,7 +1923,7 @@
             // 
             this.label69.AutoSize = true;
             this.label69.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label69.Location = new System.Drawing.Point(120, 270);
+            this.label69.Location = new System.Drawing.Point(307, 405);
             this.label69.Name = "label69";
             this.label69.Size = new System.Drawing.Size(73, 20);
             this.label69.TabIndex = 308;
@@ -1936,7 +1936,7 @@
             this.txt_work_skill_3.FocusedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.txt_work_skill_3.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_work_skill_3.LineColor = System.Drawing.Color.Gray;
-            this.txt_work_skill_3.Location = new System.Drawing.Point(199, 232);
+            this.txt_work_skill_3.Location = new System.Drawing.Point(386, 353);
             this.txt_work_skill_3.Name = "txt_work_skill_3";
             this.txt_work_skill_3.PasswordChar = '\0';
             this.txt_work_skill_3.Size = new System.Drawing.Size(281, 26);
@@ -1945,10 +1945,10 @@
             // label70
             // 
             this.label70.AutoSize = true;
-            this.label70.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label70.Location = new System.Drawing.Point(39, 218);
+            this.label70.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label70.Location = new System.Drawing.Point(217, 339);
             this.label70.Name = "label70";
-            this.label70.Size = new System.Drawing.Size(76, 20);
+            this.label70.Size = new System.Drawing.Size(93, 25);
             this.label70.TabIndex = 306;
             this.label70.Text = "የሥራ ሁኔታ";
             // 
@@ -1964,7 +1964,7 @@
             this.btn_pg_3_4.ForeColor = System.Drawing.Color.White;
             this.btn_pg_3_4.Image = null;
             this.btn_pg_3_4.ImageSize = new System.Drawing.Size(52, 52);
-            this.btn_pg_3_4.Location = new System.Drawing.Point(648, 346);
+            this.btn_pg_3_4.Location = new System.Drawing.Point(942, 543);
             this.btn_pg_3_4.Name = "btn_pg_3_4";
             this.btn_pg_3_4.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.btn_pg_3_4.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -1987,7 +1987,7 @@
             this.btn_pg_3_5.ForeColor = System.Drawing.Color.White;
             this.btn_pg_3_5.Image = null;
             this.btn_pg_3_5.ImageSize = new System.Drawing.Size(52, 52);
-            this.btn_pg_3_5.Location = new System.Drawing.Point(666, 346);
+            this.btn_pg_3_5.Location = new System.Drawing.Point(960, 543);
             this.btn_pg_3_5.Name = "btn_pg_3_5";
             this.btn_pg_3_5.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.btn_pg_3_5.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -2010,7 +2010,7 @@
             this.btn_pg_3_3.ForeColor = System.Drawing.Color.White;
             this.btn_pg_3_3.Image = null;
             this.btn_pg_3_3.ImageSize = new System.Drawing.Size(52, 52);
-            this.btn_pg_3_3.Location = new System.Drawing.Point(630, 346);
+            this.btn_pg_3_3.Location = new System.Drawing.Point(924, 543);
             this.btn_pg_3_3.Name = "btn_pg_3_3";
             this.btn_pg_3_3.OnHoverBaseColor = System.Drawing.Color.Gray;
             this.btn_pg_3_3.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -2033,7 +2033,7 @@
             this.btn_pg_3_6.ForeColor = System.Drawing.Color.White;
             this.btn_pg_3_6.Image = null;
             this.btn_pg_3_6.ImageSize = new System.Drawing.Size(52, 52);
-            this.btn_pg_3_6.Location = new System.Drawing.Point(684, 346);
+            this.btn_pg_3_6.Location = new System.Drawing.Point(978, 543);
             this.btn_pg_3_6.Name = "btn_pg_3_6";
             this.btn_pg_3_6.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.btn_pg_3_6.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -2056,7 +2056,7 @@
             this.btn_pg_3_1.ForeColor = System.Drawing.Color.White;
             this.btn_pg_3_1.Image = null;
             this.btn_pg_3_1.ImageSize = new System.Drawing.Size(52, 52);
-            this.btn_pg_3_1.Location = new System.Drawing.Point(594, 346);
+            this.btn_pg_3_1.Location = new System.Drawing.Point(888, 543);
             this.btn_pg_3_1.Name = "btn_pg_3_1";
             this.btn_pg_3_1.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.btn_pg_3_1.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -2079,7 +2079,7 @@
             this.btn_pg_3_2.ForeColor = System.Drawing.Color.White;
             this.btn_pg_3_2.Image = null;
             this.btn_pg_3_2.ImageSize = new System.Drawing.Size(52, 52);
-            this.btn_pg_3_2.Location = new System.Drawing.Point(612, 346);
+            this.btn_pg_3_2.Location = new System.Drawing.Point(906, 543);
             this.btn_pg_3_2.Name = "btn_pg_3_2";
             this.btn_pg_3_2.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.btn_pg_3_2.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -2102,7 +2102,7 @@
             this.btn_pg_3_7.ForeColor = System.Drawing.Color.White;
             this.btn_pg_3_7.Image = null;
             this.btn_pg_3_7.ImageSize = new System.Drawing.Size(52, 52);
-            this.btn_pg_3_7.Location = new System.Drawing.Point(702, 346);
+            this.btn_pg_3_7.Location = new System.Drawing.Point(996, 543);
             this.btn_pg_3_7.Name = "btn_pg_3_7";
             this.btn_pg_3_7.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.btn_pg_3_7.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -2125,7 +2125,7 @@
             this.btn_pg_3_8.ForeColor = System.Drawing.Color.White;
             this.btn_pg_3_8.Image = null;
             this.btn_pg_3_8.ImageSize = new System.Drawing.Size(52, 52);
-            this.btn_pg_3_8.Location = new System.Drawing.Point(720, 346);
+            this.btn_pg_3_8.Location = new System.Drawing.Point(1014, 543);
             this.btn_pg_3_8.Name = "btn_pg_3_8";
             this.btn_pg_3_8.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.btn_pg_3_8.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -2140,7 +2140,7 @@
             // 
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(61, 164);
+            this.label16.Location = new System.Drawing.Point(248, 248);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(132, 20);
             this.label16.TabIndex = 297;
@@ -2153,7 +2153,7 @@
             this.txt_spritual_educational_qualification_3.FocusedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.txt_spritual_educational_qualification_3.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_spritual_educational_qualification_3.LineColor = System.Drawing.Color.Gray;
-            this.txt_spritual_educational_qualification_3.Location = new System.Drawing.Point(199, 190);
+            this.txt_spritual_educational_qualification_3.Location = new System.Drawing.Point(386, 288);
             this.txt_spritual_educational_qualification_3.Name = "txt_spritual_educational_qualification_3";
             this.txt_spritual_educational_qualification_3.PasswordChar = '\0';
             this.txt_spritual_educational_qualification_3.Size = new System.Drawing.Size(281, 26);
@@ -2163,7 +2163,7 @@
             // 
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(85, 196);
+            this.label17.Location = new System.Drawing.Point(272, 294);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(108, 20);
             this.label17.TabIndex = 295;
@@ -2176,7 +2176,7 @@
             this.txt_spritual_educational_level_3.FocusedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.txt_spritual_educational_level_3.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_spritual_educational_level_3.LineColor = System.Drawing.Color.Gray;
-            this.txt_spritual_educational_level_3.Location = new System.Drawing.Point(199, 158);
+            this.txt_spritual_educational_level_3.Location = new System.Drawing.Point(386, 242);
             this.txt_spritual_educational_level_3.Name = "txt_spritual_educational_level_3";
             this.txt_spritual_educational_level_3.PasswordChar = '\0';
             this.txt_spritual_educational_level_3.Size = new System.Drawing.Size(281, 26);
@@ -2185,10 +2185,10 @@
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(39, 144);
+            this.label18.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.Location = new System.Drawing.Point(217, 211);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(103, 20);
+            this.label18.Size = new System.Drawing.Size(125, 25);
             this.label18.TabIndex = 293;
             this.label18.Text = "አብነት ትምህርት";
             // 
@@ -2197,7 +2197,7 @@
             this.btn_next_3.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_next_3.Image = ((System.Drawing.Image)(resources.GetObject("btn_next_3.Image")));
             this.btn_next_3.ImageSize = new System.Drawing.Size(32, 32);
-            this.btn_next_3.Location = new System.Drawing.Point(738, 336);
+            this.btn_next_3.Location = new System.Drawing.Point(1032, 533);
             this.btn_next_3.Name = "btn_next_3";
             this.btn_next_3.OnHoverImage = null;
             this.btn_next_3.OnHoverImageOffset = new System.Drawing.Point(0, 0);
@@ -2210,7 +2210,7 @@
             this.btn_back_3.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_back_3.Image = ((System.Drawing.Image)(resources.GetObject("btn_back_3.Image")));
             this.btn_back_3.ImageSize = new System.Drawing.Size(32, 32);
-            this.btn_back_3.Location = new System.Drawing.Point(556, 336);
+            this.btn_back_3.Location = new System.Drawing.Point(850, 533);
             this.btn_back_3.Name = "btn_back_3";
             this.btn_back_3.OnHoverImage = null;
             this.btn_back_3.OnHoverImageOffset = new System.Drawing.Point(0, 0);
@@ -2222,7 +2222,7 @@
             // 
             this.label19.AutoSize = true;
             this.label19.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(90, 49);
+            this.label19.Location = new System.Drawing.Point(277, 70);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(103, 20);
             this.label19.TabIndex = 290;
@@ -2235,7 +2235,7 @@
             this.txt_school_name_3.FocusedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.txt_school_name_3.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_school_name_3.LineColor = System.Drawing.Color.Gray;
-            this.txt_school_name_3.Location = new System.Drawing.Point(308, 107);
+            this.txt_school_name_3.Location = new System.Drawing.Point(495, 156);
             this.txt_school_name_3.Name = "txt_school_name_3";
             this.txt_school_name_3.PasswordChar = '\0';
             this.txt_school_name_3.Size = new System.Drawing.Size(281, 26);
@@ -2245,7 +2245,7 @@
             // 
             this.label20.AutoSize = true;
             this.label20.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(55, 113);
+            this.label20.Location = new System.Drawing.Point(242, 162);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(247, 20);
             this.label20.TabIndex = 288;
@@ -2258,7 +2258,7 @@
             this.txt_secular_educational_qualification_3.FocusedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.txt_secular_educational_qualification_3.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_secular_educational_qualification_3.LineColor = System.Drawing.Color.Gray;
-            this.txt_secular_educational_qualification_3.Location = new System.Drawing.Point(199, 75);
+            this.txt_secular_educational_qualification_3.Location = new System.Drawing.Point(386, 110);
             this.txt_secular_educational_qualification_3.Name = "txt_secular_educational_qualification_3";
             this.txt_secular_educational_qualification_3.PasswordChar = '\0';
             this.txt_secular_educational_qualification_3.Size = new System.Drawing.Size(281, 26);
@@ -2268,7 +2268,7 @@
             // 
             this.label21.AutoSize = true;
             this.label21.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(84, 81);
+            this.label21.Location = new System.Drawing.Point(271, 116);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(109, 20);
             this.label21.TabIndex = 286;
@@ -2281,7 +2281,7 @@
             this.txt_secular_educational_level_3.FocusedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.txt_secular_educational_level_3.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_secular_educational_level_3.LineColor = System.Drawing.Color.Gray;
-            this.txt_secular_educational_level_3.Location = new System.Drawing.Point(199, 43);
+            this.txt_secular_educational_level_3.Location = new System.Drawing.Point(386, 64);
             this.txt_secular_educational_level_3.Name = "txt_secular_educational_level_3";
             this.txt_secular_educational_level_3.PasswordChar = '\0';
             this.txt_secular_educational_level_3.Size = new System.Drawing.Size(281, 26);
@@ -2290,10 +2290,10 @@
             // label22
             // 
             this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(39, 29);
+            this.label22.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.Location = new System.Drawing.Point(217, 40);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(110, 20);
+            this.label22.Size = new System.Drawing.Size(135, 25);
             this.label22.TabIndex = 284;
             this.label22.Text = "ዓለማዊ ትምህርት";
             // 
@@ -2318,7 +2318,7 @@
             this.panel_4.Location = new System.Drawing.Point(4, 22);
             this.panel_4.Name = "panel_4";
             this.panel_4.Padding = new System.Windows.Forms.Padding(40);
-            this.panel_4.Size = new System.Drawing.Size(809, 397);
+            this.panel_4.Size = new System.Drawing.Size(1107, 608);
             this.panel_4.TabIndex = 3;
             this.panel_4.Text = "fourth";
             // 
@@ -2328,9 +2328,9 @@
             this.panel_course_before_yes_4.Controls.Add(this.txt_subject_other_4);
             this.panel_course_before_yes_4.Controls.Add(this.label30);
             this.panel_course_before_yes_4.Controls.Add(this.label31);
-            this.panel_course_before_yes_4.Location = new System.Drawing.Point(100, 186);
+            this.panel_course_before_yes_4.Location = new System.Drawing.Point(237, 216);
             this.panel_course_before_yes_4.Name = "panel_course_before_yes_4";
-            this.panel_course_before_yes_4.Size = new System.Drawing.Size(614, 144);
+            this.panel_course_before_yes_4.Size = new System.Drawing.Size(614, 276);
             this.panel_course_before_yes_4.TabIndex = 307;
             // 
             // panel5
@@ -2342,7 +2342,7 @@
             this.panel5.Controls.Add(this.check_subject_5_4);
             this.panel5.Location = new System.Drawing.Point(67, 30);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(497, 56);
+            this.panel5.Size = new System.Drawing.Size(497, 183);
             this.panel5.TabIndex = 307;
             // 
             // check_subject_1_4
@@ -2351,11 +2351,11 @@
             this.check_subject_1_4.CheckedOffColor = System.Drawing.SystemColors.ControlText;
             this.check_subject_1_4.CheckedOnColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.check_subject_1_4.FillColor = System.Drawing.Color.White;
-            this.check_subject_1_4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.check_subject_1_4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.check_subject_1_4.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.check_subject_1_4.Location = new System.Drawing.Point(3, 6);
+            this.check_subject_1_4.Location = new System.Drawing.Point(21, 14);
             this.check_subject_1_4.Name = "check_subject_1_4";
-            this.check_subject_1_4.Size = new System.Drawing.Size(132, 20);
+            this.check_subject_1_4.Size = new System.Drawing.Size(146, 21);
             this.check_subject_1_4.TabIndex = 0;
             this.check_subject_1_4.Text = "ትምህርተ ሃይማኖት";
             // 
@@ -2365,11 +2365,11 @@
             this.check_subject_2_4.CheckedOffColor = System.Drawing.SystemColors.ControlText;
             this.check_subject_2_4.CheckedOnColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.check_subject_2_4.FillColor = System.Drawing.Color.White;
-            this.check_subject_2_4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.check_subject_2_4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.check_subject_2_4.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.check_subject_2_4.Location = new System.Drawing.Point(184, 6);
+            this.check_subject_2_4.Location = new System.Drawing.Point(21, 80);
             this.check_subject_2_4.Name = "check_subject_2_4";
-            this.check_subject_2_4.Size = new System.Drawing.Size(96, 20);
+            this.check_subject_2_4.Size = new System.Drawing.Size(105, 21);
             this.check_subject_2_4.TabIndex = 1;
             this.check_subject_2_4.Text = "ነገረ ማርያም";
             // 
@@ -2379,11 +2379,11 @@
             this.check_subject_3_4.CheckedOffColor = System.Drawing.SystemColors.ControlText;
             this.check_subject_3_4.CheckedOnColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.check_subject_3_4.FillColor = System.Drawing.Color.White;
-            this.check_subject_3_4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.check_subject_3_4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.check_subject_3_4.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.check_subject_3_4.Location = new System.Drawing.Point(352, 6);
+            this.check_subject_3_4.Location = new System.Drawing.Point(21, 47);
             this.check_subject_3_4.Name = "check_subject_3_4";
-            this.check_subject_3_4.Size = new System.Drawing.Size(111, 20);
+            this.check_subject_3_4.Size = new System.Drawing.Size(121, 21);
             this.check_subject_3_4.TabIndex = 2;
             this.check_subject_3_4.Text = "ሥርዓተ አምልኮ";
             // 
@@ -2393,11 +2393,11 @@
             this.check_subject_4_4.CheckedOffColor = System.Drawing.SystemColors.ControlText;
             this.check_subject_4_4.CheckedOnColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.check_subject_4_4.FillColor = System.Drawing.Color.White;
-            this.check_subject_4_4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.check_subject_4_4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.check_subject_4_4.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.check_subject_4_4.Location = new System.Drawing.Point(3, 32);
+            this.check_subject_4_4.Location = new System.Drawing.Point(21, 113);
             this.check_subject_4_4.Name = "check_subject_4_4";
-            this.check_subject_4_4.Size = new System.Drawing.Size(137, 20);
+            this.check_subject_4_4.Size = new System.Drawing.Size(151, 21);
             this.check_subject_4_4.TabIndex = 3;
             this.check_subject_4_4.Text = "የቤተክርስቲያን ታሪክ";
             // 
@@ -2407,11 +2407,11 @@
             this.check_subject_5_4.CheckedOffColor = System.Drawing.SystemColors.ControlText;
             this.check_subject_5_4.CheckedOnColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.check_subject_5_4.FillColor = System.Drawing.Color.White;
-            this.check_subject_5_4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.check_subject_5_4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.check_subject_5_4.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.check_subject_5_4.Location = new System.Drawing.Point(184, 32);
+            this.check_subject_5_4.Location = new System.Drawing.Point(21, 146);
             this.check_subject_5_4.Name = "check_subject_5_4";
-            this.check_subject_5_4.Size = new System.Drawing.Size(156, 20);
+            this.check_subject_5_4.Size = new System.Drawing.Size(172, 21);
             this.check_subject_5_4.TabIndex = 4;
             this.check_subject_5_4.Text = "ክርስቲያናዊ ሥነ-ምግባር";
             // 
@@ -2422,7 +2422,7 @@
             this.txt_subject_other_4.FocusedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.txt_subject_other_4.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_subject_other_4.LineColor = System.Drawing.Color.Gray;
-            this.txt_subject_other_4.Location = new System.Drawing.Point(173, 93);
+            this.txt_subject_other_4.Location = new System.Drawing.Point(155, 235);
             this.txt_subject_other_4.Name = "txt_subject_other_4";
             this.txt_subject_other_4.PasswordChar = '\0';
             this.txt_subject_other_4.Size = new System.Drawing.Size(409, 26);
@@ -2432,7 +2432,7 @@
             // 
             this.label30.AutoSize = true;
             this.label30.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label30.Location = new System.Drawing.Point(72, 99);
+            this.label30.Location = new System.Drawing.Point(54, 241);
             this.label30.Name = "label30";
             this.label30.Size = new System.Drawing.Size(95, 20);
             this.label30.TabIndex = 305;
@@ -2452,7 +2452,7 @@
             // 
             this.panel_church_4.Controls.Add(this.txt_church_4);
             this.panel_church_4.Controls.Add(this.label32);
-            this.panel_church_4.Location = new System.Drawing.Point(100, 136);
+            this.panel_church_4.Location = new System.Drawing.Point(237, 166);
             this.panel_church_4.Name = "panel_church_4";
             this.panel_church_4.Size = new System.Drawing.Size(632, 44);
             this.panel_church_4.TabIndex = 306;
@@ -2484,7 +2484,7 @@
             // 
             this.panel_year_4.Controls.Add(this.label33);
             this.panel_year_4.Controls.Add(this.num_year_4);
-            this.panel_year_4.Location = new System.Drawing.Point(100, 93);
+            this.panel_year_4.Location = new System.Drawing.Point(237, 124);
             this.panel_year_4.Name = "panel_year_4";
             this.panel_year_4.Size = new System.Drawing.Size(380, 36);
             this.panel_year_4.TabIndex = 305;
@@ -2521,7 +2521,7 @@
             this.panel4.Controls.Add(this.radio_course_before_yes_4);
             this.panel4.Controls.Add(this.radio_course_before_no_4);
             this.panel4.Controls.Add(this.radio_course_before_progress_4);
-            this.panel4.Location = new System.Drawing.Point(80, 59);
+            this.panel4.Location = new System.Drawing.Point(217, 78);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(386, 28);
             this.panel4.TabIndex = 302;
@@ -2584,7 +2584,7 @@
             this.btn_pg_4_4.ForeColor = System.Drawing.Color.White;
             this.btn_pg_4_4.Image = null;
             this.btn_pg_4_4.ImageSize = new System.Drawing.Size(52, 52);
-            this.btn_pg_4_4.Location = new System.Drawing.Point(648, 346);
+            this.btn_pg_4_4.Location = new System.Drawing.Point(942, 543);
             this.btn_pg_4_4.Name = "btn_pg_4_4";
             this.btn_pg_4_4.OnHoverBaseColor = System.Drawing.Color.Gray;
             this.btn_pg_4_4.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -2607,7 +2607,7 @@
             this.btn_pg_4_5.ForeColor = System.Drawing.Color.White;
             this.btn_pg_4_5.Image = null;
             this.btn_pg_4_5.ImageSize = new System.Drawing.Size(52, 52);
-            this.btn_pg_4_5.Location = new System.Drawing.Point(666, 346);
+            this.btn_pg_4_5.Location = new System.Drawing.Point(960, 543);
             this.btn_pg_4_5.Name = "btn_pg_4_5";
             this.btn_pg_4_5.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.btn_pg_4_5.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -2630,7 +2630,7 @@
             this.btn_pg_4_3.ForeColor = System.Drawing.Color.White;
             this.btn_pg_4_3.Image = null;
             this.btn_pg_4_3.ImageSize = new System.Drawing.Size(52, 52);
-            this.btn_pg_4_3.Location = new System.Drawing.Point(630, 346);
+            this.btn_pg_4_3.Location = new System.Drawing.Point(924, 543);
             this.btn_pg_4_3.Name = "btn_pg_4_3";
             this.btn_pg_4_3.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.btn_pg_4_3.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -2653,7 +2653,7 @@
             this.btn_pg_4_6.ForeColor = System.Drawing.Color.White;
             this.btn_pg_4_6.Image = null;
             this.btn_pg_4_6.ImageSize = new System.Drawing.Size(52, 52);
-            this.btn_pg_4_6.Location = new System.Drawing.Point(684, 346);
+            this.btn_pg_4_6.Location = new System.Drawing.Point(978, 543);
             this.btn_pg_4_6.Name = "btn_pg_4_6";
             this.btn_pg_4_6.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.btn_pg_4_6.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -2676,7 +2676,7 @@
             this.btn_pg_4_1.ForeColor = System.Drawing.Color.White;
             this.btn_pg_4_1.Image = null;
             this.btn_pg_4_1.ImageSize = new System.Drawing.Size(52, 52);
-            this.btn_pg_4_1.Location = new System.Drawing.Point(594, 346);
+            this.btn_pg_4_1.Location = new System.Drawing.Point(888, 543);
             this.btn_pg_4_1.Name = "btn_pg_4_1";
             this.btn_pg_4_1.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.btn_pg_4_1.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -2699,7 +2699,7 @@
             this.btn_pg_4_2.ForeColor = System.Drawing.Color.White;
             this.btn_pg_4_2.Image = null;
             this.btn_pg_4_2.ImageSize = new System.Drawing.Size(52, 52);
-            this.btn_pg_4_2.Location = new System.Drawing.Point(612, 346);
+            this.btn_pg_4_2.Location = new System.Drawing.Point(906, 543);
             this.btn_pg_4_2.Name = "btn_pg_4_2";
             this.btn_pg_4_2.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.btn_pg_4_2.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -2722,7 +2722,7 @@
             this.btn_pg_4_7.ForeColor = System.Drawing.Color.White;
             this.btn_pg_4_7.Image = null;
             this.btn_pg_4_7.ImageSize = new System.Drawing.Size(52, 52);
-            this.btn_pg_4_7.Location = new System.Drawing.Point(702, 346);
+            this.btn_pg_4_7.Location = new System.Drawing.Point(996, 543);
             this.btn_pg_4_7.Name = "btn_pg_4_7";
             this.btn_pg_4_7.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.btn_pg_4_7.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -2745,7 +2745,7 @@
             this.btn_pg_4_8.ForeColor = System.Drawing.Color.White;
             this.btn_pg_4_8.Image = null;
             this.btn_pg_4_8.ImageSize = new System.Drawing.Size(52, 52);
-            this.btn_pg_4_8.Location = new System.Drawing.Point(720, 346);
+            this.btn_pg_4_8.Location = new System.Drawing.Point(1014, 543);
             this.btn_pg_4_8.Name = "btn_pg_4_8";
             this.btn_pg_4_8.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.btn_pg_4_8.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -2761,7 +2761,7 @@
             this.btn_next_4.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_next_4.Image = ((System.Drawing.Image)(resources.GetObject("btn_next_4.Image")));
             this.btn_next_4.ImageSize = new System.Drawing.Size(32, 32);
-            this.btn_next_4.Location = new System.Drawing.Point(738, 336);
+            this.btn_next_4.Location = new System.Drawing.Point(1032, 533);
             this.btn_next_4.Name = "btn_next_4";
             this.btn_next_4.OnHoverImage = null;
             this.btn_next_4.OnHoverImageOffset = new System.Drawing.Point(0, 0);
@@ -2774,7 +2774,7 @@
             this.btn_back_4.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_back_4.Image = ((System.Drawing.Image)(resources.GetObject("btn_back_4.Image")));
             this.btn_back_4.ImageSize = new System.Drawing.Size(32, 32);
-            this.btn_back_4.Location = new System.Drawing.Point(556, 336);
+            this.btn_back_4.Location = new System.Drawing.Point(850, 533);
             this.btn_back_4.Name = "btn_back_4";
             this.btn_back_4.OnHoverImage = null;
             this.btn_back_4.OnHoverImageOffset = new System.Drawing.Point(0, 0);
@@ -2785,10 +2785,10 @@
             // label34
             // 
             this.label34.AutoSize = true;
-            this.label34.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label34.Location = new System.Drawing.Point(39, 29);
+            this.label34.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label34.Location = new System.Drawing.Point(142, 40);
             this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(297, 20);
+            this.label34.Size = new System.Drawing.Size(380, 25);
             this.label34.TabIndex = 276;
             this.label34.Text = " መንፈሳዊ ተከታታይ ትምህርት(Course) ተምረዋል";
             // 
@@ -2811,8 +2811,8 @@
             this.panel_5.Controls.Add(this.btn_back_5);
             this.panel_5.Location = new System.Drawing.Point(4, 22);
             this.panel_5.Name = "panel_5";
-            this.panel_5.Padding = new System.Windows.Forms.Padding(3);
-            this.panel_5.Size = new System.Drawing.Size(809, 397);
+            this.panel_5.Padding = new System.Windows.Forms.Padding(40);
+            this.panel_5.Size = new System.Drawing.Size(1107, 608);
             this.panel_5.TabIndex = 4;
             this.panel_5.Text = "fifth";
             // 
@@ -2828,7 +2828,7 @@
             this.btn_pg_5_4.ForeColor = System.Drawing.Color.White;
             this.btn_pg_5_4.Image = null;
             this.btn_pg_5_4.ImageSize = new System.Drawing.Size(52, 52);
-            this.btn_pg_5_4.Location = new System.Drawing.Point(648, 346);
+            this.btn_pg_5_4.Location = new System.Drawing.Point(942, 543);
             this.btn_pg_5_4.Name = "btn_pg_5_4";
             this.btn_pg_5_4.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.btn_pg_5_4.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -2851,7 +2851,7 @@
             this.btn_pg_5_5.ForeColor = System.Drawing.Color.White;
             this.btn_pg_5_5.Image = null;
             this.btn_pg_5_5.ImageSize = new System.Drawing.Size(52, 52);
-            this.btn_pg_5_5.Location = new System.Drawing.Point(666, 346);
+            this.btn_pg_5_5.Location = new System.Drawing.Point(960, 543);
             this.btn_pg_5_5.Name = "btn_pg_5_5";
             this.btn_pg_5_5.OnHoverBaseColor = System.Drawing.Color.Gray;
             this.btn_pg_5_5.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -2874,7 +2874,7 @@
             this.btn_pg_5_3.ForeColor = System.Drawing.Color.White;
             this.btn_pg_5_3.Image = null;
             this.btn_pg_5_3.ImageSize = new System.Drawing.Size(52, 52);
-            this.btn_pg_5_3.Location = new System.Drawing.Point(630, 346);
+            this.btn_pg_5_3.Location = new System.Drawing.Point(924, 543);
             this.btn_pg_5_3.Name = "btn_pg_5_3";
             this.btn_pg_5_3.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.btn_pg_5_3.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -2897,7 +2897,7 @@
             this.btn_pg_5_6.ForeColor = System.Drawing.Color.White;
             this.btn_pg_5_6.Image = null;
             this.btn_pg_5_6.ImageSize = new System.Drawing.Size(52, 52);
-            this.btn_pg_5_6.Location = new System.Drawing.Point(684, 346);
+            this.btn_pg_5_6.Location = new System.Drawing.Point(978, 543);
             this.btn_pg_5_6.Name = "btn_pg_5_6";
             this.btn_pg_5_6.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.btn_pg_5_6.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -2920,7 +2920,7 @@
             this.btn_pg_5_1.ForeColor = System.Drawing.Color.White;
             this.btn_pg_5_1.Image = null;
             this.btn_pg_5_1.ImageSize = new System.Drawing.Size(52, 52);
-            this.btn_pg_5_1.Location = new System.Drawing.Point(594, 346);
+            this.btn_pg_5_1.Location = new System.Drawing.Point(888, 543);
             this.btn_pg_5_1.Name = "btn_pg_5_1";
             this.btn_pg_5_1.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.btn_pg_5_1.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -2943,7 +2943,7 @@
             this.btn_pg_5_2.ForeColor = System.Drawing.Color.White;
             this.btn_pg_5_2.Image = null;
             this.btn_pg_5_2.ImageSize = new System.Drawing.Size(52, 52);
-            this.btn_pg_5_2.Location = new System.Drawing.Point(612, 346);
+            this.btn_pg_5_2.Location = new System.Drawing.Point(906, 543);
             this.btn_pg_5_2.Name = "btn_pg_5_2";
             this.btn_pg_5_2.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.btn_pg_5_2.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -2966,7 +2966,7 @@
             this.btn_pg_5_7.ForeColor = System.Drawing.Color.White;
             this.btn_pg_5_7.Image = null;
             this.btn_pg_5_7.ImageSize = new System.Drawing.Size(52, 52);
-            this.btn_pg_5_7.Location = new System.Drawing.Point(702, 346);
+            this.btn_pg_5_7.Location = new System.Drawing.Point(996, 543);
             this.btn_pg_5_7.Name = "btn_pg_5_7";
             this.btn_pg_5_7.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.btn_pg_5_7.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -2989,7 +2989,7 @@
             this.btn_pg_5_8.ForeColor = System.Drawing.Color.White;
             this.btn_pg_5_8.Image = null;
             this.btn_pg_5_8.ImageSize = new System.Drawing.Size(52, 52);
-            this.btn_pg_5_8.Location = new System.Drawing.Point(720, 346);
+            this.btn_pg_5_8.Location = new System.Drawing.Point(1014, 543);
             this.btn_pg_5_8.Name = "btn_pg_5_8";
             this.btn_pg_5_8.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.btn_pg_5_8.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -3009,7 +3009,7 @@
             this.radio_married_yes_5.FillColor = System.Drawing.Color.White;
             this.radio_married_yes_5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radio_married_yes_5.ForeColor = System.Drawing.Color.Gray;
-            this.radio_married_yes_5.Location = new System.Drawing.Point(63, 51);
+            this.radio_married_yes_5.Location = new System.Drawing.Point(211, 82);
             this.radio_married_yes_5.Name = "radio_married_yes_5";
             this.radio_married_yes_5.Size = new System.Drawing.Size(53, 20);
             this.radio_married_yes_5.TabIndex = 271;
@@ -3019,10 +3019,10 @@
             // label24
             // 
             this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.Location = new System.Drawing.Point(39, 28);
+            this.label24.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label24.Location = new System.Drawing.Point(139, 40);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(82, 20);
+            this.label24.Size = new System.Drawing.Size(99, 25);
             this.label24.TabIndex = 270;
             this.label24.Text = "የትዳር ሁኔታ";
             // 
@@ -3057,9 +3057,9 @@
             this.panel_marrage_5.Controls.Add(this.txt_spouse_christian_name_5);
             this.panel_marrage_5.Controls.Add(this.txt_spouse_work_position_5);
             this.panel_marrage_5.Controls.Add(this.label29);
-            this.panel_marrage_5.Location = new System.Drawing.Point(63, 77);
+            this.panel_marrage_5.Location = new System.Drawing.Point(144, 118);
             this.panel_marrage_5.Name = "panel_marrage_5";
-            this.panel_marrage_5.Size = new System.Drawing.Size(740, 253);
+            this.panel_marrage_5.Size = new System.Drawing.Size(693, 437);
             this.panel_marrage_5.TabIndex = 273;
             // 
             // btn_children_clear_5
@@ -3068,7 +3068,7 @@
             this.btn_children_clear_5.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_children_clear_5.Image = ((System.Drawing.Image)(resources.GetObject("btn_children_clear_5.Image")));
             this.btn_children_clear_5.ImageSize = new System.Drawing.Size(16, 16);
-            this.btn_children_clear_5.Location = new System.Drawing.Point(255, 171);
+            this.btn_children_clear_5.Location = new System.Drawing.Point(218, 331);
             this.btn_children_clear_5.Name = "btn_children_clear_5";
             this.btn_children_clear_5.OnHoverImage = null;
             this.btn_children_clear_5.OnHoverImageOffset = new System.Drawing.Point(0, 0);
@@ -3082,7 +3082,7 @@
             this.btn_children_append_5.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_children_append_5.Image = ((System.Drawing.Image)(resources.GetObject("btn_children_append_5.Image")));
             this.btn_children_append_5.ImageSize = new System.Drawing.Size(16, 16);
-            this.btn_children_append_5.Location = new System.Drawing.Point(229, 171);
+            this.btn_children_append_5.Location = new System.Drawing.Point(192, 331);
             this.btn_children_append_5.Name = "btn_children_append_5";
             this.btn_children_append_5.OnHoverImage = null;
             this.btn_children_append_5.OnHoverImageOffset = new System.Drawing.Point(0, 0);
@@ -3096,7 +3096,7 @@
             this.btn_children_old_data_5.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_children_old_data_5.Image = ((System.Drawing.Image)(resources.GetObject("btn_children_old_data_5.Image")));
             this.btn_children_old_data_5.ImageSize = new System.Drawing.Size(16, 16);
-            this.btn_children_old_data_5.Location = new System.Drawing.Point(180, 173);
+            this.btn_children_old_data_5.Location = new System.Drawing.Point(143, 333);
             this.btn_children_old_data_5.Name = "btn_children_old_data_5";
             this.btn_children_old_data_5.OnHoverImage = null;
             this.btn_children_old_data_5.OnHoverImageOffset = new System.Drawing.Point(0, 0);
@@ -3108,7 +3108,7 @@
             // 
             this.lbl_children_count_success_5.AutoSize = true;
             this.lbl_children_count_success_5.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_children_count_success_5.Location = new System.Drawing.Point(673, 200);
+            this.lbl_children_count_success_5.Location = new System.Drawing.Point(636, 374);
             this.lbl_children_count_success_5.Margin = new System.Windows.Forms.Padding(0);
             this.lbl_children_count_success_5.Name = "lbl_children_count_success_5";
             this.lbl_children_count_success_5.Size = new System.Drawing.Size(10, 12);
@@ -3122,7 +3122,7 @@
             this.icon_children_count_success_5.DialogResult = System.Windows.Forms.DialogResult.None;
             this.icon_children_count_success_5.Image = ((System.Drawing.Image)(resources.GetObject("icon_children_count_success_5.Image")));
             this.icon_children_count_success_5.ImageSize = new System.Drawing.Size(16, 16);
-            this.icon_children_count_success_5.Location = new System.Drawing.Point(659, 210);
+            this.icon_children_count_success_5.Location = new System.Drawing.Point(622, 384);
             this.icon_children_count_success_5.Name = "icon_children_count_success_5";
             this.icon_children_count_success_5.OnHoverImage = null;
             this.icon_children_count_success_5.OnHoverImageOffset = new System.Drawing.Point(0, 0);
@@ -3139,7 +3139,7 @@
             this.num_children_count_5.Enabled = false;
             this.num_children_count_5.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.num_children_count_5.ForeColor = System.Drawing.Color.Black;
-            this.num_children_count_5.Location = new System.Drawing.Point(366, 168);
+            this.num_children_count_5.Location = new System.Drawing.Point(329, 328);
             this.num_children_count_5.Maximum = ((long)(15));
             this.num_children_count_5.Minimum = ((long)(0));
             this.num_children_count_5.Name = "num_children_count_5";
@@ -3155,7 +3155,7 @@
             this.btn_children_5.Enabled = false;
             this.btn_children_5.Image = ((System.Drawing.Image)(resources.GetObject("btn_children_5.Image")));
             this.btn_children_5.ImageSize = new System.Drawing.Size(16, 16);
-            this.btn_children_5.Location = new System.Drawing.Point(637, 210);
+            this.btn_children_5.Location = new System.Drawing.Point(600, 384);
             this.btn_children_5.Name = "btn_children_5";
             this.btn_children_5.OnHoverImage = null;
             this.btn_children_5.OnHoverImageOffset = new System.Drawing.Point(0, 0);
@@ -3171,7 +3171,7 @@
             this.txt_children_birth_date_5.FocusedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.txt_children_birth_date_5.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_children_birth_date_5.LineColor = System.Drawing.Color.Gray;
-            this.txt_children_birth_date_5.Location = new System.Drawing.Point(468, 200);
+            this.txt_children_birth_date_5.Location = new System.Drawing.Point(431, 374);
             this.txt_children_birth_date_5.Name = "txt_children_birth_date_5";
             this.txt_children_birth_date_5.PasswordChar = '\0';
             this.txt_children_birth_date_5.Size = new System.Drawing.Size(163, 26);
@@ -3181,7 +3181,7 @@
             // 
             this.label61.AutoSize = true;
             this.label61.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label61.Location = new System.Drawing.Point(362, 206);
+            this.label61.Location = new System.Drawing.Point(325, 380);
             this.label61.Name = "label61";
             this.label61.Size = new System.Drawing.Size(100, 20);
             this.label61.TabIndex = 215;
@@ -3191,7 +3191,7 @@
             // 
             this.label60.AutoSize = true;
             this.label60.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label60.Location = new System.Drawing.Point(124, 178);
+            this.label60.Location = new System.Drawing.Point(87, 331);
             this.label60.Name = "label60";
             this.label60.Size = new System.Drawing.Size(40, 20);
             this.label60.TabIndex = 214;
@@ -3201,7 +3201,7 @@
             // 
             this.label57.AutoSize = true;
             this.label57.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label57.Location = new System.Drawing.Point(386, 142);
+            this.label57.Location = new System.Drawing.Point(367, 248);
             this.label57.Name = "label57";
             this.label57.Size = new System.Drawing.Size(38, 20);
             this.label57.TabIndex = 212;
@@ -3214,7 +3214,7 @@
             this.txt_spouse_role_5.FocusedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.txt_spouse_role_5.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_spouse_role_5.LineColor = System.Drawing.Color.Gray;
-            this.txt_spouse_role_5.Location = new System.Drawing.Point(430, 136);
+            this.txt_spouse_role_5.Location = new System.Drawing.Point(411, 242);
             this.txt_spouse_role_5.Name = "txt_spouse_role_5";
             this.txt_spouse_role_5.PasswordChar = '\0';
             this.txt_spouse_role_5.Size = new System.Drawing.Size(176, 26);
@@ -3224,7 +3224,7 @@
             // 
             this.label58.AutoSize = true;
             this.label58.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label58.Location = new System.Drawing.Point(135, 142);
+            this.label58.Location = new System.Drawing.Point(67, 248);
             this.label58.Name = "label58";
             this.label58.Size = new System.Drawing.Size(29, 20);
             this.label58.TabIndex = 210;
@@ -3234,7 +3234,7 @@
             // 
             this.label59.AutoSize = true;
             this.label59.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label59.Location = new System.Drawing.Point(73, 142);
+            this.label59.Location = new System.Drawing.Point(29, 227);
             this.label59.Name = "label59";
             this.label59.Size = new System.Drawing.Size(34, 20);
             this.label59.TabIndex = 209;
@@ -3247,7 +3247,7 @@
             this.txt_spouse_work_place_5.FocusedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.txt_spouse_work_place_5.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_spouse_work_place_5.LineColor = System.Drawing.Color.Gray;
-            this.txt_spouse_work_place_5.Location = new System.Drawing.Point(180, 136);
+            this.txt_spouse_work_place_5.Location = new System.Drawing.Point(114, 242);
             this.txt_spouse_work_place_5.Name = "txt_spouse_work_place_5";
             this.txt_spouse_work_place_5.PasswordChar = '\0';
             this.txt_spouse_work_place_5.Size = new System.Drawing.Size(176, 26);
@@ -3257,7 +3257,7 @@
             // 
             this.label56.AutoSize = true;
             this.label56.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label56.Location = new System.Drawing.Point(373, 108);
+            this.label56.Location = new System.Drawing.Point(353, 180);
             this.label56.Name = "label56";
             this.label56.Size = new System.Drawing.Size(52, 20);
             this.label56.TabIndex = 207;
@@ -3270,7 +3270,7 @@
             this.txt_spouse_secular_education_5.FocusedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.txt_spouse_secular_education_5.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_spouse_secular_education_5.LineColor = System.Drawing.Color.Gray;
-            this.txt_spouse_secular_education_5.Location = new System.Drawing.Point(431, 102);
+            this.txt_spouse_secular_education_5.Location = new System.Drawing.Point(411, 174);
             this.txt_spouse_secular_education_5.Name = "txt_spouse_secular_education_5";
             this.txt_spouse_secular_education_5.PasswordChar = '\0';
             this.txt_spouse_secular_education_5.Size = new System.Drawing.Size(176, 26);
@@ -3280,7 +3280,7 @@
             // 
             this.label55.AutoSize = true;
             this.label55.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label55.Location = new System.Drawing.Point(113, 108);
+            this.label55.Location = new System.Drawing.Point(46, 180);
             this.label55.Name = "label55";
             this.label55.Size = new System.Drawing.Size(62, 20);
             this.label55.TabIndex = 205;
@@ -3290,7 +3290,7 @@
             // 
             this.label23.AutoSize = true;
             this.label23.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.Location = new System.Drawing.Point(4, 108);
+            this.label23.Location = new System.Drawing.Point(5, 149);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(103, 20);
             this.label23.TabIndex = 204;
@@ -3303,7 +3303,7 @@
             this.txt_spouse_spritual_education_5.FocusedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.txt_spouse_spritual_education_5.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_spouse_spritual_education_5.LineColor = System.Drawing.Color.Gray;
-            this.txt_spouse_spritual_education_5.Location = new System.Drawing.Point(181, 102);
+            this.txt_spouse_spritual_education_5.Location = new System.Drawing.Point(114, 174);
             this.txt_spouse_spritual_education_5.Name = "txt_spouse_spritual_education_5";
             this.txt_spouse_spritual_education_5.PasswordChar = '\0';
             this.txt_spouse_spritual_education_5.Size = new System.Drawing.Size(176, 26);
@@ -3313,7 +3313,7 @@
             // 
             this.label25.AutoSize = true;
             this.label25.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.Location = new System.Drawing.Point(46, 178);
+            this.label25.Location = new System.Drawing.Point(43, 300);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(61, 20);
             this.label25.TabIndex = 200;
@@ -3327,7 +3327,7 @@
             this.txt_children_name_5.FocusedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.txt_children_name_5.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_children_name_5.LineColor = System.Drawing.Color.Gray;
-            this.txt_children_name_5.Location = new System.Drawing.Point(180, 200);
+            this.txt_children_name_5.Location = new System.Drawing.Point(143, 374);
             this.txt_children_name_5.Name = "txt_children_name_5";
             this.txt_children_name_5.PasswordChar = '\0';
             this.txt_children_name_5.Size = new System.Drawing.Size(176, 26);
@@ -3337,7 +3337,7 @@
             // 
             this.label26.AutoSize = true;
             this.label26.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label26.Location = new System.Drawing.Point(131, 206);
+            this.label26.Location = new System.Drawing.Point(94, 380);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(33, 20);
             this.label26.TabIndex = 202;
@@ -3347,7 +3347,7 @@
             // 
             this.label27.AutoSize = true;
             this.label27.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label27.Location = new System.Drawing.Point(16, 11);
+            this.label27.Location = new System.Drawing.Point(13, 11);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(95, 20);
             this.label27.TabIndex = 198;
@@ -3370,7 +3370,7 @@
             // 
             this.label28.AutoSize = true;
             this.label28.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label28.Location = new System.Drawing.Point(16, 43);
+            this.label28.Location = new System.Drawing.Point(13, 57);
             this.label28.Name = "label28";
             this.label28.Size = new System.Drawing.Size(91, 20);
             this.label28.TabIndex = 194;
@@ -3383,7 +3383,7 @@
             this.txt_spouse_christian_name_5.FocusedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.txt_spouse_christian_name_5.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_spouse_christian_name_5.LineColor = System.Drawing.Color.Gray;
-            this.txt_spouse_christian_name_5.Location = new System.Drawing.Point(114, 37);
+            this.txt_spouse_christian_name_5.Location = new System.Drawing.Point(114, 51);
             this.txt_spouse_christian_name_5.Name = "txt_spouse_christian_name_5";
             this.txt_spouse_christian_name_5.PasswordChar = '\0';
             this.txt_spouse_christian_name_5.Size = new System.Drawing.Size(281, 26);
@@ -3396,7 +3396,7 @@
             this.txt_spouse_work_position_5.FocusedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.txt_spouse_work_position_5.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_spouse_work_position_5.LineColor = System.Drawing.Color.Gray;
-            this.txt_spouse_work_position_5.Location = new System.Drawing.Point(114, 69);
+            this.txt_spouse_work_position_5.Location = new System.Drawing.Point(114, 97);
             this.txt_spouse_work_position_5.Name = "txt_spouse_work_position_5";
             this.txt_spouse_work_position_5.PasswordChar = '\0';
             this.txt_spouse_work_position_5.Size = new System.Drawing.Size(281, 26);
@@ -3406,7 +3406,7 @@
             // 
             this.label29.AutoSize = true;
             this.label29.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label29.Location = new System.Drawing.Point(7, 75);
+            this.label29.Location = new System.Drawing.Point(4, 103);
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(104, 20);
             this.label29.TabIndex = 196;
@@ -3420,7 +3420,7 @@
             this.radio_married_no_5.FillColor = System.Drawing.Color.White;
             this.radio_married_no_5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radio_married_no_5.ForeColor = System.Drawing.Color.Gray;
-            this.radio_married_no_5.Location = new System.Drawing.Point(144, 51);
+            this.radio_married_no_5.Location = new System.Drawing.Point(292, 82);
             this.radio_married_no_5.Name = "radio_married_no_5";
             this.radio_married_no_5.Size = new System.Drawing.Size(60, 20);
             this.radio_married_no_5.TabIndex = 272;
@@ -3432,7 +3432,7 @@
             this.btn_next_5.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_next_5.Image = ((System.Drawing.Image)(resources.GetObject("btn_next_5.Image")));
             this.btn_next_5.ImageSize = new System.Drawing.Size(32, 32);
-            this.btn_next_5.Location = new System.Drawing.Point(738, 336);
+            this.btn_next_5.Location = new System.Drawing.Point(1032, 533);
             this.btn_next_5.Name = "btn_next_5";
             this.btn_next_5.OnHoverImage = null;
             this.btn_next_5.OnHoverImageOffset = new System.Drawing.Point(0, 0);
@@ -3445,7 +3445,7 @@
             this.btn_back_5.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_back_5.Image = ((System.Drawing.Image)(resources.GetObject("btn_back_5.Image")));
             this.btn_back_5.ImageSize = new System.Drawing.Size(32, 32);
-            this.btn_back_5.Location = new System.Drawing.Point(556, 336);
+            this.btn_back_5.Location = new System.Drawing.Point(850, 533);
             this.btn_back_5.Name = "btn_back_5";
             this.btn_back_5.OnHoverImage = null;
             this.btn_back_5.OnHoverImageOffset = new System.Drawing.Point(0, 0);
@@ -3493,7 +3493,7 @@
             this.panel_6.Location = new System.Drawing.Point(4, 22);
             this.panel_6.Name = "panel_6";
             this.panel_6.Padding = new System.Windows.Forms.Padding(40);
-            this.panel_6.Size = new System.Drawing.Size(809, 397);
+            this.panel_6.Size = new System.Drawing.Size(1107, 608);
             this.panel_6.TabIndex = 5;
             this.panel_6.Text = "sixth";
             // 
@@ -3501,7 +3501,7 @@
             // 
             this.label73.AccessibleName = "lbl_partner_date_6";
             this.label73.AutoSize = true;
-            this.label73.Location = new System.Drawing.Point(465, 307);
+            this.label73.Location = new System.Drawing.Point(642, 429);
             this.label73.Name = "label73";
             this.label73.Size = new System.Drawing.Size(0, 13);
             this.label73.TabIndex = 347;
@@ -3510,7 +3510,7 @@
             // 
             this.lbl_partner_date_7.AccessibleName = "lbl_partner_date_6";
             this.lbl_partner_date_7.AutoSize = true;
-            this.lbl_partner_date_7.Location = new System.Drawing.Point(465, 307);
+            this.lbl_partner_date_7.Location = new System.Drawing.Point(642, 429);
             this.lbl_partner_date_7.Name = "lbl_partner_date_7";
             this.lbl_partner_date_7.Size = new System.Drawing.Size(0, 13);
             this.lbl_partner_date_7.TabIndex = 346;
@@ -3521,7 +3521,7 @@
             this.icon_partner_participation_number_success_6.DialogResult = System.Windows.Forms.DialogResult.None;
             this.icon_partner_participation_number_success_6.Image = ((System.Drawing.Image)(resources.GetObject("icon_partner_participation_number_success_6.Image")));
             this.icon_partner_participation_number_success_6.ImageSize = new System.Drawing.Size(16, 16);
-            this.icon_partner_participation_number_success_6.Location = new System.Drawing.Point(334, 279);
+            this.icon_partner_participation_number_success_6.Location = new System.Drawing.Point(511, 380);
             this.icon_partner_participation_number_success_6.Name = "icon_partner_participation_number_success_6";
             this.icon_partner_participation_number_success_6.OnHoverImage = null;
             this.icon_partner_participation_number_success_6.OnHoverImageOffset = new System.Drawing.Point(0, 0);
@@ -3623,7 +3623,7 @@
             "2018",
             "2019",
             "2020"});
-            this.cmb_partner_date_year_6.Location = new System.Drawing.Point(178, 301);
+            this.cmb_partner_date_year_6.Location = new System.Drawing.Point(355, 423);
             this.cmb_partner_date_year_6.Name = "cmb_partner_date_year_6";
             this.cmb_partner_date_year_6.OnHoverItemBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.cmb_partner_date_year_6.OnHoverItemForeColor = System.Drawing.Color.White;
@@ -3645,7 +3645,7 @@
             this.cmb_partner_date_month_6.FormattingEnabled = true;
             this.cmb_partner_date_month_6.Items.AddRange(new object[] {
             "ወር"});
-            this.cmb_partner_date_month_6.Location = new System.Drawing.Point(281, 301);
+            this.cmb_partner_date_month_6.Location = new System.Drawing.Point(458, 423);
             this.cmb_partner_date_month_6.Name = "cmb_partner_date_month_6";
             this.cmb_partner_date_month_6.OnHoverItemBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.cmb_partner_date_month_6.OnHoverItemForeColor = System.Drawing.Color.White;
@@ -3667,7 +3667,7 @@
             this.cmb_partner_date_day_6.FormattingEnabled = true;
             this.cmb_partner_date_day_6.Items.AddRange(new object[] {
             "ቀን"});
-            this.cmb_partner_date_day_6.Location = new System.Drawing.Point(384, 301);
+            this.cmb_partner_date_day_6.Location = new System.Drawing.Point(561, 423);
             this.cmb_partner_date_day_6.Name = "cmb_partner_date_day_6";
             this.cmb_partner_date_day_6.OnHoverItemBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.cmb_partner_date_day_6.OnHoverItemForeColor = System.Drawing.Color.White;
@@ -3683,7 +3683,7 @@
             this.txt_partner_phone_6.FocusedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.txt_partner_phone_6.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_partner_phone_6.LineColor = System.Drawing.Color.Gray;
-            this.txt_partner_phone_6.Location = new System.Drawing.Point(593, 269);
+            this.txt_partner_phone_6.Location = new System.Drawing.Point(770, 370);
             this.txt_partner_phone_6.Name = "txt_partner_phone_6";
             this.txt_partner_phone_6.PasswordChar = '\0';
             this.txt_partner_phone_6.Size = new System.Drawing.Size(150, 26);
@@ -3693,7 +3693,7 @@
             // 
             this.label66.AutoSize = true;
             this.label66.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label66.Location = new System.Drawing.Point(551, 275);
+            this.label66.Location = new System.Drawing.Point(728, 376);
             this.label66.Name = "label66";
             this.label66.Size = new System.Drawing.Size(36, 20);
             this.label66.TabIndex = 317;
@@ -3707,7 +3707,7 @@
             this.txt_partner_name_6.FocusedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.txt_partner_name_6.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_partner_name_6.LineColor = System.Drawing.Color.Gray;
-            this.txt_partner_name_6.Location = new System.Drawing.Point(395, 269);
+            this.txt_partner_name_6.Location = new System.Drawing.Point(572, 370);
             this.txt_partner_name_6.Name = "txt_partner_name_6";
             this.txt_partner_name_6.PasswordChar = '\0';
             this.txt_partner_name_6.Size = new System.Drawing.Size(150, 26);
@@ -3717,7 +3717,7 @@
             // 
             this.label65.AutoSize = true;
             this.label65.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label65.Location = new System.Drawing.Point(356, 275);
+            this.label65.Location = new System.Drawing.Point(533, 376);
             this.label65.Name = "label65";
             this.label65.Size = new System.Drawing.Size(33, 20);
             this.label65.TabIndex = 315;
@@ -3727,7 +3727,7 @@
             // 
             this.label62.AutoSize = true;
             this.label62.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label62.Location = new System.Drawing.Point(145, 302);
+            this.label62.Location = new System.Drawing.Point(322, 424);
             this.label62.Name = "label62";
             this.label62.Size = new System.Drawing.Size(27, 20);
             this.label62.TabIndex = 283;
@@ -3740,7 +3740,7 @@
             this.txt_partner_participation_number_6.FocusedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.txt_partner_participation_number_6.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_partner_participation_number_6.LineColor = System.Drawing.Color.Gray;
-            this.txt_partner_participation_number_6.Location = new System.Drawing.Point(178, 269);
+            this.txt_partner_participation_number_6.Location = new System.Drawing.Point(355, 370);
             this.txt_partner_participation_number_6.Name = "txt_partner_participation_number_6";
             this.txt_partner_participation_number_6.PasswordChar = '\0';
             this.txt_partner_participation_number_6.Size = new System.Drawing.Size(150, 26);
@@ -3752,7 +3752,7 @@
             // 
             this.label63.AutoSize = true;
             this.label63.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label63.Location = new System.Drawing.Point(79, 275);
+            this.label63.Location = new System.Drawing.Point(256, 376);
             this.label63.Name = "label63";
             this.label63.Size = new System.Drawing.Size(93, 20);
             this.label63.TabIndex = 281;
@@ -3761,10 +3761,10 @@
             // label64
             // 
             this.label64.AutoSize = true;
-            this.label64.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label64.Location = new System.Drawing.Point(39, 246);
+            this.label64.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label64.Location = new System.Drawing.Point(167, 321);
             this.label64.Name = "label64";
-            this.label64.Size = new System.Drawing.Size(112, 20);
+            this.label64.Size = new System.Drawing.Size(136, 25);
             this.label64.TabIndex = 280;
             this.label64.Text = "የባልደረባው ሁኔታ";
             // 
@@ -3780,7 +3780,7 @@
             this.btn_pg_6_4.ForeColor = System.Drawing.Color.White;
             this.btn_pg_6_4.Image = null;
             this.btn_pg_6_4.ImageSize = new System.Drawing.Size(52, 52);
-            this.btn_pg_6_4.Location = new System.Drawing.Point(648, 346);
+            this.btn_pg_6_4.Location = new System.Drawing.Point(942, 543);
             this.btn_pg_6_4.Name = "btn_pg_6_4";
             this.btn_pg_6_4.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.btn_pg_6_4.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -3803,7 +3803,7 @@
             this.btn_pg_6_5.ForeColor = System.Drawing.Color.White;
             this.btn_pg_6_5.Image = null;
             this.btn_pg_6_5.ImageSize = new System.Drawing.Size(52, 52);
-            this.btn_pg_6_5.Location = new System.Drawing.Point(666, 346);
+            this.btn_pg_6_5.Location = new System.Drawing.Point(960, 543);
             this.btn_pg_6_5.Name = "btn_pg_6_5";
             this.btn_pg_6_5.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.btn_pg_6_5.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -3826,7 +3826,7 @@
             this.btn_pg_6_3.ForeColor = System.Drawing.Color.White;
             this.btn_pg_6_3.Image = null;
             this.btn_pg_6_3.ImageSize = new System.Drawing.Size(52, 52);
-            this.btn_pg_6_3.Location = new System.Drawing.Point(630, 346);
+            this.btn_pg_6_3.Location = new System.Drawing.Point(924, 543);
             this.btn_pg_6_3.Name = "btn_pg_6_3";
             this.btn_pg_6_3.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.btn_pg_6_3.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -3849,7 +3849,7 @@
             this.btn_pg_6_6.ForeColor = System.Drawing.Color.White;
             this.btn_pg_6_6.Image = null;
             this.btn_pg_6_6.ImageSize = new System.Drawing.Size(52, 52);
-            this.btn_pg_6_6.Location = new System.Drawing.Point(684, 346);
+            this.btn_pg_6_6.Location = new System.Drawing.Point(978, 543);
             this.btn_pg_6_6.Name = "btn_pg_6_6";
             this.btn_pg_6_6.OnHoverBaseColor = System.Drawing.Color.Gray;
             this.btn_pg_6_6.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -3872,7 +3872,7 @@
             this.btn_pg_6_1.ForeColor = System.Drawing.Color.White;
             this.btn_pg_6_1.Image = null;
             this.btn_pg_6_1.ImageSize = new System.Drawing.Size(52, 52);
-            this.btn_pg_6_1.Location = new System.Drawing.Point(594, 346);
+            this.btn_pg_6_1.Location = new System.Drawing.Point(888, 543);
             this.btn_pg_6_1.Name = "btn_pg_6_1";
             this.btn_pg_6_1.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.btn_pg_6_1.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -3895,7 +3895,7 @@
             this.btn_pg_6_2.ForeColor = System.Drawing.Color.White;
             this.btn_pg_6_2.Image = null;
             this.btn_pg_6_2.ImageSize = new System.Drawing.Size(52, 52);
-            this.btn_pg_6_2.Location = new System.Drawing.Point(612, 346);
+            this.btn_pg_6_2.Location = new System.Drawing.Point(906, 543);
             this.btn_pg_6_2.Name = "btn_pg_6_2";
             this.btn_pg_6_2.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.btn_pg_6_2.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -3918,7 +3918,7 @@
             this.btn_pg_6_7.ForeColor = System.Drawing.Color.White;
             this.btn_pg_6_7.Image = null;
             this.btn_pg_6_7.ImageSize = new System.Drawing.Size(52, 52);
-            this.btn_pg_6_7.Location = new System.Drawing.Point(702, 346);
+            this.btn_pg_6_7.Location = new System.Drawing.Point(996, 543);
             this.btn_pg_6_7.Name = "btn_pg_6_7";
             this.btn_pg_6_7.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.btn_pg_6_7.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -3941,7 +3941,7 @@
             this.btn_pg_6_8.ForeColor = System.Drawing.Color.White;
             this.btn_pg_6_8.Image = null;
             this.btn_pg_6_8.ImageSize = new System.Drawing.Size(52, 52);
-            this.btn_pg_6_8.Location = new System.Drawing.Point(720, 346);
+            this.btn_pg_6_8.Location = new System.Drawing.Point(1014, 543);
             this.btn_pg_6_8.Name = "btn_pg_6_8";
             this.btn_pg_6_8.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.btn_pg_6_8.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -3959,7 +3959,7 @@
             this.txt_repentance_father_place_6.FocusedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.txt_repentance_father_place_6.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_repentance_father_place_6.LineColor = System.Drawing.Color.Gray;
-            this.txt_repentance_father_place_6.Location = new System.Drawing.Point(211, 199);
+            this.txt_repentance_father_place_6.Location = new System.Drawing.Point(388, 268);
             this.txt_repentance_father_place_6.Name = "txt_repentance_father_place_6";
             this.txt_repentance_father_place_6.PasswordChar = '\0';
             this.txt_repentance_father_place_6.Size = new System.Drawing.Size(281, 26);
@@ -3969,7 +3969,7 @@
             // 
             this.label35.AutoSize = true;
             this.label35.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label35.Location = new System.Drawing.Point(74, 205);
+            this.label35.Location = new System.Drawing.Point(251, 274);
             this.label35.Name = "label35";
             this.label35.Size = new System.Drawing.Size(131, 20);
             this.label35.TabIndex = 270;
@@ -3982,7 +3982,7 @@
             this.txt_repentance_father_name_6.FocusedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.txt_repentance_father_name_6.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_repentance_father_name_6.LineColor = System.Drawing.Color.Gray;
-            this.txt_repentance_father_name_6.Location = new System.Drawing.Point(118, 167);
+            this.txt_repentance_father_name_6.Location = new System.Drawing.Point(295, 222);
             this.txt_repentance_father_name_6.Name = "txt_repentance_father_name_6";
             this.txt_repentance_father_name_6.PasswordChar = '\0';
             this.txt_repentance_father_name_6.Size = new System.Drawing.Size(281, 26);
@@ -3992,7 +3992,7 @@
             // 
             this.label36.AutoSize = true;
             this.label36.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label36.Location = new System.Drawing.Point(79, 173);
+            this.label36.Location = new System.Drawing.Point(256, 228);
             this.label36.Name = "label36";
             this.label36.Size = new System.Drawing.Size(33, 20);
             this.label36.TabIndex = 268;
@@ -4001,10 +4001,10 @@
             // label37
             // 
             this.label37.AutoSize = true;
-            this.label37.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label37.Location = new System.Drawing.Point(39, 144);
+            this.label37.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label37.Location = new System.Drawing.Point(193, 178);
             this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(79, 20);
+            this.label37.Size = new System.Drawing.Size(96, 25);
             this.label37.TabIndex = 267;
             this.label37.Text = "የንስሐ አባት";
             // 
@@ -4013,7 +4013,7 @@
             this.btn_next_6.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_next_6.Image = ((System.Drawing.Image)(resources.GetObject("btn_next_6.Image")));
             this.btn_next_6.ImageSize = new System.Drawing.Size(32, 32);
-            this.btn_next_6.Location = new System.Drawing.Point(738, 336);
+            this.btn_next_6.Location = new System.Drawing.Point(1032, 533);
             this.btn_next_6.Name = "btn_next_6";
             this.btn_next_6.OnHoverImage = null;
             this.btn_next_6.OnHoverImageOffset = new System.Drawing.Point(0, 0);
@@ -4026,7 +4026,7 @@
             this.btn_back_6.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_back_6.Image = ((System.Drawing.Image)(resources.GetObject("btn_back_6.Image")));
             this.btn_back_6.ImageSize = new System.Drawing.Size(32, 32);
-            this.btn_back_6.Location = new System.Drawing.Point(556, 336);
+            this.btn_back_6.Location = new System.Drawing.Point(850, 533);
             this.btn_back_6.Name = "btn_back_6";
             this.btn_back_6.OnHoverImage = null;
             this.btn_back_6.OnHoverImageOffset = new System.Drawing.Point(0, 0);
@@ -4041,7 +4041,7 @@
             this.txt_emergency_phone_6.FocusedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.txt_emergency_phone_6.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_emergency_phone_6.LineColor = System.Drawing.Color.Gray;
-            this.txt_emergency_phone_6.Location = new System.Drawing.Point(118, 84);
+            this.txt_emergency_phone_6.Location = new System.Drawing.Point(295, 128);
             this.txt_emergency_phone_6.Name = "txt_emergency_phone_6";
             this.txt_emergency_phone_6.PasswordChar = '\0';
             this.txt_emergency_phone_6.Size = new System.Drawing.Size(281, 26);
@@ -4051,7 +4051,7 @@
             // 
             this.label38.AutoSize = true;
             this.label38.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label38.Location = new System.Drawing.Point(76, 90);
+            this.label38.Location = new System.Drawing.Point(253, 134);
             this.label38.Name = "label38";
             this.label38.Size = new System.Drawing.Size(36, 20);
             this.label38.TabIndex = 263;
@@ -4064,7 +4064,7 @@
             this.txt_emergency_name_6.FocusedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.txt_emergency_name_6.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_emergency_name_6.LineColor = System.Drawing.Color.Gray;
-            this.txt_emergency_name_6.Location = new System.Drawing.Point(118, 52);
+            this.txt_emergency_name_6.Location = new System.Drawing.Point(295, 82);
             this.txt_emergency_name_6.Name = "txt_emergency_name_6";
             this.txt_emergency_name_6.PasswordChar = '\0';
             this.txt_emergency_name_6.Size = new System.Drawing.Size(281, 26);
@@ -4074,7 +4074,7 @@
             // 
             this.label39.AutoSize = true;
             this.label39.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label39.Location = new System.Drawing.Point(79, 58);
+            this.label39.Location = new System.Drawing.Point(256, 88);
             this.label39.Name = "label39";
             this.label39.Size = new System.Drawing.Size(33, 20);
             this.label39.TabIndex = 261;
@@ -4083,10 +4083,10 @@
             // label40
             // 
             this.label40.AutoSize = true;
-            this.label40.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label40.Location = new System.Drawing.Point(39, 29);
+            this.label40.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label40.Location = new System.Drawing.Point(172, 40);
             this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(106, 20);
+            this.label40.Size = new System.Drawing.Size(131, 25);
             this.label40.TabIndex = 260;
             this.label40.Text = "በአደጋ ጊዜ ተጠሪ";
             // 
@@ -4126,7 +4126,7 @@
             this.panel_7.Location = new System.Drawing.Point(4, 22);
             this.panel_7.Name = "panel_7";
             this.panel_7.Padding = new System.Windows.Forms.Padding(40);
-            this.panel_7.Size = new System.Drawing.Size(809, 397);
+            this.panel_7.Size = new System.Drawing.Size(1107, 608);
             this.panel_7.TabIndex = 6;
             this.panel_7.Text = "seventh";
             // 
@@ -4144,7 +4144,7 @@
             this.btn_serve_hidden_7.ForeColor = System.Drawing.Color.Black;
             this.btn_serve_hidden_7.Image = null;
             this.btn_serve_hidden_7.ImageSize = new System.Drawing.Size(20, 20);
-            this.btn_serve_hidden_7.Location = new System.Drawing.Point(43, 324);
+            this.btn_serve_hidden_7.Location = new System.Drawing.Point(43, 535);
             this.btn_serve_hidden_7.Name = "btn_serve_hidden_7";
             this.btn_serve_hidden_7.OnHoverBaseColor = System.Drawing.Color.Empty;
             this.btn_serve_hidden_7.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
@@ -4168,11 +4168,11 @@
             this.btn_serve_17_7.BorderSize = 1;
             this.btn_serve_17_7.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_serve_17_7.FocusedColor = System.Drawing.Color.Empty;
-            this.btn_serve_17_7.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btn_serve_17_7.Font = new System.Drawing.Font("Segoe UI", 14F);
             this.btn_serve_17_7.ForeColor = System.Drawing.Color.Black;
             this.btn_serve_17_7.Image = null;
             this.btn_serve_17_7.ImageSize = new System.Drawing.Size(20, 20);
-            this.btn_serve_17_7.Location = new System.Drawing.Point(138, 218);
+            this.btn_serve_17_7.Location = new System.Drawing.Point(529, 403);
             this.btn_serve_17_7.Name = "btn_serve_17_7";
             this.btn_serve_17_7.OnHoverBaseColor = System.Drawing.Color.Empty;
             this.btn_serve_17_7.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
@@ -4180,7 +4180,7 @@
             this.btn_serve_17_7.OnHoverImage = null;
             this.btn_serve_17_7.OnPressedColor = System.Drawing.Color.Black;
             this.btn_serve_17_7.Radius = 10;
-            this.btn_serve_17_7.Size = new System.Drawing.Size(107, 30);
+            this.btn_serve_17_7.Size = new System.Drawing.Size(131, 53);
             this.btn_serve_17_7.TabIndex = 16;
             this.btn_serve_17_7.Text = "ገንዘብና ንብረት";
             this.btn_serve_17_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -4196,11 +4196,11 @@
             this.btn_serve_16_7.BorderSize = 1;
             this.btn_serve_16_7.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_serve_16_7.FocusedColor = System.Drawing.Color.Empty;
-            this.btn_serve_16_7.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btn_serve_16_7.Font = new System.Drawing.Font("Segoe UI", 14F);
             this.btn_serve_16_7.ForeColor = System.Drawing.Color.Black;
             this.btn_serve_16_7.Image = null;
             this.btn_serve_16_7.ImageSize = new System.Drawing.Size(20, 20);
-            this.btn_serve_16_7.Location = new System.Drawing.Point(43, 218);
+            this.btn_serve_16_7.Location = new System.Drawing.Point(400, 403);
             this.btn_serve_16_7.Name = "btn_serve_16_7";
             this.btn_serve_16_7.OnHoverBaseColor = System.Drawing.Color.Empty;
             this.btn_serve_16_7.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
@@ -4208,7 +4208,7 @@
             this.btn_serve_16_7.OnHoverImage = null;
             this.btn_serve_16_7.OnPressedColor = System.Drawing.Color.Black;
             this.btn_serve_16_7.Radius = 10;
-            this.btn_serve_16_7.Size = new System.Drawing.Size(89, 30);
+            this.btn_serve_16_7.Size = new System.Drawing.Size(115, 53);
             this.btn_serve_16_7.TabIndex = 15;
             this.btn_serve_16_7.Text = "ምክረ-አበው";
             this.btn_serve_16_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -4224,11 +4224,11 @@
             this.btn_serve_14_7.BorderSize = 1;
             this.btn_serve_14_7.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_serve_14_7.FocusedColor = System.Drawing.Color.Empty;
-            this.btn_serve_14_7.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btn_serve_14_7.Font = new System.Drawing.Font("Segoe UI", 14F);
             this.btn_serve_14_7.ForeColor = System.Drawing.Color.Black;
             this.btn_serve_14_7.Image = null;
             this.btn_serve_14_7.ImageSize = new System.Drawing.Size(20, 20);
-            this.btn_serve_14_7.Location = new System.Drawing.Point(257, 182);
+            this.btn_serve_14_7.Location = new System.Drawing.Point(48, 403);
             this.btn_serve_14_7.Name = "btn_serve_14_7";
             this.btn_serve_14_7.OnHoverBaseColor = System.Drawing.Color.Empty;
             this.btn_serve_14_7.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
@@ -4236,7 +4236,7 @@
             this.btn_serve_14_7.OnHoverImage = null;
             this.btn_serve_14_7.OnPressedColor = System.Drawing.Color.Black;
             this.btn_serve_14_7.Radius = 10;
-            this.btn_serve_14_7.Size = new System.Drawing.Size(110, 30);
+            this.btn_serve_14_7.Size = new System.Drawing.Size(169, 53);
             this.btn_serve_14_7.TabIndex = 13;
             this.btn_serve_14_7.Text = "መረጃ እና መዛግብት";
             this.btn_serve_14_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -4252,11 +4252,11 @@
             this.btn_serve_15_7.BorderSize = 1;
             this.btn_serve_15_7.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_serve_15_7.FocusedColor = System.Drawing.Color.Empty;
-            this.btn_serve_15_7.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btn_serve_15_7.Font = new System.Drawing.Font("Segoe UI", 14F);
             this.btn_serve_15_7.ForeColor = System.Drawing.Color.Black;
             this.btn_serve_15_7.Image = null;
             this.btn_serve_15_7.ImageSize = new System.Drawing.Size(20, 20);
-            this.btn_serve_15_7.Location = new System.Drawing.Point(373, 182);
+            this.btn_serve_15_7.Location = new System.Drawing.Point(232, 403);
             this.btn_serve_15_7.Name = "btn_serve_15_7";
             this.btn_serve_15_7.OnHoverBaseColor = System.Drawing.Color.Empty;
             this.btn_serve_15_7.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
@@ -4264,7 +4264,7 @@
             this.btn_serve_15_7.OnHoverImage = null;
             this.btn_serve_15_7.OnPressedColor = System.Drawing.Color.Black;
             this.btn_serve_15_7.Radius = 10;
-            this.btn_serve_15_7.Size = new System.Drawing.Size(107, 30);
+            this.btn_serve_15_7.Size = new System.Drawing.Size(152, 53);
             this.btn_serve_15_7.TabIndex = 14;
             this.btn_serve_15_7.Text = "ኦዲትና ኢንስፔክሽን";
             this.btn_serve_15_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -4280,11 +4280,11 @@
             this.btn_serve_13_7.BorderSize = 1;
             this.btn_serve_13_7.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_serve_13_7.FocusedColor = System.Drawing.Color.Empty;
-            this.btn_serve_13_7.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btn_serve_13_7.Font = new System.Drawing.Font("Segoe UI", 14F);
             this.btn_serve_13_7.ForeColor = System.Drawing.Color.Black;
             this.btn_serve_13_7.Image = null;
             this.btn_serve_13_7.ImageSize = new System.Drawing.Size(20, 20);
-            this.btn_serve_13_7.Location = new System.Drawing.Point(196, 182);
+            this.btn_serve_13_7.Location = new System.Drawing.Point(568, 330);
             this.btn_serve_13_7.Name = "btn_serve_13_7";
             this.btn_serve_13_7.OnHoverBaseColor = System.Drawing.Color.Empty;
             this.btn_serve_13_7.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
@@ -4292,7 +4292,7 @@
             this.btn_serve_13_7.OnHoverImage = null;
             this.btn_serve_13_7.OnPressedColor = System.Drawing.Color.Black;
             this.btn_serve_13_7.Radius = 10;
-            this.btn_serve_13_7.Size = new System.Drawing.Size(55, 30);
+            this.btn_serve_13_7.Size = new System.Drawing.Size(92, 53);
             this.btn_serve_13_7.TabIndex = 12;
             this.btn_serve_13_7.Text = "አርትኦት";
             this.btn_serve_13_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -4308,11 +4308,11 @@
             this.btn_serve_12_7.BorderSize = 1;
             this.btn_serve_12_7.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_serve_12_7.FocusedColor = System.Drawing.Color.Empty;
-            this.btn_serve_12_7.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btn_serve_12_7.Font = new System.Drawing.Font("Segoe UI", 14F);
             this.btn_serve_12_7.ForeColor = System.Drawing.Color.Black;
             this.btn_serve_12_7.Image = null;
             this.btn_serve_12_7.ImageSize = new System.Drawing.Size(20, 20);
-            this.btn_serve_12_7.Location = new System.Drawing.Point(145, 182);
+            this.btn_serve_12_7.Location = new System.Drawing.Point(456, 330);
             this.btn_serve_12_7.Name = "btn_serve_12_7";
             this.btn_serve_12_7.OnHoverBaseColor = System.Drawing.Color.Empty;
             this.btn_serve_12_7.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
@@ -4320,7 +4320,7 @@
             this.btn_serve_12_7.OnHoverImage = null;
             this.btn_serve_12_7.OnPressedColor = System.Drawing.Color.Black;
             this.btn_serve_12_7.Radius = 10;
-            this.btn_serve_12_7.Size = new System.Drawing.Size(45, 30);
+            this.btn_serve_12_7.Size = new System.Drawing.Size(92, 53);
             this.btn_serve_12_7.TabIndex = 11;
             this.btn_serve_12_7.Text = "ሽያጭ";
             this.btn_serve_12_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -4331,10 +4331,12 @@
             this.listBox_serve_7.BackColor = System.Drawing.SystemColors.Control;
             this.listBox_serve_7.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.listBox_serve_7.Enabled = false;
+            this.listBox_serve_7.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listBox_serve_7.FormattingEnabled = true;
-            this.listBox_serve_7.Location = new System.Drawing.Point(513, 74);
+            this.listBox_serve_7.ItemHeight = 20;
+            this.listBox_serve_7.Location = new System.Drawing.Point(710, 101);
             this.listBox_serve_7.Name = "listBox_serve_7";
-            this.listBox_serve_7.Size = new System.Drawing.Size(253, 234);
+            this.listBox_serve_7.Size = new System.Drawing.Size(354, 360);
             this.listBox_serve_7.TabIndex = 275;
             // 
             // btn_pg_7_4
@@ -4349,7 +4351,7 @@
             this.btn_pg_7_4.ForeColor = System.Drawing.Color.White;
             this.btn_pg_7_4.Image = null;
             this.btn_pg_7_4.ImageSize = new System.Drawing.Size(52, 52);
-            this.btn_pg_7_4.Location = new System.Drawing.Point(648, 346);
+            this.btn_pg_7_4.Location = new System.Drawing.Point(942, 543);
             this.btn_pg_7_4.Name = "btn_pg_7_4";
             this.btn_pg_7_4.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.btn_pg_7_4.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -4372,7 +4374,7 @@
             this.btn_pg_7_5.ForeColor = System.Drawing.Color.White;
             this.btn_pg_7_5.Image = null;
             this.btn_pg_7_5.ImageSize = new System.Drawing.Size(52, 52);
-            this.btn_pg_7_5.Location = new System.Drawing.Point(666, 346);
+            this.btn_pg_7_5.Location = new System.Drawing.Point(960, 543);
             this.btn_pg_7_5.Name = "btn_pg_7_5";
             this.btn_pg_7_5.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.btn_pg_7_5.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -4395,7 +4397,7 @@
             this.btn_pg_7_3.ForeColor = System.Drawing.Color.White;
             this.btn_pg_7_3.Image = null;
             this.btn_pg_7_3.ImageSize = new System.Drawing.Size(52, 52);
-            this.btn_pg_7_3.Location = new System.Drawing.Point(630, 346);
+            this.btn_pg_7_3.Location = new System.Drawing.Point(924, 543);
             this.btn_pg_7_3.Name = "btn_pg_7_3";
             this.btn_pg_7_3.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.btn_pg_7_3.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -4418,7 +4420,7 @@
             this.btn_pg_7_6.ForeColor = System.Drawing.Color.White;
             this.btn_pg_7_6.Image = null;
             this.btn_pg_7_6.ImageSize = new System.Drawing.Size(52, 52);
-            this.btn_pg_7_6.Location = new System.Drawing.Point(684, 346);
+            this.btn_pg_7_6.Location = new System.Drawing.Point(978, 543);
             this.btn_pg_7_6.Name = "btn_pg_7_6";
             this.btn_pg_7_6.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.btn_pg_7_6.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -4441,7 +4443,7 @@
             this.btn_pg_7_1.ForeColor = System.Drawing.Color.White;
             this.btn_pg_7_1.Image = null;
             this.btn_pg_7_1.ImageSize = new System.Drawing.Size(52, 52);
-            this.btn_pg_7_1.Location = new System.Drawing.Point(594, 346);
+            this.btn_pg_7_1.Location = new System.Drawing.Point(888, 543);
             this.btn_pg_7_1.Name = "btn_pg_7_1";
             this.btn_pg_7_1.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.btn_pg_7_1.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -4464,7 +4466,7 @@
             this.btn_pg_7_2.ForeColor = System.Drawing.Color.White;
             this.btn_pg_7_2.Image = null;
             this.btn_pg_7_2.ImageSize = new System.Drawing.Size(52, 52);
-            this.btn_pg_7_2.Location = new System.Drawing.Point(612, 346);
+            this.btn_pg_7_2.Location = new System.Drawing.Point(906, 543);
             this.btn_pg_7_2.Name = "btn_pg_7_2";
             this.btn_pg_7_2.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.btn_pg_7_2.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -4487,7 +4489,7 @@
             this.btn_pg_7_7.ForeColor = System.Drawing.Color.White;
             this.btn_pg_7_7.Image = null;
             this.btn_pg_7_7.ImageSize = new System.Drawing.Size(52, 52);
-            this.btn_pg_7_7.Location = new System.Drawing.Point(702, 346);
+            this.btn_pg_7_7.Location = new System.Drawing.Point(996, 543);
             this.btn_pg_7_7.Name = "btn_pg_7_7";
             this.btn_pg_7_7.OnHoverBaseColor = System.Drawing.Color.Gray;
             this.btn_pg_7_7.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -4510,7 +4512,7 @@
             this.btn_pg_7_8.ForeColor = System.Drawing.Color.White;
             this.btn_pg_7_8.Image = null;
             this.btn_pg_7_8.ImageSize = new System.Drawing.Size(52, 52);
-            this.btn_pg_7_8.Location = new System.Drawing.Point(720, 346);
+            this.btn_pg_7_8.Location = new System.Drawing.Point(1014, 543);
             this.btn_pg_7_8.Name = "btn_pg_7_8";
             this.btn_pg_7_8.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.btn_pg_7_8.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -4531,11 +4533,11 @@
             this.btn_serve_11_7.BorderSize = 1;
             this.btn_serve_11_7.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_serve_11_7.FocusedColor = System.Drawing.Color.Empty;
-            this.btn_serve_11_7.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btn_serve_11_7.Font = new System.Drawing.Font("Segoe UI", 14F);
             this.btn_serve_11_7.ForeColor = System.Drawing.Color.Black;
             this.btn_serve_11_7.Image = null;
             this.btn_serve_11_7.ImageSize = new System.Drawing.Size(20, 20);
-            this.btn_serve_11_7.Location = new System.Drawing.Point(43, 182);
+            this.btn_serve_11_7.Location = new System.Drawing.Point(290, 330);
             this.btn_serve_11_7.Name = "btn_serve_11_7";
             this.btn_serve_11_7.OnHoverBaseColor = System.Drawing.Color.Empty;
             this.btn_serve_11_7.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
@@ -4543,7 +4545,7 @@
             this.btn_serve_11_7.OnHoverImage = null;
             this.btn_serve_11_7.OnPressedColor = System.Drawing.Color.Black;
             this.btn_serve_11_7.Radius = 10;
-            this.btn_serve_11_7.Size = new System.Drawing.Size(96, 30);
+            this.btn_serve_11_7.Size = new System.Drawing.Size(145, 53);
             this.btn_serve_11_7.TabIndex = 10;
             this.btn_serve_11_7.Text = "ልዩ ልዩ ጉባኤያት";
             this.btn_serve_11_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -4559,11 +4561,11 @@
             this.btn_serve_10_7.BorderSize = 1;
             this.btn_serve_10_7.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_serve_10_7.FocusedColor = System.Drawing.Color.Empty;
-            this.btn_serve_10_7.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btn_serve_10_7.Font = new System.Drawing.Font("Segoe UI", 14F);
             this.btn_serve_10_7.ForeColor = System.Drawing.Color.Black;
             this.btn_serve_10_7.Image = null;
             this.btn_serve_10_7.ImageSize = new System.Drawing.Size(20, 20);
-            this.btn_serve_10_7.Location = new System.Drawing.Point(347, 146);
+            this.btn_serve_10_7.Location = new System.Drawing.Point(48, 330);
             this.btn_serve_10_7.Name = "btn_serve_10_7";
             this.btn_serve_10_7.OnHoverBaseColor = System.Drawing.Color.Empty;
             this.btn_serve_10_7.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
@@ -4571,7 +4573,7 @@
             this.btn_serve_10_7.OnHoverImage = null;
             this.btn_serve_10_7.OnPressedColor = System.Drawing.Color.Black;
             this.btn_serve_10_7.Radius = 10;
-            this.btn_serve_10_7.Size = new System.Drawing.Size(133, 30);
+            this.btn_serve_10_7.Size = new System.Drawing.Size(216, 53);
             this.btn_serve_10_7.TabIndex = 9;
             this.btn_serve_10_7.Text = "ጥናት ፣ ምርምርና ስልጠና";
             this.btn_serve_10_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -4587,11 +4589,11 @@
             this.btn_serve_9_7.BorderSize = 1;
             this.btn_serve_9_7.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_serve_9_7.FocusedColor = System.Drawing.Color.Empty;
-            this.btn_serve_9_7.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btn_serve_9_7.Font = new System.Drawing.Font("Segoe UI", 14F);
             this.btn_serve_9_7.ForeColor = System.Drawing.Color.Black;
             this.btn_serve_9_7.Image = null;
             this.btn_serve_9_7.ImageSize = new System.Drawing.Size(20, 20);
-            this.btn_serve_9_7.Location = new System.Drawing.Point(235, 146);
+            this.btn_serve_9_7.Location = new System.Drawing.Point(503, 254);
             this.btn_serve_9_7.Name = "btn_serve_9_7";
             this.btn_serve_9_7.OnHoverBaseColor = System.Drawing.Color.Empty;
             this.btn_serve_9_7.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
@@ -4599,7 +4601,7 @@
             this.btn_serve_9_7.OnHoverImage = null;
             this.btn_serve_9_7.OnPressedColor = System.Drawing.Color.Black;
             this.btn_serve_9_7.Radius = 10;
-            this.btn_serve_9_7.Size = new System.Drawing.Size(106, 30);
+            this.btn_serve_9_7.Size = new System.Drawing.Size(157, 53);
             this.btn_serve_9_7.TabIndex = 8;
             this.btn_serve_9_7.Text = "ማኅበራት አንድነት";
             this.btn_serve_9_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -4615,11 +4617,11 @@
             this.btn_serve_8_7.BorderSize = 1;
             this.btn_serve_8_7.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_serve_8_7.FocusedColor = System.Drawing.Color.Empty;
-            this.btn_serve_8_7.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btn_serve_8_7.Font = new System.Drawing.Font("Segoe UI", 14F);
             this.btn_serve_8_7.ForeColor = System.Drawing.Color.Black;
             this.btn_serve_8_7.Image = null;
             this.btn_serve_8_7.ImageSize = new System.Drawing.Size(20, 20);
-            this.btn_serve_8_7.Location = new System.Drawing.Point(382, 110);
+            this.btn_serve_8_7.Location = new System.Drawing.Point(48, 254);
             this.btn_serve_8_7.Name = "btn_serve_8_7";
             this.btn_serve_8_7.OnHoverBaseColor = System.Drawing.Color.Empty;
             this.btn_serve_8_7.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
@@ -4627,7 +4629,7 @@
             this.btn_serve_8_7.OnHoverImage = null;
             this.btn_serve_8_7.OnPressedColor = System.Drawing.Color.Black;
             this.btn_serve_8_7.Radius = 10;
-            this.btn_serve_8_7.Size = new System.Drawing.Size(98, 30);
+            this.btn_serve_8_7.Size = new System.Drawing.Size(129, 53);
             this.btn_serve_8_7.TabIndex = 6;
             this.btn_serve_8_7.Text = "ውጪ ግንኙነት";
             this.btn_serve_8_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -4643,11 +4645,11 @@
             this.btn_serve_7_7.BorderSize = 1;
             this.btn_serve_7_7.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_serve_7_7.FocusedColor = System.Drawing.Color.Empty;
-            this.btn_serve_7_7.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btn_serve_7_7.Font = new System.Drawing.Font("Segoe UI", 14F);
             this.btn_serve_7_7.ForeColor = System.Drawing.Color.Black;
             this.btn_serve_7_7.Image = null;
             this.btn_serve_7_7.ImageSize = new System.Drawing.Size(20, 20);
-            this.btn_serve_7_7.Location = new System.Drawing.Point(43, 146);
+            this.btn_serve_7_7.Location = new System.Drawing.Point(196, 254);
             this.btn_serve_7_7.Name = "btn_serve_7_7";
             this.btn_serve_7_7.OnHoverBaseColor = System.Drawing.Color.Empty;
             this.btn_serve_7_7.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
@@ -4655,7 +4657,7 @@
             this.btn_serve_7_7.OnHoverImage = null;
             this.btn_serve_7_7.OnPressedColor = System.Drawing.Color.Black;
             this.btn_serve_7_7.Radius = 10;
-            this.btn_serve_7_7.Size = new System.Drawing.Size(186, 30);
+            this.btn_serve_7_7.Size = new System.Drawing.Size(292, 53);
             this.btn_serve_7_7.TabIndex = 7;
             this.btn_serve_7_7.Text = "የበጎ አድራጎትና ሙያ አገልግሎት ክፍል";
             this.btn_serve_7_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -4671,11 +4673,11 @@
             this.btn_serve_6_7.BorderSize = 1;
             this.btn_serve_6_7.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_serve_6_7.FocusedColor = System.Drawing.Color.Empty;
-            this.btn_serve_6_7.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btn_serve_6_7.Font = new System.Drawing.Font("Segoe UI", 14F);
             this.btn_serve_6_7.ForeColor = System.Drawing.Color.Black;
             this.btn_serve_6_7.Image = null;
             this.btn_serve_6_7.ImageSize = new System.Drawing.Size(20, 20);
-            this.btn_serve_6_7.Location = new System.Drawing.Point(257, 110);
+            this.btn_serve_6_7.Location = new System.Drawing.Point(503, 180);
             this.btn_serve_6_7.Name = "btn_serve_6_7";
             this.btn_serve_6_7.OnHoverBaseColor = System.Drawing.Color.Empty;
             this.btn_serve_6_7.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
@@ -4683,7 +4685,7 @@
             this.btn_serve_6_7.OnHoverImage = null;
             this.btn_serve_6_7.OnPressedColor = System.Drawing.Color.Black;
             this.btn_serve_6_7.Radius = 10;
-            this.btn_serve_6_7.Size = new System.Drawing.Size(112, 30);
+            this.btn_serve_6_7.Size = new System.Drawing.Size(157, 53);
             this.btn_serve_6_7.TabIndex = 5;
             this.btn_serve_6_7.Text = "ጉዞና ጉብኝት ክፍል ";
             this.btn_serve_6_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -4699,11 +4701,11 @@
             this.btn_serve_4_7.BorderSize = 1;
             this.btn_serve_4_7.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_serve_4_7.FocusedColor = System.Drawing.Color.Empty;
-            this.btn_serve_4_7.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btn_serve_4_7.Font = new System.Drawing.Font("Segoe UI", 14F);
             this.btn_serve_4_7.ForeColor = System.Drawing.Color.Black;
             this.btn_serve_4_7.Image = null;
             this.btn_serve_4_7.ImageSize = new System.Drawing.Size(20, 20);
-            this.btn_serve_4_7.Location = new System.Drawing.Point(411, 74);
+            this.btn_serve_4_7.Location = new System.Drawing.Point(48, 180);
             this.btn_serve_4_7.Name = "btn_serve_4_7";
             this.btn_serve_4_7.OnHoverBaseColor = System.Drawing.Color.Empty;
             this.btn_serve_4_7.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
@@ -4711,7 +4713,7 @@
             this.btn_serve_4_7.OnHoverImage = null;
             this.btn_serve_4_7.OnPressedColor = System.Drawing.Color.Black;
             this.btn_serve_4_7.Radius = 10;
-            this.btn_serve_4_7.Size = new System.Drawing.Size(69, 30);
+            this.btn_serve_4_7.Size = new System.Drawing.Size(114, 53);
             this.btn_serve_4_7.TabIndex = 3;
             this.btn_serve_4_7.Text = "ልማት ክፍል ";
             this.btn_serve_4_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -4727,11 +4729,11 @@
             this.btn_serve_5_7.BorderSize = 1;
             this.btn_serve_5_7.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_serve_5_7.FocusedColor = System.Drawing.Color.Empty;
-            this.btn_serve_5_7.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btn_serve_5_7.Font = new System.Drawing.Font("Segoe UI", 14F);
             this.btn_serve_5_7.ForeColor = System.Drawing.Color.Black;
             this.btn_serve_5_7.Image = null;
             this.btn_serve_5_7.ImageSize = new System.Drawing.Size(20, 20);
-            this.btn_serve_5_7.Location = new System.Drawing.Point(43, 110);
+            this.btn_serve_5_7.Location = new System.Drawing.Point(190, 180);
             this.btn_serve_5_7.Name = "btn_serve_5_7";
             this.btn_serve_5_7.OnHoverBaseColor = System.Drawing.Color.Empty;
             this.btn_serve_5_7.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
@@ -4739,7 +4741,7 @@
             this.btn_serve_5_7.OnHoverImage = null;
             this.btn_serve_5_7.OnPressedColor = System.Drawing.Color.Black;
             this.btn_serve_5_7.Radius = 10;
-            this.btn_serve_5_7.Size = new System.Drawing.Size(199, 30);
+            this.btn_serve_5_7.Size = new System.Drawing.Size(289, 53);
             this.btn_serve_5_7.TabIndex = 4;
             this.btn_serve_5_7.Text = "አባላት ግንኙነት እና ሥነ-ምግባር ክፍል";
             this.btn_serve_5_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -4755,11 +4757,11 @@
             this.btn_serve_3_7.BorderSize = 1;
             this.btn_serve_3_7.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_serve_3_7.FocusedColor = System.Drawing.Color.Empty;
-            this.btn_serve_3_7.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btn_serve_3_7.Font = new System.Drawing.Font("Segoe UI", 14F);
             this.btn_serve_3_7.ForeColor = System.Drawing.Color.Black;
             this.btn_serve_3_7.Image = null;
             this.btn_serve_3_7.ImageSize = new System.Drawing.Size(20, 20);
-            this.btn_serve_3_7.Location = new System.Drawing.Point(248, 74);
+            this.btn_serve_3_7.Location = new System.Drawing.Point(418, 110);
             this.btn_serve_3_7.Name = "btn_serve_3_7";
             this.btn_serve_3_7.OnHoverBaseColor = System.Drawing.Color.Empty;
             this.btn_serve_3_7.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
@@ -4767,7 +4769,7 @@
             this.btn_serve_3_7.OnHoverImage = null;
             this.btn_serve_3_7.OnPressedColor = System.Drawing.Color.Black;
             this.btn_serve_3_7.Radius = 10;
-            this.btn_serve_3_7.Size = new System.Drawing.Size(157, 30);
+            this.btn_serve_3_7.Size = new System.Drawing.Size(242, 53);
             this.btn_serve_3_7.TabIndex = 2;
             this.btn_serve_3_7.Text = "ሕጻናት እና ማዕከላውያን ክፍል";
             this.btn_serve_3_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -4783,11 +4785,11 @@
             this.btn_serve_2_7.BorderSize = 1;
             this.btn_serve_2_7.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_serve_2_7.FocusedColor = System.Drawing.Color.Empty;
-            this.btn_serve_2_7.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btn_serve_2_7.Font = new System.Drawing.Font("Segoe UI", 14F);
             this.btn_serve_2_7.ForeColor = System.Drawing.Color.Black;
             this.btn_serve_2_7.Image = null;
             this.btn_serve_2_7.ImageSize = new System.Drawing.Size(20, 20);
-            this.btn_serve_2_7.Location = new System.Drawing.Point(145, 74);
+            this.btn_serve_2_7.Location = new System.Drawing.Point(242, 110);
             this.btn_serve_2_7.Name = "btn_serve_2_7";
             this.btn_serve_2_7.OnHoverBaseColor = System.Drawing.Color.Empty;
             this.btn_serve_2_7.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
@@ -4795,7 +4797,7 @@
             this.btn_serve_2_7.OnHoverImage = null;
             this.btn_serve_2_7.OnPressedColor = System.Drawing.Color.Black;
             this.btn_serve_2_7.Radius = 10;
-            this.btn_serve_2_7.Size = new System.Drawing.Size(97, 30);
+            this.btn_serve_2_7.Size = new System.Drawing.Size(142, 53);
             this.btn_serve_2_7.TabIndex = 1;
             this.btn_serve_2_7.Text = "መዝሙር ክፍል ";
             this.btn_serve_2_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -4811,11 +4813,11 @@
             this.btn_serve_1_7.BorderSize = 1;
             this.btn_serve_1_7.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_serve_1_7.FocusedColor = System.Drawing.Color.Empty;
-            this.btn_serve_1_7.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btn_serve_1_7.Font = new System.Drawing.Font("Segoe UI", 14F);
             this.btn_serve_1_7.ForeColor = System.Drawing.Color.Black;
             this.btn_serve_1_7.Image = null;
             this.btn_serve_1_7.ImageSize = new System.Drawing.Size(20, 20);
-            this.btn_serve_1_7.Location = new System.Drawing.Point(43, 74);
+            this.btn_serve_1_7.Location = new System.Drawing.Point(48, 110);
             this.btn_serve_1_7.Name = "btn_serve_1_7";
             this.btn_serve_1_7.OnHoverBaseColor = System.Drawing.Color.Empty;
             this.btn_serve_1_7.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
@@ -4823,7 +4825,7 @@
             this.btn_serve_1_7.OnHoverImage = null;
             this.btn_serve_1_7.OnPressedColor = System.Drawing.Color.Black;
             this.btn_serve_1_7.Radius = 10;
-            this.btn_serve_1_7.Size = new System.Drawing.Size(96, 30);
+            this.btn_serve_1_7.Size = new System.Drawing.Size(141, 53);
             this.btn_serve_1_7.TabIndex = 0;
             this.btn_serve_1_7.Text = "ትምህርት ክፍል ";
             this.btn_serve_1_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -4834,7 +4836,7 @@
             this.btn_next_8.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_next_8.Image = ((System.Drawing.Image)(resources.GetObject("btn_next_8.Image")));
             this.btn_next_8.ImageSize = new System.Drawing.Size(32, 32);
-            this.btn_next_8.Location = new System.Drawing.Point(738, 336);
+            this.btn_next_8.Location = new System.Drawing.Point(1032, 533);
             this.btn_next_8.Name = "btn_next_8";
             this.btn_next_8.OnHoverImage = null;
             this.btn_next_8.OnHoverImageOffset = new System.Drawing.Point(0, 0);
@@ -4847,7 +4849,7 @@
             this.btn_back_7.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_back_7.Image = ((System.Drawing.Image)(resources.GetObject("btn_back_7.Image")));
             this.btn_back_7.ImageSize = new System.Drawing.Size(32, 32);
-            this.btn_back_7.Location = new System.Drawing.Point(556, 336);
+            this.btn_back_7.Location = new System.Drawing.Point(850, 533);
             this.btn_back_7.Name = "btn_back_7";
             this.btn_back_7.OnHoverImage = null;
             this.btn_back_7.OnHoverImageOffset = new System.Drawing.Point(0, 0);
@@ -4858,10 +4860,10 @@
             // label41
             // 
             this.label41.AutoSize = true;
-            this.label41.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label41.Location = new System.Drawing.Point(39, 29);
+            this.label41.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label41.Location = new System.Drawing.Point(43, 40);
             this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(506, 20);
+            this.label41.Size = new System.Drawing.Size(627, 25);
             this.label41.TabIndex = 252;
             this.label41.Text = "በሰ/ት/ቤቱ ለማገልገል የሚፈልጉባቸው ክፍላት ምርጫዎን ቅደም ተከተል በቁጥር ይግለጹ! ";
             // 
@@ -4916,7 +4918,7 @@
             this.panel_8.Location = new System.Drawing.Point(4, 22);
             this.panel_8.Name = "panel_8";
             this.panel_8.Padding = new System.Windows.Forms.Padding(40);
-            this.panel_8.Size = new System.Drawing.Size(809, 397);
+            this.panel_8.Size = new System.Drawing.Size(1107, 608);
             this.panel_8.TabIndex = 7;
             this.panel_8.Text = "eighth";
             // 
@@ -4950,7 +4952,7 @@
             "ኦዲትና ኢንስፔክሽን",
             "ምክረ-አበው",
             "ገንዘብና ንብረት"});
-            this.cmb_hidden_service_kifil_8.Location = new System.Drawing.Point(127, 342);
+            this.cmb_hidden_service_kifil_8.Location = new System.Drawing.Point(43, 539);
             this.cmb_hidden_service_kifil_8.Name = "cmb_hidden_service_kifil_8";
             this.cmb_hidden_service_kifil_8.OnHoverItemBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.cmb_hidden_service_kifil_8.OnHoverItemForeColor = System.Drawing.Color.White;
@@ -4965,7 +4967,7 @@
             this.btn_sector_service_clear_8.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_sector_service_clear_8.Image = ((System.Drawing.Image)(resources.GetObject("btn_sector_service_clear_8.Image")));
             this.btn_sector_service_clear_8.ImageSize = new System.Drawing.Size(16, 16);
-            this.btn_sector_service_clear_8.Location = new System.Drawing.Point(220, 204);
+            this.btn_sector_service_clear_8.Location = new System.Drawing.Point(327, 303);
             this.btn_sector_service_clear_8.Name = "btn_sector_service_clear_8";
             this.btn_sector_service_clear_8.OnHoverImage = null;
             this.btn_sector_service_clear_8.OnHoverImageOffset = new System.Drawing.Point(0, 0);
@@ -4979,7 +4981,7 @@
             this.btn_sector_service_append_8.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_sector_service_append_8.Image = ((System.Drawing.Image)(resources.GetObject("btn_sector_service_append_8.Image")));
             this.btn_sector_service_append_8.ImageSize = new System.Drawing.Size(16, 16);
-            this.btn_sector_service_append_8.Location = new System.Drawing.Point(194, 204);
+            this.btn_sector_service_append_8.Location = new System.Drawing.Point(301, 303);
             this.btn_sector_service_append_8.Name = "btn_sector_service_append_8";
             this.btn_sector_service_append_8.OnHoverImage = null;
             this.btn_sector_service_append_8.OnHoverImageOffset = new System.Drawing.Point(0, 0);
@@ -4993,7 +4995,7 @@
             this.btn_sub_service_clear_8.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_sub_service_clear_8.Image = ((System.Drawing.Image)(resources.GetObject("btn_sub_service_clear_8.Image")));
             this.btn_sub_service_clear_8.ImageSize = new System.Drawing.Size(16, 16);
-            this.btn_sub_service_clear_8.Location = new System.Drawing.Point(220, 133);
+            this.btn_sub_service_clear_8.Location = new System.Drawing.Point(327, 209);
             this.btn_sub_service_clear_8.Name = "btn_sub_service_clear_8";
             this.btn_sub_service_clear_8.OnHoverImage = null;
             this.btn_sub_service_clear_8.OnHoverImageOffset = new System.Drawing.Point(0, 0);
@@ -5007,7 +5009,7 @@
             this.btn_sub_service_append_8.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_sub_service_append_8.Image = ((System.Drawing.Image)(resources.GetObject("btn_sub_service_append_8.Image")));
             this.btn_sub_service_append_8.ImageSize = new System.Drawing.Size(16, 16);
-            this.btn_sub_service_append_8.Location = new System.Drawing.Point(194, 133);
+            this.btn_sub_service_append_8.Location = new System.Drawing.Point(301, 209);
             this.btn_sub_service_append_8.Name = "btn_sub_service_append_8";
             this.btn_sub_service_append_8.OnHoverImage = null;
             this.btn_sub_service_append_8.OnHoverImageOffset = new System.Drawing.Point(0, 0);
@@ -5021,7 +5023,7 @@
             this.btn_leadership_service_clear_8.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_leadership_service_clear_8.Image = ((System.Drawing.Image)(resources.GetObject("btn_leadership_service_clear_8.Image")));
             this.btn_leadership_service_clear_8.ImageSize = new System.Drawing.Size(16, 16);
-            this.btn_leadership_service_clear_8.Location = new System.Drawing.Point(220, 59);
+            this.btn_leadership_service_clear_8.Location = new System.Drawing.Point(327, 110);
             this.btn_leadership_service_clear_8.Name = "btn_leadership_service_clear_8";
             this.btn_leadership_service_clear_8.OnHoverImage = null;
             this.btn_leadership_service_clear_8.OnHoverImageOffset = new System.Drawing.Point(0, 0);
@@ -5035,7 +5037,7 @@
             this.btn_leadership_service_append_8.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_leadership_service_append_8.Image = ((System.Drawing.Image)(resources.GetObject("btn_leadership_service_append_8.Image")));
             this.btn_leadership_service_append_8.ImageSize = new System.Drawing.Size(16, 16);
-            this.btn_leadership_service_append_8.Location = new System.Drawing.Point(194, 59);
+            this.btn_leadership_service_append_8.Location = new System.Drawing.Point(301, 110);
             this.btn_leadership_service_append_8.Name = "btn_leadership_service_append_8";
             this.btn_leadership_service_append_8.OnHoverImage = null;
             this.btn_leadership_service_append_8.OnHoverImageOffset = new System.Drawing.Point(0, 0);
@@ -5049,7 +5051,7 @@
             this.btn_sector_service_old_data_8.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_sector_service_old_data_8.Image = ((System.Drawing.Image)(resources.GetObject("btn_sector_service_old_data_8.Image")));
             this.btn_sector_service_old_data_8.ImageSize = new System.Drawing.Size(16, 16);
-            this.btn_sector_service_old_data_8.Location = new System.Drawing.Point(145, 209);
+            this.btn_sector_service_old_data_8.Location = new System.Drawing.Point(252, 308);
             this.btn_sector_service_old_data_8.Name = "btn_sector_service_old_data_8";
             this.btn_sector_service_old_data_8.OnHoverImage = null;
             this.btn_sector_service_old_data_8.OnHoverImageOffset = new System.Drawing.Point(0, 0);
@@ -5063,7 +5065,7 @@
             this.btn_sub_service_old_data_8.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_sub_service_old_data_8.Image = ((System.Drawing.Image)(resources.GetObject("btn_sub_service_old_data_8.Image")));
             this.btn_sub_service_old_data_8.ImageSize = new System.Drawing.Size(16, 16);
-            this.btn_sub_service_old_data_8.Location = new System.Drawing.Point(145, 138);
+            this.btn_sub_service_old_data_8.Location = new System.Drawing.Point(252, 214);
             this.btn_sub_service_old_data_8.Name = "btn_sub_service_old_data_8";
             this.btn_sub_service_old_data_8.OnHoverImage = null;
             this.btn_sub_service_old_data_8.OnHoverImageOffset = new System.Drawing.Point(0, 0);
@@ -5077,7 +5079,7 @@
             this.btn_leadership_service_old_data_8.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_leadership_service_old_data_8.Image = ((System.Drawing.Image)(resources.GetObject("btn_leadership_service_old_data_8.Image")));
             this.btn_leadership_service_old_data_8.ImageSize = new System.Drawing.Size(16, 16);
-            this.btn_leadership_service_old_data_8.Location = new System.Drawing.Point(145, 61);
+            this.btn_leadership_service_old_data_8.Location = new System.Drawing.Point(252, 112);
             this.btn_leadership_service_old_data_8.Name = "btn_leadership_service_old_data_8";
             this.btn_leadership_service_old_data_8.OnHoverImage = null;
             this.btn_leadership_service_old_data_8.OnHoverImageOffset = new System.Drawing.Point(0, 0);
@@ -5115,7 +5117,7 @@
             "ኦዲትና ኢንስፔክሽን",
             "ምክረ-አበው",
             "ገንዘብና ንብረት"});
-            this.cmb_sector_service_kifil_8.Location = new System.Drawing.Point(127, 229);
+            this.cmb_sector_service_kifil_8.Location = new System.Drawing.Point(234, 328);
             this.cmb_sector_service_kifil_8.Name = "cmb_sector_service_kifil_8";
             this.cmb_sector_service_kifil_8.OnHoverItemBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.cmb_sector_service_kifil_8.OnHoverItemForeColor = System.Drawing.Color.White;
@@ -5153,7 +5155,7 @@
             "ኦዲትና ኢንስፔክሽን",
             "ምክረ-አበው",
             "ገንዘብና ንብረት"});
-            this.cmb_sub_service_kifil_8.Location = new System.Drawing.Point(127, 159);
+            this.cmb_sub_service_kifil_8.Location = new System.Drawing.Point(234, 235);
             this.cmb_sub_service_kifil_8.Name = "cmb_sub_service_kifil_8";
             this.cmb_sub_service_kifil_8.OnHoverItemBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.cmb_sub_service_kifil_8.OnHoverItemForeColor = System.Drawing.Color.White;
@@ -5191,7 +5193,7 @@
             "ኦዲትና ኢንስፔክሽን",
             "ምክረ-አበው",
             "ገንዘብና ንብረት"});
-            this.cmb_leadership_service_kifil_8.Location = new System.Drawing.Point(127, 86);
+            this.cmb_leadership_service_kifil_8.Location = new System.Drawing.Point(234, 137);
             this.cmb_leadership_service_kifil_8.Name = "cmb_leadership_service_kifil_8";
             this.cmb_leadership_service_kifil_8.OnHoverItemBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.cmb_leadership_service_kifil_8.OnHoverItemForeColor = System.Drawing.Color.White;
@@ -5204,7 +5206,7 @@
             // 
             this.lbl_sector_service_success_8.AutoSize = true;
             this.lbl_sector_service_success_8.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_sector_service_success_8.Location = new System.Drawing.Point(778, 229);
+            this.lbl_sector_service_success_8.Location = new System.Drawing.Point(885, 328);
             this.lbl_sector_service_success_8.Margin = new System.Windows.Forms.Padding(0);
             this.lbl_sector_service_success_8.Name = "lbl_sector_service_success_8";
             this.lbl_sector_service_success_8.Size = new System.Drawing.Size(10, 12);
@@ -5218,7 +5220,7 @@
             this.icon_sector_service_success_8.DialogResult = System.Windows.Forms.DialogResult.None;
             this.icon_sector_service_success_8.Image = ((System.Drawing.Image)(resources.GetObject("icon_sector_service_success_8.Image")));
             this.icon_sector_service_success_8.ImageSize = new System.Drawing.Size(16, 16);
-            this.icon_sector_service_success_8.Location = new System.Drawing.Point(764, 239);
+            this.icon_sector_service_success_8.Location = new System.Drawing.Point(871, 338);
             this.icon_sector_service_success_8.Name = "icon_sector_service_success_8";
             this.icon_sector_service_success_8.OnHoverImage = null;
             this.icon_sector_service_success_8.OnHoverImageOffset = new System.Drawing.Point(0, 0);
@@ -5230,7 +5232,7 @@
             // 
             this.lbl_sub_service_success_8.AutoSize = true;
             this.lbl_sub_service_success_8.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_sub_service_success_8.Location = new System.Drawing.Point(778, 159);
+            this.lbl_sub_service_success_8.Location = new System.Drawing.Point(885, 235);
             this.lbl_sub_service_success_8.Margin = new System.Windows.Forms.Padding(0);
             this.lbl_sub_service_success_8.Name = "lbl_sub_service_success_8";
             this.lbl_sub_service_success_8.Size = new System.Drawing.Size(10, 12);
@@ -5244,7 +5246,7 @@
             this.icon_sub_service_success_8.DialogResult = System.Windows.Forms.DialogResult.None;
             this.icon_sub_service_success_8.Image = ((System.Drawing.Image)(resources.GetObject("icon_sub_service_success_8.Image")));
             this.icon_sub_service_success_8.ImageSize = new System.Drawing.Size(16, 16);
-            this.icon_sub_service_success_8.Location = new System.Drawing.Point(764, 169);
+            this.icon_sub_service_success_8.Location = new System.Drawing.Point(871, 245);
             this.icon_sub_service_success_8.Name = "icon_sub_service_success_8";
             this.icon_sub_service_success_8.OnHoverImage = null;
             this.icon_sub_service_success_8.OnHoverImageOffset = new System.Drawing.Point(0, 0);
@@ -5256,7 +5258,7 @@
             // 
             this.lbl_leadership_service_success_8.AutoSize = true;
             this.lbl_leadership_service_success_8.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_leadership_service_success_8.Location = new System.Drawing.Point(778, 86);
+            this.lbl_leadership_service_success_8.Location = new System.Drawing.Point(885, 137);
             this.lbl_leadership_service_success_8.Margin = new System.Windows.Forms.Padding(0);
             this.lbl_leadership_service_success_8.Name = "lbl_leadership_service_success_8";
             this.lbl_leadership_service_success_8.Size = new System.Drawing.Size(10, 12);
@@ -5270,7 +5272,7 @@
             this.icon_leadership_service_success_8.DialogResult = System.Windows.Forms.DialogResult.None;
             this.icon_leadership_service_success_8.Image = ((System.Drawing.Image)(resources.GetObject("icon_leadership_service_success_8.Image")));
             this.icon_leadership_service_success_8.ImageSize = new System.Drawing.Size(16, 16);
-            this.icon_leadership_service_success_8.Location = new System.Drawing.Point(764, 96);
+            this.icon_leadership_service_success_8.Location = new System.Drawing.Point(871, 147);
             this.icon_leadership_service_success_8.Name = "icon_leadership_service_success_8";
             this.icon_leadership_service_success_8.OnHoverImage = null;
             this.icon_leadership_service_success_8.OnHoverImageOffset = new System.Drawing.Point(0, 0);
@@ -5283,7 +5285,7 @@
             this.btn_finish_8.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_finish_8.Image = ((System.Drawing.Image)(resources.GetObject("btn_finish_8.Image")));
             this.btn_finish_8.ImageSize = new System.Drawing.Size(32, 30);
-            this.btn_finish_8.Location = new System.Drawing.Point(738, 334);
+            this.btn_finish_8.Location = new System.Drawing.Point(1032, 533);
             this.btn_finish_8.Name = "btn_finish_8";
             this.btn_finish_8.OnHoverImage = null;
             this.btn_finish_8.OnHoverImageOffset = new System.Drawing.Point(0, 0);
@@ -5303,7 +5305,7 @@
             this.btn_pg_8_4.ForeColor = System.Drawing.Color.White;
             this.btn_pg_8_4.Image = null;
             this.btn_pg_8_4.ImageSize = new System.Drawing.Size(52, 52);
-            this.btn_pg_8_4.Location = new System.Drawing.Point(648, 346);
+            this.btn_pg_8_4.Location = new System.Drawing.Point(942, 545);
             this.btn_pg_8_4.Name = "btn_pg_8_4";
             this.btn_pg_8_4.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.btn_pg_8_4.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -5326,7 +5328,7 @@
             this.btn_pg_8_5.ForeColor = System.Drawing.Color.White;
             this.btn_pg_8_5.Image = null;
             this.btn_pg_8_5.ImageSize = new System.Drawing.Size(52, 52);
-            this.btn_pg_8_5.Location = new System.Drawing.Point(666, 346);
+            this.btn_pg_8_5.Location = new System.Drawing.Point(960, 545);
             this.btn_pg_8_5.Name = "btn_pg_8_5";
             this.btn_pg_8_5.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.btn_pg_8_5.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -5349,7 +5351,7 @@
             this.btn_pg_8_3.ForeColor = System.Drawing.Color.White;
             this.btn_pg_8_3.Image = null;
             this.btn_pg_8_3.ImageSize = new System.Drawing.Size(52, 52);
-            this.btn_pg_8_3.Location = new System.Drawing.Point(630, 346);
+            this.btn_pg_8_3.Location = new System.Drawing.Point(924, 545);
             this.btn_pg_8_3.Name = "btn_pg_8_3";
             this.btn_pg_8_3.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.btn_pg_8_3.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -5372,7 +5374,7 @@
             this.btn_pg_8_6.ForeColor = System.Drawing.Color.White;
             this.btn_pg_8_6.Image = null;
             this.btn_pg_8_6.ImageSize = new System.Drawing.Size(52, 52);
-            this.btn_pg_8_6.Location = new System.Drawing.Point(684, 346);
+            this.btn_pg_8_6.Location = new System.Drawing.Point(978, 545);
             this.btn_pg_8_6.Name = "btn_pg_8_6";
             this.btn_pg_8_6.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.btn_pg_8_6.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -5395,7 +5397,7 @@
             this.btn_pg_8_1.ForeColor = System.Drawing.Color.White;
             this.btn_pg_8_1.Image = null;
             this.btn_pg_8_1.ImageSize = new System.Drawing.Size(52, 52);
-            this.btn_pg_8_1.Location = new System.Drawing.Point(594, 346);
+            this.btn_pg_8_1.Location = new System.Drawing.Point(888, 545);
             this.btn_pg_8_1.Name = "btn_pg_8_1";
             this.btn_pg_8_1.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.btn_pg_8_1.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -5418,7 +5420,7 @@
             this.btn_pg_8_2.ForeColor = System.Drawing.Color.White;
             this.btn_pg_8_2.Image = null;
             this.btn_pg_8_2.ImageSize = new System.Drawing.Size(52, 52);
-            this.btn_pg_8_2.Location = new System.Drawing.Point(612, 346);
+            this.btn_pg_8_2.Location = new System.Drawing.Point(906, 545);
             this.btn_pg_8_2.Name = "btn_pg_8_2";
             this.btn_pg_8_2.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.btn_pg_8_2.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -5441,7 +5443,7 @@
             this.btn_pg_8_7.ForeColor = System.Drawing.Color.White;
             this.btn_pg_8_7.Image = null;
             this.btn_pg_8_7.ImageSize = new System.Drawing.Size(52, 52);
-            this.btn_pg_8_7.Location = new System.Drawing.Point(702, 346);
+            this.btn_pg_8_7.Location = new System.Drawing.Point(996, 545);
             this.btn_pg_8_7.Name = "btn_pg_8_7";
             this.btn_pg_8_7.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.btn_pg_8_7.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -5464,7 +5466,7 @@
             this.btn_pg_8_8.ForeColor = System.Drawing.Color.White;
             this.btn_pg_8_8.Image = null;
             this.btn_pg_8_8.ImageSize = new System.Drawing.Size(52, 52);
-            this.btn_pg_8_8.Location = new System.Drawing.Point(720, 346);
+            this.btn_pg_8_8.Location = new System.Drawing.Point(1014, 545);
             this.btn_pg_8_8.Name = "btn_pg_8_8";
             this.btn_pg_8_8.OnHoverBaseColor = System.Drawing.Color.Gray;
             this.btn_pg_8_8.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -5481,7 +5483,7 @@
             this.btn_sector_service_8.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_sector_service_8.Image = ((System.Drawing.Image)(resources.GetObject("btn_sector_service_8.Image")));
             this.btn_sector_service_8.ImageSize = new System.Drawing.Size(16, 16);
-            this.btn_sector_service_8.Location = new System.Drawing.Point(742, 239);
+            this.btn_sector_service_8.Location = new System.Drawing.Point(849, 338);
             this.btn_sector_service_8.Name = "btn_sector_service_8";
             this.btn_sector_service_8.OnHoverImage = null;
             this.btn_sector_service_8.OnHoverImageOffset = new System.Drawing.Point(0, 0);
@@ -5497,7 +5499,7 @@
             this.txt_sector_service_time_8.FocusedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.txt_sector_service_time_8.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_sector_service_time_8.LineColor = System.Drawing.Color.Gray;
-            this.txt_sector_service_time_8.Location = new System.Drawing.Point(461, 229);
+            this.txt_sector_service_time_8.Location = new System.Drawing.Point(568, 328);
             this.txt_sector_service_time_8.Name = "txt_sector_service_time_8";
             this.txt_sector_service_time_8.PasswordChar = '\0';
             this.txt_sector_service_time_8.Size = new System.Drawing.Size(275, 26);
@@ -5507,7 +5509,7 @@
             // 
             this.label42.AutoSize = true;
             this.label42.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label42.Location = new System.Drawing.Point(412, 235);
+            this.label42.Location = new System.Drawing.Point(519, 334);
             this.label42.Name = "label42";
             this.label42.Size = new System.Drawing.Size(43, 20);
             this.label42.TabIndex = 262;
@@ -5516,10 +5518,10 @@
             // label43
             // 
             this.label43.AutoSize = true;
-            this.label43.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label43.Location = new System.Drawing.Point(62, 206);
+            this.label43.Font = new System.Drawing.Font("Century Gothic", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label43.Location = new System.Drawing.Point(159, 302);
             this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(62, 20);
+            this.label43.Size = new System.Drawing.Size(65, 22);
             this.label43.TabIndex = 261;
             this.label43.Text = "በዘርፍነት";
             // 
@@ -5527,7 +5529,7 @@
             // 
             this.label44.AutoSize = true;
             this.label44.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label44.Location = new System.Drawing.Point(83, 235);
+            this.label44.Location = new System.Drawing.Point(190, 334);
             this.label44.Name = "label44";
             this.label44.Size = new System.Drawing.Size(38, 20);
             this.label44.TabIndex = 259;
@@ -5539,7 +5541,7 @@
             this.btn_sub_service_8.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_sub_service_8.Image = ((System.Drawing.Image)(resources.GetObject("btn_sub_service_8.Image")));
             this.btn_sub_service_8.ImageSize = new System.Drawing.Size(16, 16);
-            this.btn_sub_service_8.Location = new System.Drawing.Point(742, 169);
+            this.btn_sub_service_8.Location = new System.Drawing.Point(849, 245);
             this.btn_sub_service_8.Name = "btn_sub_service_8";
             this.btn_sub_service_8.OnHoverImage = null;
             this.btn_sub_service_8.OnHoverImageOffset = new System.Drawing.Point(0, 0);
@@ -5555,7 +5557,7 @@
             this.txt_sub_service_time_8.FocusedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.txt_sub_service_time_8.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_sub_service_time_8.LineColor = System.Drawing.Color.Gray;
-            this.txt_sub_service_time_8.Location = new System.Drawing.Point(461, 159);
+            this.txt_sub_service_time_8.Location = new System.Drawing.Point(568, 235);
             this.txt_sub_service_time_8.Name = "txt_sub_service_time_8";
             this.txt_sub_service_time_8.PasswordChar = '\0';
             this.txt_sub_service_time_8.Size = new System.Drawing.Size(275, 26);
@@ -5565,7 +5567,7 @@
             // 
             this.label45.AutoSize = true;
             this.label45.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label45.Location = new System.Drawing.Point(412, 165);
+            this.label45.Location = new System.Drawing.Point(519, 241);
             this.label45.Name = "label45";
             this.label45.Size = new System.Drawing.Size(43, 20);
             this.label45.TabIndex = 256;
@@ -5574,10 +5576,10 @@
             // label46
             // 
             this.label46.AutoSize = true;
-            this.label46.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label46.Location = new System.Drawing.Point(62, 136);
+            this.label46.Font = new System.Drawing.Font("Century Gothic", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label46.Location = new System.Drawing.Point(159, 209);
             this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(64, 20);
+            this.label46.Size = new System.Drawing.Size(69, 22);
             this.label46.TabIndex = 255;
             this.label46.Text = "በንዑስነት";
             // 
@@ -5585,7 +5587,7 @@
             // 
             this.label47.AutoSize = true;
             this.label47.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label47.Location = new System.Drawing.Point(83, 165);
+            this.label47.Location = new System.Drawing.Point(190, 241);
             this.label47.Name = "label47";
             this.label47.Size = new System.Drawing.Size(38, 20);
             this.label47.TabIndex = 253;
@@ -5597,7 +5599,7 @@
             this.btn_leadership_service_8.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_leadership_service_8.Image = ((System.Drawing.Image)(resources.GetObject("btn_leadership_service_8.Image")));
             this.btn_leadership_service_8.ImageSize = new System.Drawing.Size(16, 16);
-            this.btn_leadership_service_8.Location = new System.Drawing.Point(742, 96);
+            this.btn_leadership_service_8.Location = new System.Drawing.Point(849, 147);
             this.btn_leadership_service_8.Name = "btn_leadership_service_8";
             this.btn_leadership_service_8.OnHoverImage = null;
             this.btn_leadership_service_8.OnHoverImageOffset = new System.Drawing.Point(0, 0);
@@ -5613,7 +5615,7 @@
             this.txt_leadership_service_time_8.FocusedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.txt_leadership_service_time_8.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_leadership_service_time_8.LineColor = System.Drawing.Color.Gray;
-            this.txt_leadership_service_time_8.Location = new System.Drawing.Point(461, 86);
+            this.txt_leadership_service_time_8.Location = new System.Drawing.Point(568, 137);
             this.txt_leadership_service_time_8.Name = "txt_leadership_service_time_8";
             this.txt_leadership_service_time_8.PasswordChar = '\0';
             this.txt_leadership_service_time_8.Size = new System.Drawing.Size(275, 26);
@@ -5623,7 +5625,7 @@
             // 
             this.label48.AutoSize = true;
             this.label48.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label48.Location = new System.Drawing.Point(412, 92);
+            this.label48.Location = new System.Drawing.Point(519, 143);
             this.label48.Name = "label48";
             this.label48.Size = new System.Drawing.Size(43, 20);
             this.label48.TabIndex = 250;
@@ -5632,10 +5634,10 @@
             // label49
             // 
             this.label49.AutoSize = true;
-            this.label49.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label49.Location = new System.Drawing.Point(62, 63);
+            this.label49.Font = new System.Drawing.Font("Century Gothic", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label49.Location = new System.Drawing.Point(147, 110);
             this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(78, 20);
+            this.label49.Size = new System.Drawing.Size(81, 22);
             this.label49.TabIndex = 249;
             this.label49.Text = "በአመራርነት";
             // 
@@ -5644,7 +5646,7 @@
             this.btn_back_8.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_back_8.Image = ((System.Drawing.Image)(resources.GetObject("btn_back_8.Image")));
             this.btn_back_8.ImageSize = new System.Drawing.Size(32, 32);
-            this.btn_back_8.Location = new System.Drawing.Point(556, 336);
+            this.btn_back_8.Location = new System.Drawing.Point(850, 535);
             this.btn_back_8.Name = "btn_back_8";
             this.btn_back_8.OnHoverImage = null;
             this.btn_back_8.OnHoverImageOffset = new System.Drawing.Point(0, 0);
@@ -5656,7 +5658,7 @@
             // 
             this.label50.AutoSize = true;
             this.label50.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label50.Location = new System.Drawing.Point(83, 92);
+            this.label50.Location = new System.Drawing.Point(190, 143);
             this.label50.Name = "label50";
             this.label50.Size = new System.Drawing.Size(38, 20);
             this.label50.TabIndex = 245;
@@ -5665,10 +5667,10 @@
             // label51
             // 
             this.label51.AutoSize = true;
-            this.label51.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label51.Location = new System.Drawing.Point(39, 29);
+            this.label51.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label51.Location = new System.Drawing.Point(127, 40);
             this.label51.Name = "label51";
-            this.label51.Size = new System.Drawing.Size(248, 20);
+            this.label51.Size = new System.Drawing.Size(306, 25);
             this.label51.TabIndex = 244;
             this.label51.Text = "ከዚህ በፊት የነበሩበት የአገልግሎት ክፍል ካለ";
             // 
@@ -5678,7 +5680,7 @@
             this.panel_9.Location = new System.Drawing.Point(4, 22);
             this.panel_9.Name = "panel_9";
             this.panel_9.Padding = new System.Windows.Forms.Padding(3);
-            this.panel_9.Size = new System.Drawing.Size(809, 397);
+            this.panel_9.Size = new System.Drawing.Size(1107, 608);
             this.panel_9.TabIndex = 8;
             this.panel_9.Text = "report";
             this.panel_9.UseVisualStyleBackColor = true;
@@ -5691,7 +5693,7 @@
             this.indivigualCrystalReportViewer.Dock = System.Windows.Forms.DockStyle.Fill;
             this.indivigualCrystalReportViewer.Location = new System.Drawing.Point(3, 3);
             this.indivigualCrystalReportViewer.Name = "indivigualCrystalReportViewer";
-            this.indivigualCrystalReportViewer.Size = new System.Drawing.Size(803, 391);
+            this.indivigualCrystalReportViewer.Size = new System.Drawing.Size(1101, 602);
             this.indivigualCrystalReportViewer.TabIndex = 0;
             this.indivigualCrystalReportViewer.ToolPanelView = CrystalDecisions.Windows.Forms.ToolPanelViewType.None;
             // 
@@ -5705,7 +5707,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.tabControl1);
             this.Name = "EditUserControl";
-            this.Size = new System.Drawing.Size(817, 423);
+            this.Size = new System.Drawing.Size(1115, 634);
             this.tabControl1.ResumeLayout(false);
             this.panel_1.ResumeLayout(false);
             this.panel_1.PerformLayout();

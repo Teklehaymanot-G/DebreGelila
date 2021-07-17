@@ -42,7 +42,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(434, 174);
+            this.label6.Location = new System.Drawing.Point(631, 273);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(93, 20);
             this.label6.TabIndex = 138;
@@ -55,18 +55,19 @@
             this.txt_password.FocusedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.txt_password.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_password.LineColor = System.Drawing.Color.Gray;
-            this.txt_password.Location = new System.Drawing.Point(533, 203);
+            this.txt_password.Location = new System.Drawing.Point(730, 313);
             this.txt_password.MaxLength = 10;
             this.txt_password.Name = "txt_password";
             this.txt_password.PasswordChar = '*';
             this.txt_password.Size = new System.Drawing.Size(163, 26);
             this.txt_password.TabIndex = 132;
+            this.txt_password.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt_password_KeyDown);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(446, 209);
+            this.label1.Location = new System.Drawing.Point(643, 319);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(81, 20);
             this.label1.TabIndex = 131;
@@ -79,7 +80,7 @@
             this.txt_participation_number.FocusedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.txt_participation_number.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_participation_number.LineColor = System.Drawing.Color.Gray;
-            this.txt_participation_number.Location = new System.Drawing.Point(533, 168);
+            this.txt_participation_number.Location = new System.Drawing.Point(730, 267);
             this.txt_participation_number.Name = "txt_participation_number";
             this.txt_participation_number.PasswordChar = '\0';
             this.txt_participation_number.Size = new System.Drawing.Size(163, 26);
@@ -88,9 +89,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(43, 125);
+            this.pictureBox1.Location = new System.Drawing.Point(43, 192);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(382, 211);
+            this.pictureBox1.Size = new System.Drawing.Size(531, 248);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 157;
             this.pictureBox1.TabStop = false;
@@ -104,7 +105,7 @@
             this.btn_login.ForeColor = System.Drawing.Color.White;
             this.btn_login.Image = ((System.Drawing.Image)(resources.GetObject("btn_login.Image")));
             this.btn_login.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_login.Location = new System.Drawing.Point(565, 257);
+            this.btn_login.Location = new System.Drawing.Point(762, 361);
             this.btn_login.Name = "btn_login";
             this.btn_login.Size = new System.Drawing.Size(106, 38);
             this.btn_login.TabIndex = 160;
@@ -125,7 +126,7 @@
             this.Controls.Add(this.txt_participation_number);
             this.Name = "LoginUserControl";
             this.Padding = new System.Windows.Forms.Padding(40);
-            this.Size = new System.Drawing.Size(817, 423);
+            this.Size = new System.Drawing.Size(1115, 634);
             this.Click += new System.EventHandler(this.LoginUserControl_Click);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

@@ -89,7 +89,7 @@
             this.dgv_main.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             this.dgv_main.RowHeadersVisible = false;
             this.dgv_main.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgv_main.Size = new System.Drawing.Size(731, 289);
+            this.dgv_main.Size = new System.Drawing.Size(1029, 500);
             this.dgv_main.TabIndex = 0;
             this.dgv_main.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_main_CellClick);
             this.dgv_main.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_main_CellContentClick);
@@ -127,9 +127,9 @@
             this.btn_delete.ForeColor = System.Drawing.Color.White;
             this.btn_delete.Image = ((System.Drawing.Image)(resources.GetObject("btn_delete.Image")));
             this.btn_delete.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_delete.Location = new System.Drawing.Point(310, 338);
+            this.btn_delete.Location = new System.Drawing.Point(287, 549);
             this.btn_delete.Name = "btn_delete";
-            this.btn_delete.Size = new System.Drawing.Size(113, 42);
+            this.btn_delete.Size = new System.Drawing.Size(208, 42);
             this.btn_delete.TabIndex = 5;
             this.btn_delete.Text = "  ያጥፉ";
             this.btn_delete.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -138,7 +138,7 @@
             // 
             // txt_general_info_id
             // 
-            this.txt_general_info_id.Location = new System.Drawing.Point(630, 351);
+            this.txt_general_info_id.Location = new System.Drawing.Point(972, 571);
             this.txt_general_info_id.Name = "txt_general_info_id";
             this.txt_general_info_id.Size = new System.Drawing.Size(100, 20);
             this.txt_general_info_id.TabIndex = 6;
@@ -153,9 +153,9 @@
             this.btn_edit.ForeColor = System.Drawing.Color.White;
             this.btn_edit.Image = ((System.Drawing.Image)(resources.GetObject("btn_edit.Image")));
             this.btn_edit.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_edit.Location = new System.Drawing.Point(429, 338);
+            this.btn_edit.Location = new System.Drawing.Point(501, 549);
             this.btn_edit.Name = "btn_edit";
-            this.btn_edit.Size = new System.Drawing.Size(113, 42);
+            this.btn_edit.Size = new System.Drawing.Size(208, 42);
             this.btn_edit.TabIndex = 7;
             this.btn_edit.Text = "  ያስተካክሉ";
             this.btn_edit.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -172,7 +172,7 @@
             this.Controls.Add(this.dgv_main);
             this.Name = "ListDataUserControl";
             this.Padding = new System.Windows.Forms.Padding(40);
-            this.Size = new System.Drawing.Size(817, 423);
+            this.Size = new System.Drawing.Size(1115, 634);
             ((System.ComponentModel.ISupportInitialize)(this.dgv_main)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dB_DebregelilaDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dBDebregelilaDataSetBindingSource)).EndInit();

@@ -19,6 +19,7 @@ namespace FastFoodDemo.Register
         public LoginUserControl()
         {
             InitializeComponent();
+            this.ActiveControl = txt_participation_number;
         }
 
         private void btn_login_Click(object sender, EventArgs e)
@@ -39,6 +40,14 @@ namespace FastFoodDemo.Register
             //txt_participation_number.Text = "";
             txt_password.Text = "";
             OnClick(EventArgs.Empty);
+        }
+
+        private void txt_password_KeyDown(object sender, KeyEventArgs e)
+        {
+            if(e.KeyCode == Keys.Enter)
+            {
+                btn_login.PerformClick();
+            }
         }
 
         protected virtual void LoginUserControl_Click(object sender, EventArgs e)

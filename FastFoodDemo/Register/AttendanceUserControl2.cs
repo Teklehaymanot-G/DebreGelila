@@ -535,5 +535,26 @@ namespace FastFoodDemo.Register
             startDateIsNotChanged = false;
             lbl_start_date.Text = MyDateConverter.FromGrigorianToEthiopian(dtp_start.Value);
         }
+
+        private void btn_reload_Click(object sender, EventArgs e)
+        {
+            dtp_start.Value = DateTime.Today;
+            dtp_end.Value = DateTime.Today;
+
+            startDateIsNotChanged = true;
+            endDateIsNotChanged = true;
+
+
+            lbl_start_date.Visible = false;
+            lbl_end_date.Visible = false;
+
+            cmb_type.SelectedIndex = 0;
+            cmb_sex.SelectedIndex = 0;
+
+            check_add_photo.Checked = false;
+
+            filterCrystalReportViewer.ReportSource = null;
+            filterCrystalReportViewer.Refresh();
+        }
     }
 }

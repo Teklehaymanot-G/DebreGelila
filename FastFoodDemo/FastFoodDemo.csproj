@@ -336,6 +336,7 @@
     <None Include="Resources\icon_attendance_add_participation_number_success.Image.png" />
     <None Include="Resources\pictureBox_photo.Image.png" />
     <None Include="Resources\pictureBox_photo.InitialImage.png" />
+    <None Include="Resources\attendance_32px gray.png" />
     <Content Include="TextTemplate.ico" />
   </ItemGroup>
   <ItemGroup>

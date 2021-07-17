@@ -39,7 +39,7 @@
             this.filterCrystalReportViewer.DisplayStatusBar = false;
             this.filterCrystalReportViewer.Location = new System.Drawing.Point(0, 0);
             this.filterCrystalReportViewer.Name = "filterCrystalReportViewer";
-            this.filterCrystalReportViewer.Size = new System.Drawing.Size(817, 423);
+            this.filterCrystalReportViewer.Size = new System.Drawing.Size(1115, 634);
             this.filterCrystalReportViewer.TabIndex = 215;
             this.filterCrystalReportViewer.ToolPanelView = CrystalDecisions.Windows.Forms.ToolPanelViewType.None;
             this.filterCrystalReportViewer.Visible = false;
@@ -51,7 +51,7 @@
             this.Controls.Add(this.filterCrystalReportViewer);
             this.Name = "ReportViewerUserControl";
             this.Padding = new System.Windows.Forms.Padding(40);
-            this.Size = new System.Drawing.Size(817, 423);
+            this.Size = new System.Drawing.Size(1115, 634);
             this.ResumeLayout(false);
 
         }

@@ -26,8 +26,8 @@ namespace FastFoodDemo
         {
             InitializeComponent();
             SidePanel.Height = 0;
-            SidePanel.Top = loginUserControl1.Top;
-            loginUserControl1.BringToFront();
+            SidePanel.Top = loginUserControl2.Top;
+            loginUserControl2.BringToFront();
 
             // clear text before login
             change_login_name("", "");
@@ -106,11 +106,11 @@ namespace FastFoodDemo
 
         private void btn_login_Click(object sender, EventArgs e)
         {
-            if (loginUserControl1.participation_number == loginUserControl1.password)
+            if (loginUserControl2.participation_number == loginUserControl2.password)
                 loginSuccess = false;
             else
             {
-                if (login(loginUserControl1.participation_number, loginUserControl1.password))
+                if (login(loginUserControl2.participation_number, loginUserControl2.password))
                 {
                     loginSuccess = true;
                     SidePanel.Height = btn_menu_main_dgv.Height;
@@ -238,7 +238,7 @@ namespace FastFoodDemo
                 loginSuccess = false;
                 loginMemberId = -1;
                 is_listDataUserControl_1 = true;
-                loginUserControl1.BringToFront();
+                loginUserControl2.BringToFront();
 
                 change_login_name("", "");
                 pictureBox_login_photo.Image = null;
@@ -253,6 +253,25 @@ namespace FastFoodDemo
                 SidePanel.Height = btn_menu_attendance.Height;
                 SidePanel.Top = btn_menu_attendance.Top;
                 attendanceUserControl2.BringToFront();
+            }
+        }
+
+        private void loginUserControl2_Load(object sender, EventArgs e)
+        {
+            if (loginUserControl2.participation_number == loginUserControl2.password)
+                loginSuccess = false;
+            else
+            {
+                if (login(loginUserControl2.participation_number, loginUserControl2.password))
+                {
+                    loginSuccess = true;
+                    SidePanel.Height = btn_menu_main_dgv.Height;
+                    SidePanel.Top = btn_menu_main_dgv.Top;
+                    listDataUserControl1.BringToFront();
+                    listDataUserControl1.loadDataToDataGridView();
+                    listDataUserControl1.loginMemberId = loginMemberId.ToString();
+                    lbl_header_line.Text = "_____________________________________________________________________________________________________________";
+                }
             }
         }
     }

@@ -96,7 +96,7 @@
             this.dgv_setting.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             this.dgv_setting.RowHeadersVisible = false;
             this.dgv_setting.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgv_setting.Size = new System.Drawing.Size(731, 201);
+            this.dgv_setting.Size = new System.Drawing.Size(1029, 358);
             this.dgv_setting.TabIndex = 1;
             this.dgv_setting.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_setting_CellClick);
             this.dgv_setting.ColumnHeaderMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dgv_setting_ColumnHeaderMouseClick);
@@ -108,7 +108,7 @@
             this.txt_password.FocusedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.txt_password.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_password.LineColor = System.Drawing.Color.Gray;
-            this.txt_password.Location = new System.Drawing.Point(145, 322);
+            this.txt_password.Location = new System.Drawing.Point(310, 519);
             this.txt_password.Name = "txt_password";
             this.txt_password.PasswordChar = '\0';
             this.txt_password.Size = new System.Drawing.Size(210, 26);
@@ -118,7 +118,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(39, 328);
+            this.label7.Location = new System.Drawing.Point(204, 525);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(100, 20);
             this.label7.TabIndex = 177;
@@ -128,7 +128,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(49, 360);
+            this.label1.Location = new System.Drawing.Point(214, 571);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(90, 20);
             this.label1.TabIndex = 180;
@@ -148,7 +148,7 @@
             this.cmb_status.Items.AddRange(new object[] {
             "አዎ ይቻል",
             "አይ አይቻል"});
-            this.cmb_status.Location = new System.Drawing.Point(145, 354);
+            this.cmb_status.Location = new System.Drawing.Point(310, 565);
             this.cmb_status.Name = "cmb_status";
             this.cmb_status.OnHoverItemBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.cmb_status.OnHoverItemForeColor = System.Drawing.Color.White;
@@ -161,7 +161,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(72, 296);
+            this.label3.Location = new System.Drawing.Point(237, 483);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(67, 20);
             this.label3.TabIndex = 183;
@@ -174,7 +174,7 @@
             this.txt_participation_number.FocusedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.txt_participation_number.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_participation_number.LineColor = System.Drawing.Color.Gray;
-            this.txt_participation_number.Location = new System.Drawing.Point(145, 258);
+            this.txt_participation_number.Location = new System.Drawing.Point(310, 427);
             this.txt_participation_number.Name = "txt_participation_number";
             this.txt_participation_number.PasswordChar = '\0';
             this.txt_participation_number.Size = new System.Drawing.Size(210, 26);
@@ -191,9 +191,9 @@
             this.btn_edit.ForeColor = System.Drawing.Color.White;
             this.btn_edit.Image = ((System.Drawing.Image)(resources.GetObject("btn_edit.Image")));
             this.btn_edit.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_edit.Location = new System.Drawing.Point(560, 344);
+            this.btn_edit.Location = new System.Drawing.Point(699, 487);
             this.btn_edit.Name = "btn_edit";
-            this.btn_edit.Size = new System.Drawing.Size(104, 42);
+            this.btn_edit.Size = new System.Drawing.Size(140, 42);
             this.btn_edit.TabIndex = 185;
             this.btn_edit.Text = "  ያስተካክሉ";
             this.btn_edit.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -209,9 +209,9 @@
             this.btn_delete.ForeColor = System.Drawing.Color.White;
             this.btn_delete.Image = ((System.Drawing.Image)(resources.GetObject("btn_delete.Image")));
             this.btn_delete.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_delete.Location = new System.Drawing.Point(670, 344);
+            this.btn_delete.Location = new System.Drawing.Point(699, 549);
             this.btn_delete.Name = "btn_delete";
-            this.btn_delete.Size = new System.Drawing.Size(104, 42);
+            this.btn_delete.Size = new System.Drawing.Size(140, 42);
             this.btn_delete.TabIndex = 184;
             this.btn_delete.Text = "  ያጥፉ";
             this.btn_delete.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -227,9 +227,9 @@
             this.btn_add.ForeColor = System.Drawing.Color.White;
             this.btn_add.Image = ((System.Drawing.Image)(resources.GetObject("btn_add.Image")));
             this.btn_add.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_add.Location = new System.Drawing.Point(450, 344);
+            this.btn_add.Location = new System.Drawing.Point(699, 425);
             this.btn_add.Name = "btn_add";
-            this.btn_add.Size = new System.Drawing.Size(104, 42);
+            this.btn_add.Size = new System.Drawing.Size(140, 42);
             this.btn_add.TabIndex = 186;
             this.btn_add.Text = "  ያስገቡ";
             this.btn_add.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -242,7 +242,7 @@
             this.icon_participation_number_success.DialogResult = System.Windows.Forms.DialogResult.None;
             this.icon_participation_number_success.Image = ((System.Drawing.Image)(resources.GetObject("icon_participation_number_success.Image")));
             this.icon_participation_number_success.ImageSize = new System.Drawing.Size(16, 16);
-            this.icon_participation_number_success.Location = new System.Drawing.Point(361, 268);
+            this.icon_participation_number_success.Location = new System.Drawing.Point(526, 437);
             this.icon_participation_number_success.Name = "icon_participation_number_success";
             this.icon_participation_number_success.OnHoverImage = null;
             this.icon_participation_number_success.OnHoverImageOffset = new System.Drawing.Point(0, 0);
@@ -254,7 +254,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(46, 264);
+            this.label2.Location = new System.Drawing.Point(211, 437);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(93, 20);
             this.label2.TabIndex = 345;
@@ -268,7 +268,7 @@
             this.txt_full_name.FocusedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.txt_full_name.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_full_name.LineColor = System.Drawing.Color.Gray;
-            this.txt_full_name.Location = new System.Drawing.Point(145, 290);
+            this.txt_full_name.Location = new System.Drawing.Point(310, 473);
             this.txt_full_name.Name = "txt_full_name";
             this.txt_full_name.PasswordChar = '\0';
             this.txt_full_name.Size = new System.Drawing.Size(210, 26);
@@ -279,7 +279,7 @@
             this.btn_reload.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_reload.Image = ((System.Drawing.Image)(resources.GetObject("btn_reload.Image")));
             this.btn_reload.ImageSize = new System.Drawing.Size(32, 32);
-            this.btn_reload.Location = new System.Drawing.Point(412, 348);
+            this.btn_reload.Location = new System.Drawing.Point(614, 549);
             this.btn_reload.Name = "btn_reload";
             this.btn_reload.OnHoverImage = null;
             this.btn_reload.OnHoverImageOffset = new System.Drawing.Point(0, 0);
@@ -308,7 +308,7 @@
             this.Controls.Add(this.dgv_setting);
             this.Name = "SettingUserControl";
             this.Padding = new System.Windows.Forms.Padding(40);
-            this.Size = new System.Drawing.Size(817, 423);
+            this.Size = new System.Drawing.Size(1115, 634);
             ((System.ComponentModel.ISupportInitialize)(this.dgv_setting)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

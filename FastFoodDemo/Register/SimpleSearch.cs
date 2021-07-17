@@ -47,7 +47,7 @@ namespace FastFoodDemo.Register
                         {
                             int general_info_id = reader.GetInt32(0);
                             string name = reader.GetString(1);
-                            string participation_number = reader.GetString(2);
+                            int participation_number = reader.GetInt32(2);
 
                             member.Add(new Member() { Id = general_info_id, Name = name });
                         }
@@ -86,7 +86,7 @@ namespace FastFoodDemo.Register
                     //MessageBox.Show(Application.StartupPath + @"\upload\" + getSqlStringData(reader, "photo"));
                     crpt.SetParameterValue("ImagePath", Application.StartupPath + @"\upload\" + getSqlStringData(reader, "photo").Trim());
 
-                    putDataOnReport(crpt, "Section2", "txt_participation_number_1", getSqlStringData(reader, "participation_number"));
+                    putDataOnReport(crpt, "Section2", "txt_participation_number_1", getSqlIntData(reader, "participation_number").ToString());
                     putDataOnReport(crpt, "Section2", "txt_full_name_1", getSqlStringData(reader, "full_name"));
                     putDataOnReport(crpt, "Section2", "txt_christian_name_1", getSqlStringData(reader, "christian_name"));
                     putDataOnReport(crpt, "Section2", "txt_mother_name_1", getSqlStringData(reader, "mother_name"));
@@ -363,7 +363,7 @@ namespace FastFoodDemo.Register
             }
             catch (SqlException ex)
             {
-                MessageBox.Show(ex.Message+"asdda");
+                MessageBox.Show(ex.Message);
             }
         }
 
@@ -388,7 +388,7 @@ namespace FastFoodDemo.Register
             }
             catch (Exception e)
             {
-                MessageBox.Show(e.Message);
+                MessageBox.Show(e.Message+col);
             }
             return -1;
         }
@@ -445,7 +445,7 @@ namespace FastFoodDemo.Register
                             {
                                 int general_info_id = reader.GetInt32(0);
                                 string name = reader.GetString(1);
-                                string participation_number = reader.GetString(2);
+                                int participation_number = reader.GetInt32(2);
 
                                 member.Add(new Member() { Id = general_info_id, Name = name });
                             }

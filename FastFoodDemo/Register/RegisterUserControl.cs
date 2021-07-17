@@ -553,61 +553,6 @@ namespace FastFoodDemo.Register
             }
         }
 
-        private void btn_serve_1_7_Click(object sender, EventArgs e)
-        {
-            serveListBoxController("ትምህርት ክፍል", btn_serve_1_7);            
-        }
-
-        private void btn_serve_2_7_Click(object sender, EventArgs e)
-        {
-            serveListBoxController("መዝሙር ክፍል", btn_serve_2_7);
-        }
-
-        private void btn_serve_3_7_Click(object sender, EventArgs e)
-        {
-            serveListBoxController("ሕጻናት እና ማዕከላውያን ክፍል", btn_serve_3_7);            
-        }
-
-        private void btn_serve_4_7_Click(object sender, EventArgs e)
-        {
-            serveListBoxController("ልማት ክፍል", btn_serve_4_7);
-        }
-
-        private void btn_serve_5_7_Click(object sender, EventArgs e)
-        {
-            serveListBoxController("አባላት ግንኙነት እና ሥነ-ምግባር ክፍል", btn_serve_5_7);
-        }
-
-        private void btn_serve_6_7_Click(object sender, EventArgs e)
-        {
-            serveListBoxController("ጉዞና ጉብኝት ክፍል", btn_serve_6_7);
-        }
-
-        private void btn_serve_7_7_Click(object sender, EventArgs e)
-        {
-            serveListBoxController("የበጎ አድራጎትና ሙያ አገልግሎት ክፍል", btn_serve_7_7);
-        }
-
-        private void btn_serve_8_7_Click(object sender, EventArgs e)
-        {
-            serveListBoxController("ውጪ ግንኙነት", btn_serve_8_7);
-        }
-
-        private void btn_serve_9_7_Click(object sender, EventArgs e)
-        {
-            serveListBoxController("ማኅበራት አንድነት", btn_serve_9_7);
-        }
-
-        private void btn_serve_10_7_Click(object sender, EventArgs e)
-        {
-            serveListBoxController("ጥናት ፣ ምርምርና ስልጠና", btn_serve_10_7);
-        }
-
-        private void btn_serve_11_7_Click(object sender, EventArgs e)
-        {
-            serveListBoxController("ልዩ ልዩ ጉባኤያት", btn_serve_11_7);
-        }
-
         private void btn_finish_8_Click(object sender, EventArgs e)
         {
             // panel first
@@ -1784,24 +1729,14 @@ namespace FastFoodDemo.Register
             }
         }
 
-        private void btn_serve_12_7_Click(object sender, EventArgs e)
+        private void btn_serve_1_7_Click_1(object sender, EventArgs e)
         {
-            serveListBoxController("ሽያጭ", btn_serve_12_7);
+            serveListBoxController("ትምህርት ክፍል", btn_serve_1_7);
         }
 
-        private void btn_serve_13_7_Click(object sender, EventArgs e)
+        private void btn_serve_17_7_Click(object sender, EventArgs e)
         {
-            serveListBoxController("አርትኦት", btn_serve_13_7);
-        }
-
-        private void btn_serve_14_7_Click(object sender, EventArgs e)
-        {
-            serveListBoxController("መረጃ እና መዛግብት", btn_serve_14_7);
-        }
-
-        private void btn_serve_15_7_Click(object sender, EventArgs e)
-        {
-            serveListBoxController("ኦዲትና ኢንስፔክሽን", btn_serve_15_7);
+            serveListBoxController("ገንዘብና ንብረት", btn_serve_17_7);
         }
 
         private void btn_serve_16_7_Click(object sender, EventArgs e)
@@ -1809,9 +1744,74 @@ namespace FastFoodDemo.Register
             serveListBoxController("ምክረ-አበው", btn_serve_16_7);
         }
 
-        private void btn_serve_17_7_Click(object sender, EventArgs e)
+        private void btn_serve_15_7_Click(object sender, EventArgs e)
         {
-            serveListBoxController("ገንዘብና ንብረት", btn_serve_17_7);
+            serveListBoxController("ኦዲትና ኢንስፔክሽን", btn_serve_15_7);
+        }
+
+        private void btn_serve_14_7_Click(object sender, EventArgs e)
+        {
+            serveListBoxController("መረጃ እና መዛግብት", btn_serve_14_7);
+        }
+
+        private void btn_serve_13_7_Click(object sender, EventArgs e)
+        {
+            serveListBoxController("አርትኦት", btn_serve_13_7);
+        }
+
+        private void btn_serve_12_7_Click(object sender, EventArgs e)
+        {
+            serveListBoxController("ሽያጭ", btn_serve_12_7);
+        }
+
+        private void btn_serve_11_7_Click_1(object sender, EventArgs e)
+        {
+            serveListBoxController("ልዩ ልዩ ጉባኤያት", btn_serve_11_7);
+        }
+
+        private void btn_serve_10_7_Click_1(object sender, EventArgs e)
+        {
+            serveListBoxController("ጥናት ፣ ምርምርና ስልጠና", btn_serve_10_7);
+        }
+
+        private void btn_serve_9_7_Click_1(object sender, EventArgs e)
+        {
+            serveListBoxController("ማኅበራት አንድነት", btn_serve_9_7);
+        }
+
+        private void btn_serve_8_7_Click_1(object sender, EventArgs e)
+        {
+            serveListBoxController("ውጪ ግንኙነት", btn_serve_8_7);
+        }
+
+        private void btn_serve_7_7_Click_1(object sender, EventArgs e)
+        {
+            serveListBoxController("የበጎ አድራጎትና ሙያ አገልግሎት ክፍል", btn_serve_7_7);
+        }
+
+        private void btn_serve_6_7_Click_1(object sender, EventArgs e)
+        {
+            serveListBoxController("ጉዞና ጉብኝት ክፍል", btn_serve_6_7);
+        }
+
+        private void btn_serve_5_7_Click_1(object sender, EventArgs e)
+        {
+            serveListBoxController("አባላት ግንኙነት እና ሥነ-ምግባር ክፍል", btn_serve_5_7);
+        }
+
+        private void btn_serve_4_7_Click_1(object sender, EventArgs e)
+        {
+            serveListBoxController("ልማት ክፍል", btn_serve_4_7);
+        }
+
+        private void btn_serve_3_7_Click_1(object sender, EventArgs e)
+        {
+            serveListBoxController("ሕጻናት እና ማዕከላውያን ክፍል", btn_serve_3_7);
+        }
+
+        private void btn_serve_2_7_Click_1(object sender, EventArgs e)
+        {
+            serveListBoxController("መዝሙር ክፍል", btn_serve_2_7);
         }
 
         private void txt_participation_number_1_TextChanged(object sender, EventArgs e)

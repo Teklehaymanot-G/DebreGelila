@@ -141,7 +141,7 @@ namespace FastFoodDemo.Register
                 SqlDataReader reader = cmd.ExecuteReader();
                 if (reader.Read())
                 {
-                    txt_participation_number_1.Text = getSqlStringData(reader, "participation_number");
+                    txt_participation_number_1.Text = getSqlIntData(reader, "participation_number").ToString();
                     txt_full_name_1.Text = getSqlStringData(reader, "full_name");
                     txt_christian_name_1.Text = getSqlStringData(reader, "christian_name");
                     txt_mother_name_1.Text = getSqlStringData(reader, "mother_name");

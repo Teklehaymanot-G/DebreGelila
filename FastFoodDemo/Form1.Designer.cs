@@ -54,17 +54,17 @@
             this.btn_logout = new Guna.UI.WinForms.GunaImageButton();
             this.pictureBox_login_photo = new System.Windows.Forms.PictureBox();
             this.btn_exit = new System.Windows.Forms.Button();
-            this.reportViewerUserControl1 = new FastFoodDemo.Register.ReportViewerUserControl();
-            this.filterUserControl1 = new FastFoodDemo.Register.FilterUserControl();
-            this.settingUserControl1 = new FastFoodDemo.Register.SettingUserControl();
-            this.editUserControl1 = new FastFoodDemo.Register.EditUserControl();
-            this.simpleSearch1 = new FastFoodDemo.Register.SimpleSearch();
-            this.loginUserControl1 = new FastFoodDemo.Register.LoginUserControl();
-            this.listDataUserControl1 = new FastFoodDemo.ListData.ListDataUserControl();
-            this.registerUserControl1 = new FastFoodDemo.Register.RegisterUserControl();
-            this.secondUserControl1 = new FastFoodDemo.Register.LoginUserControl();
-            this.mySecondCustmControl1 = new FastFoodDemo.MySecondCustmControl();
             this.firstCustomControl1 = new FastFoodDemo.FirstCustomControl();
+            this.mySecondCustmControl1 = new FastFoodDemo.MySecondCustmControl();
+            this.registerUserControl1 = new FastFoodDemo.Register.RegisterUserControl();
+            this.listDataUserControl1 = new FastFoodDemo.ListData.ListDataUserControl();
+            this.loginUserControl1 = new FastFoodDemo.Register.LoginUserControl();
+            this.simpleSearch1 = new FastFoodDemo.Register.SimpleSearch();
+            this.editUserControl1 = new FastFoodDemo.Register.EditUserControl();
+            this.settingUserControl1 = new FastFoodDemo.Register.SettingUserControl();
+            this.filterUserControl1 = new FastFoodDemo.Register.FilterUserControl();
+            this.reportViewerUserControl1 = new FastFoodDemo.Register.ReportViewerUserControl();
+            this.loginUserControl2 = new FastFoodDemo.Register.LoginUserControl();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -84,7 +84,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(211, 583);
+            this.panel1.Size = new System.Drawing.Size(211, 783);
             this.panel1.TabIndex = 0;
             // 
             // btn_menu_attendance
@@ -93,7 +93,7 @@
             this.btn_menu_attendance.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_menu_attendance.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_menu_attendance.ForeColor = System.Drawing.Color.White;
-            this.btn_menu_attendance.Image = global::FastFoodDemo.Properties.Resources.attendance_32px;
+            this.btn_menu_attendance.Image = global::FastFoodDemo.Properties.Resources.attendance_32px_gray;
             this.btn_menu_attendance.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_menu_attendance.Location = new System.Drawing.Point(12, 287);
             this.btn_menu_attendance.Name = "btn_menu_attendance";
@@ -202,7 +202,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(211, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(815, 10);
+            this.panel2.Size = new System.Drawing.Size(1115, 10);
             this.panel2.TabIndex = 1;
             // 
             // panel3
@@ -253,7 +253,7 @@
             this.btn_setting.ForeColor = System.Drawing.Color.White;
             this.btn_setting.Image = ((System.Drawing.Image)(resources.GetObject("btn_setting.Image")));
             this.btn_setting.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_setting.Location = new System.Drawing.Point(863, 20);
+            this.btn_setting.Location = new System.Drawing.Point(1168, 22);
             this.btn_setting.Name = "btn_setting";
             this.btn_setting.Size = new System.Drawing.Size(32, 35);
             this.btn_setting.TabIndex = 4;
@@ -270,7 +270,7 @@
             this.btn_minimize.ForeColor = System.Drawing.Color.White;
             this.btn_minimize.Image = ((System.Drawing.Image)(resources.GetObject("btn_minimize.Image")));
             this.btn_minimize.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_minimize.Location = new System.Drawing.Point(939, 19);
+            this.btn_minimize.Location = new System.Drawing.Point(1244, 21);
             this.btn_minimize.Name = "btn_minimize";
             this.btn_minimize.Size = new System.Drawing.Size(32, 35);
             this.btn_minimize.TabIndex = 22;
@@ -284,7 +284,7 @@
             this.lbl_login_name.AutoSize = true;
             this.lbl_login_name.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_login_name.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lbl_login_name.Location = new System.Drawing.Point(723, 59);
+            this.lbl_login_name.Location = new System.Drawing.Point(863, 65);
             this.lbl_login_name.Name = "lbl_login_name";
             this.lbl_login_name.Size = new System.Drawing.Size(86, 20);
             this.lbl_login_name.TabIndex = 17;
@@ -295,7 +295,7 @@
             this.lbl_login_participation_number.AutoSize = true;
             this.lbl_login_participation_number.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_login_participation_number.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lbl_login_participation_number.Location = new System.Drawing.Point(725, 79);
+            this.lbl_login_participation_number.Location = new System.Drawing.Point(865, 85);
             this.lbl_login_participation_number.Name = "lbl_login_participation_number";
             this.lbl_login_participation_number.Size = new System.Drawing.Size(130, 13);
             this.lbl_login_participation_number.TabIndex = 18;
@@ -317,16 +317,17 @@
             this.lbl_header_line.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(8)))), ((int)(((byte)(55)))));
             this.lbl_header_line.Location = new System.Drawing.Point(357, 102);
             this.lbl_header_line.Name = "lbl_header_line";
-            this.lbl_header_line.Size = new System.Drawing.Size(283, 13);
+            this.lbl_header_line.Size = new System.Drawing.Size(649, 13);
             this.lbl_header_line.TabIndex = 327;
-            this.lbl_header_line.Text = "______________________________________________";
+            this.lbl_header_line.Text = "_________________________________________________________________________________" +
+    "__________________________";
             // 
             // btn_logout
             // 
             this.btn_logout.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_logout.Image = ((System.Drawing.Image)(resources.GetObject("btn_logout.Image")));
             this.btn_logout.ImageSize = new System.Drawing.Size(24, 24);
-            this.btn_logout.Location = new System.Drawing.Point(901, 19);
+            this.btn_logout.Location = new System.Drawing.Point(1206, 21);
             this.btn_logout.Name = "btn_logout";
             this.btn_logout.OnHoverImage = null;
             this.btn_logout.OnHoverImageOffset = new System.Drawing.Point(0, 0);
@@ -336,7 +337,7 @@
             // 
             // pictureBox_login_photo
             // 
-            this.pictureBox_login_photo.Location = new System.Drawing.Point(728, 16);
+            this.pictureBox_login_photo.Location = new System.Drawing.Point(868, 22);
             this.pictureBox_login_photo.Name = "pictureBox_login_photo";
             this.pictureBox_login_photo.Size = new System.Drawing.Size(40, 40);
             this.pictureBox_login_photo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -351,7 +352,7 @@
             this.btn_exit.ForeColor = System.Drawing.Color.White;
             this.btn_exit.Image = ((System.Drawing.Image)(resources.GetObject("btn_exit.Image")));
             this.btn_exit.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_exit.Location = new System.Drawing.Point(977, 19);
+            this.btn_exit.Location = new System.Drawing.Point(1282, 21);
             this.btn_exit.Name = "btn_exit";
             this.btn_exit.Size = new System.Drawing.Size(32, 35);
             this.btn_exit.TabIndex = 4;
@@ -359,116 +360,117 @@
             this.btn_exit.UseVisualStyleBackColor = true;
             this.btn_exit.Click += new System.EventHandler(this.btn_exit_Click);
             // 
-            // reportViewerUserControl1
+            // firstCustomControl1
             // 
-            this.reportViewerUserControl1.Location = new System.Drawing.Point(211, 160);
-            this.reportViewerUserControl1.Name = "reportViewerUserControl1";
-            this.reportViewerUserControl1.Padding = new System.Windows.Forms.Padding(40);
-            this.reportViewerUserControl1.Size = new System.Drawing.Size(815, 423);
-            this.reportViewerUserControl1.TabIndex = 21;
-            // 
-            // filterUserControl1
-            // 
-            this.filterUserControl1.Location = new System.Drawing.Point(211, 160);
-            this.filterUserControl1.Name = "filterUserControl1";
-            this.filterUserControl1.Padding = new System.Windows.Forms.Padding(40);
-            this.filterUserControl1.Size = new System.Drawing.Size(817, 423);
-            this.filterUserControl1.TabIndex = 20;
-            // 
-            // settingUserControl1
-            // 
-            this.settingUserControl1.Location = new System.Drawing.Point(211, 160);
-            this.settingUserControl1.Name = "settingUserControl1";
-            this.settingUserControl1.Padding = new System.Windows.Forms.Padding(40);
-            this.settingUserControl1.Size = new System.Drawing.Size(817, 423);
-            this.settingUserControl1.TabIndex = 16;
-            // 
-            // editUserControl1
-            // 
-            this.editUserControl1.Location = new System.Drawing.Point(211, 160);
-            this.editUserControl1.Name = "editUserControl1";
-            this.editUserControl1.Size = new System.Drawing.Size(817, 423);
-            this.editUserControl1.TabIndex = 14;
-            // 
-            // simpleSearch1
-            // 
-            this.simpleSearch1.Location = new System.Drawing.Point(211, 160);
-            this.simpleSearch1.Name = "simpleSearch1";
-            this.simpleSearch1.Padding = new System.Windows.Forms.Padding(40);
-            this.simpleSearch1.Size = new System.Drawing.Size(817, 423);
-            this.simpleSearch1.TabIndex = 13;
-            // 
-            // loginUserControl1
-            // 
-            this.loginUserControl1.Location = new System.Drawing.Point(211, 160);
-            this.loginUserControl1.Name = "loginUserControl1";
-            this.loginUserControl1.Padding = new System.Windows.Forms.Padding(40);
-            this.loginUserControl1.Size = new System.Drawing.Size(817, 423);
-            this.loginUserControl1.TabIndex = 12;
-            this.loginUserControl1.Click += new System.EventHandler(this.btn_login_Click);
-            // 
-            // listDataUserControl1
-            // 
-            this.listDataUserControl1.Location = new System.Drawing.Point(211, 160);
-            this.listDataUserControl1.Name = "listDataUserControl1";
-            this.listDataUserControl1.Padding = new System.Windows.Forms.Padding(40);
-            this.listDataUserControl1.Size = new System.Drawing.Size(817, 423);
-            this.listDataUserControl1.TabIndex = 11;
-            this.listDataUserControl1.Click += new System.EventHandler(this.btn_edit_Click);
-            // 
-            // registerUserControl1
-            // 
-            this.registerUserControl1.Location = new System.Drawing.Point(211, 160);
-            this.registerUserControl1.Name = "registerUserControl1";
-            this.registerUserControl1.Size = new System.Drawing.Size(817, 423);
-            this.registerUserControl1.TabIndex = 10;
-            // 
-            // secondUserControl1
-            // 
-            this.secondUserControl1.Location = new System.Drawing.Point(211, 160);
-            this.secondUserControl1.Name = "secondUserControl1";
-            this.secondUserControl1.Padding = new System.Windows.Forms.Padding(20);
-            this.secondUserControl1.Size = new System.Drawing.Size(815, 423);
-            this.secondUserControl1.TabIndex = 8;
+            this.firstCustomControl1.Location = new System.Drawing.Point(211, 149);
+            this.firstCustomControl1.Name = "firstCustomControl1";
+            this.firstCustomControl1.Size = new System.Drawing.Size(1115, 634);
+            this.firstCustomControl1.TabIndex = 328;
             // 
             // mySecondCustmControl1
             // 
-            this.mySecondCustmControl1.Location = new System.Drawing.Point(211, 156);
+            this.mySecondCustmControl1.Location = new System.Drawing.Point(211, 149);
             this.mySecondCustmControl1.Name = "mySecondCustmControl1";
-            this.mySecondCustmControl1.Size = new System.Drawing.Size(815, 406);
-            this.mySecondCustmControl1.TabIndex = 6;
+            this.mySecondCustmControl1.Size = new System.Drawing.Size(1115, 634);
+            this.mySecondCustmControl1.TabIndex = 329;
             // 
-            // firstCustomControl1
+            // registerUserControl1
             // 
-            this.firstCustomControl1.Location = new System.Drawing.Point(211, 156);
-            this.firstCustomControl1.Name = "firstCustomControl1";
-            this.firstCustomControl1.Size = new System.Drawing.Size(803, 423);
-            this.firstCustomControl1.TabIndex = 5;
+            this.registerUserControl1.Location = new System.Drawing.Point(211, 149);
+            this.registerUserControl1.Name = "registerUserControl1";
+            this.registerUserControl1.Size = new System.Drawing.Size(1115, 634);
+            this.registerUserControl1.TabIndex = 330;
+            // 
+            // listDataUserControl1
+            // 
+            this.listDataUserControl1.Location = new System.Drawing.Point(211, 149);
+            this.listDataUserControl1.Name = "listDataUserControl1";
+            this.listDataUserControl1.Padding = new System.Windows.Forms.Padding(40);
+            this.listDataUserControl1.Size = new System.Drawing.Size(1115, 634);
+            this.listDataUserControl1.TabIndex = 331;
+            this.listDataUserControl1.Click += new System.EventHandler(this.btn_edit_Click);
+            // 
+            // loginUserControl1
+            // 
+            this.loginUserControl1.Location = new System.Drawing.Point(211, 149);
+            this.loginUserControl1.Name = "loginUserControl1";
+            this.loginUserControl1.Padding = new System.Windows.Forms.Padding(40);
+            this.loginUserControl1.Size = new System.Drawing.Size(1115, 634);
+            this.loginUserControl1.TabIndex = 332;
+            // 
+            // simpleSearch1
+            // 
+            this.simpleSearch1.Location = new System.Drawing.Point(211, 149);
+            this.simpleSearch1.Name = "simpleSearch1";
+            this.simpleSearch1.Padding = new System.Windows.Forms.Padding(40);
+            this.simpleSearch1.Size = new System.Drawing.Size(1115, 634);
+            this.simpleSearch1.TabIndex = 333;
+            // 
+            // editUserControl1
+            // 
+            this.editUserControl1.Location = new System.Drawing.Point(211, 149);
+            this.editUserControl1.Name = "editUserControl1";
+            this.editUserControl1.Size = new System.Drawing.Size(1115, 634);
+            this.editUserControl1.TabIndex = 334;
+            // 
+            // settingUserControl1
+            // 
+            this.settingUserControl1.Location = new System.Drawing.Point(211, 149);
+            this.settingUserControl1.Name = "settingUserControl1";
+            this.settingUserControl1.Padding = new System.Windows.Forms.Padding(40);
+            this.settingUserControl1.Size = new System.Drawing.Size(1115, 631);
+            this.settingUserControl1.TabIndex = 335;
+            // 
+            // filterUserControl1
+            // 
+            this.filterUserControl1.Location = new System.Drawing.Point(211, 149);
+            this.filterUserControl1.Name = "filterUserControl1";
+            this.filterUserControl1.Padding = new System.Windows.Forms.Padding(40);
+            this.filterUserControl1.Size = new System.Drawing.Size(1115, 634);
+            this.filterUserControl1.TabIndex = 336;
+            // 
+            // reportViewerUserControl1
+            // 
+            this.reportViewerUserControl1.Location = new System.Drawing.Point(211, 149);
+            this.reportViewerUserControl1.Name = "reportViewerUserControl1";
+            this.reportViewerUserControl1.Padding = new System.Windows.Forms.Padding(40);
+            this.reportViewerUserControl1.Size = new System.Drawing.Size(1115, 634);
+            this.reportViewerUserControl1.TabIndex = 337;
+            // 
+            // loginUserControl2
+            // 
+            this.loginUserControl2.Location = new System.Drawing.Point(211, 149);
+            this.loginUserControl2.Name = "loginUserControl2";
+            this.loginUserControl2.Padding = new System.Windows.Forms.Padding(40);
+            this.loginUserControl2.Size = new System.Drawing.Size(1115, 634);
+            this.loginUserControl2.TabIndex = 338;
+            this.loginUserControl2.Load += new System.EventHandler(this.loginUserControl2_Load);
+            this.loginUserControl2.Click += new System.EventHandler(this.btn_login_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1026, 583);
-            this.Controls.Add(this.lbl_header_line);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.btn_logout);
-            this.Controls.Add(this.btn_minimize);
+            this.ClientSize = new System.Drawing.Size(1326, 783);
+            this.Controls.Add(this.loginUserControl2);
             this.Controls.Add(this.reportViewerUserControl1);
             this.Controls.Add(this.filterUserControl1);
-            this.Controls.Add(this.pictureBox_login_photo);
-            this.Controls.Add(this.lbl_login_participation_number);
-            this.Controls.Add(this.lbl_login_name);
             this.Controls.Add(this.settingUserControl1);
             this.Controls.Add(this.editUserControl1);
             this.Controls.Add(this.simpleSearch1);
             this.Controls.Add(this.loginUserControl1);
             this.Controls.Add(this.listDataUserControl1);
             this.Controls.Add(this.registerUserControl1);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.secondUserControl1);
             this.Controls.Add(this.mySecondCustmControl1);
             this.Controls.Add(this.firstCustomControl1);
+            this.Controls.Add(this.lbl_header_line);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.btn_logout);
+            this.Controls.Add(this.btn_minimize);
+            this.Controls.Add(this.pictureBox_login_photo);
+            this.Controls.Add(this.lbl_login_participation_number);
+            this.Controls.Add(this.lbl_login_name);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.btn_exit);
             this.Controls.Add(this.btn_setting);
@@ -503,29 +505,29 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button btn_setting;
         private System.Windows.Forms.Button btn_exit;
-        private FirstCustomControl firstCustomControl1;
-        private MySecondCustmControl mySecondCustmControl1;
-        private Register.LoginUserControl secondUserControl1;
         private System.Windows.Forms.Label label1;
-        private Register.RegisterUserControl registerUserControl1;
-        private ListData.ListDataUserControl listDataUserControl1;
-        private Register.LoginUserControl loginUserControl1;
-        private Register.SimpleSearch simpleSearch1;
-        private Register.EditUserControl editUserControl1;
-        private Register.SettingUserControl settingUserControl1;
         private System.Windows.Forms.ToolTip tt_setting;
         private System.Windows.Forms.ToolTip tt_logout;
         private System.Windows.Forms.Label lbl_login_name;
         private System.Windows.Forms.Label lbl_login_participation_number;
         private System.Windows.Forms.PictureBox pictureBox_login_photo;
         private System.Windows.Forms.Button btn_menu_filter;
-        private Register.FilterUserControl filterUserControl1;
-        private Register.ReportViewerUserControl reportViewerUserControl1;
         private System.Windows.Forms.Button btn_minimize;
         private Guna.UI.WinForms.GunaImageButton btn_logout;
         private System.Windows.Forms.Label label2;
         public System.Windows.Forms.Label lbl_header_line;
         private System.Windows.Forms.Button btn_menu_attendance;
+        private FirstCustomControl firstCustomControl1;
+        private MySecondCustmControl mySecondCustmControl1;
+        private Register.RegisterUserControl registerUserControl1;
+        private ListData.ListDataUserControl listDataUserControl1;
+        private Register.LoginUserControl loginUserControl1;
+        private Register.SimpleSearch simpleSearch1;
+        private Register.EditUserControl editUserControl1;
+        private Register.SettingUserControl settingUserControl1;
+        private Register.FilterUserControl filterUserControl1;
+        private Register.ReportViewerUserControl reportViewerUserControl1;
+        private Register.LoginUserControl loginUserControl2;
     }
 }
 
