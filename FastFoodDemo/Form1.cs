@@ -118,7 +118,7 @@ namespace FastFoodDemo
                     listDataUserControl1.BringToFront();
                     listDataUserControl1.loadDataToDataGridView();
                     listDataUserControl1.loginMemberId = loginMemberId.ToString();
-                    lbl_header_line.Text = "_____________________________________________________________________________________________________________";
+                    lbl_header_line.Text = "______________________________________________________________________________________________________________________________________________________________";
                 }
             }
         }
