@@ -241,6 +241,25 @@
             this.label39 = new System.Windows.Forms.Label();
             this.label40 = new System.Windows.Forms.Label();
             this.panel_7 = new System.Windows.Forms.TabPage();
+            this.btn_serve_17_7 = new Guna.UI.WinForms.GunaButton();
+            this.btn_serve_16_7 = new Guna.UI.WinForms.GunaButton();
+            this.btn_serve_14_7 = new Guna.UI.WinForms.GunaButton();
+            this.btn_serve_15_7 = new Guna.UI.WinForms.GunaButton();
+            this.btn_serve_13_7 = new Guna.UI.WinForms.GunaButton();
+            this.btn_serve_12_7 = new Guna.UI.WinForms.GunaButton();
+            this.listBox_serve_7 = new System.Windows.Forms.ListBox();
+            this.btn_serve_11_7 = new Guna.UI.WinForms.GunaButton();
+            this.btn_serve_10_7 = new Guna.UI.WinForms.GunaButton();
+            this.btn_serve_9_7 = new Guna.UI.WinForms.GunaButton();
+            this.btn_serve_8_7 = new Guna.UI.WinForms.GunaButton();
+            this.btn_serve_7_7 = new Guna.UI.WinForms.GunaButton();
+            this.btn_serve_6_7 = new Guna.UI.WinForms.GunaButton();
+            this.btn_serve_4_7 = new Guna.UI.WinForms.GunaButton();
+            this.btn_serve_5_7 = new Guna.UI.WinForms.GunaButton();
+            this.btn_serve_3_7 = new Guna.UI.WinForms.GunaButton();
+            this.btn_serve_2_7 = new Guna.UI.WinForms.GunaButton();
+            this.btn_serve_1_7 = new Guna.UI.WinForms.GunaButton();
+            this.label41 = new System.Windows.Forms.Label();
             this.btn_serve_hidden_7 = new Guna.UI.WinForms.GunaButton();
             this.btn_pg_7_4 = new Guna.UI.WinForms.GunaCircleButton();
             this.btn_pg_7_5 = new Guna.UI.WinForms.GunaCircleButton();
@@ -292,25 +311,6 @@
             this.panel_9 = new System.Windows.Forms.TabPage();
             this.indivigualCrystalReportViewer = new CrystalDecisions.Windows.Forms.CrystalReportViewer();
             this.openFileDialog = new System.Windows.Forms.OpenFileDialog();
-            this.btn_serve_17_7 = new Guna.UI.WinForms.GunaButton();
-            this.btn_serve_16_7 = new Guna.UI.WinForms.GunaButton();
-            this.btn_serve_14_7 = new Guna.UI.WinForms.GunaButton();
-            this.btn_serve_15_7 = new Guna.UI.WinForms.GunaButton();
-            this.btn_serve_13_7 = new Guna.UI.WinForms.GunaButton();
-            this.btn_serve_12_7 = new Guna.UI.WinForms.GunaButton();
-            this.listBox_serve_7 = new System.Windows.Forms.ListBox();
-            this.btn_serve_11_7 = new Guna.UI.WinForms.GunaButton();
-            this.btn_serve_10_7 = new Guna.UI.WinForms.GunaButton();
-            this.btn_serve_9_7 = new Guna.UI.WinForms.GunaButton();
-            this.btn_serve_8_7 = new Guna.UI.WinForms.GunaButton();
-            this.btn_serve_7_7 = new Guna.UI.WinForms.GunaButton();
-            this.btn_serve_6_7 = new Guna.UI.WinForms.GunaButton();
-            this.btn_serve_4_7 = new Guna.UI.WinForms.GunaButton();
-            this.btn_serve_5_7 = new Guna.UI.WinForms.GunaButton();
-            this.btn_serve_3_7 = new Guna.UI.WinForms.GunaButton();
-            this.btn_serve_2_7 = new Guna.UI.WinForms.GunaButton();
-            this.btn_serve_1_7 = new Guna.UI.WinForms.GunaButton();
-            this.label41 = new System.Windows.Forms.Label();
             this.panel_1.SuspendLayout();
             this.panel_christian_date_other_1.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -1176,11 +1176,11 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(104, 313);
+            this.label7.Location = new System.Drawing.Point(90, 316);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(177, 20);
+            this.label7.Size = new System.Drawing.Size(193, 20);
             this.label7.TabIndex = 311;
-            this.label7.Text = "የተዘገቡበት ቀን ፣ ወር ፣ ዓ.ም.";
+            this.label7.Text = "የተመዘገቡበት ቀን ፣ ወር ፣ ዓ.ም.";
             // 
             // label8
             // 
@@ -2312,7 +2312,7 @@
             this.check_subject_1_4.ForeColor = System.Drawing.SystemColors.ControlText;
             this.check_subject_1_4.Location = new System.Drawing.Point(21, 18);
             this.check_subject_1_4.Name = "check_subject_1_4";
-            this.check_subject_1_4.Size = new System.Drawing.Size(132, 20);
+            this.check_subject_1_4.Size = new System.Drawing.Size(146, 21);
             this.check_subject_1_4.TabIndex = 0;
             this.check_subject_1_4.Text = "ትምህርተ ሃይማኖት";
             // 
@@ -2326,7 +2326,7 @@
             this.check_subject_2_4.ForeColor = System.Drawing.SystemColors.ControlText;
             this.check_subject_2_4.Location = new System.Drawing.Point(21, 52);
             this.check_subject_2_4.Name = "check_subject_2_4";
-            this.check_subject_2_4.Size = new System.Drawing.Size(96, 20);
+            this.check_subject_2_4.Size = new System.Drawing.Size(105, 21);
             this.check_subject_2_4.TabIndex = 1;
             this.check_subject_2_4.Text = "ነገረ ማርያም";
             // 
@@ -2340,7 +2340,7 @@
             this.check_subject_3_4.ForeColor = System.Drawing.SystemColors.ControlText;
             this.check_subject_3_4.Location = new System.Drawing.Point(21, 86);
             this.check_subject_3_4.Name = "check_subject_3_4";
-            this.check_subject_3_4.Size = new System.Drawing.Size(111, 20);
+            this.check_subject_3_4.Size = new System.Drawing.Size(121, 21);
             this.check_subject_3_4.TabIndex = 2;
             this.check_subject_3_4.Text = "ሥርዓተ አምልኮ";
             // 
@@ -2354,7 +2354,7 @@
             this.check_subject_4_4.ForeColor = System.Drawing.SystemColors.ControlText;
             this.check_subject_4_4.Location = new System.Drawing.Point(21, 120);
             this.check_subject_4_4.Name = "check_subject_4_4";
-            this.check_subject_4_4.Size = new System.Drawing.Size(137, 20);
+            this.check_subject_4_4.Size = new System.Drawing.Size(151, 21);
             this.check_subject_4_4.TabIndex = 3;
             this.check_subject_4_4.Text = "የቤተክርስቲያን ታሪክ";
             // 
@@ -2368,7 +2368,7 @@
             this.check_subject_5_4.ForeColor = System.Drawing.SystemColors.ControlText;
             this.check_subject_5_4.Location = new System.Drawing.Point(21, 154);
             this.check_subject_5_4.Name = "check_subject_5_4";
-            this.check_subject_5_4.Size = new System.Drawing.Size(156, 20);
+            this.check_subject_5_4.Size = new System.Drawing.Size(172, 21);
             this.check_subject_5_4.TabIndex = 4;
             this.check_subject_5_4.Text = "ክርስቲያናዊ ሥነ-ምግባር";
             // 
@@ -4022,6 +4022,505 @@
             this.panel_7.TabIndex = 6;
             this.panel_7.Text = "seventh";
             // 
+            // btn_serve_17_7
+            // 
+            this.btn_serve_17_7.AnimationHoverSpeed = 0.07F;
+            this.btn_serve_17_7.AnimationSpeed = 0.03F;
+            this.btn_serve_17_7.BackColor = System.Drawing.Color.Transparent;
+            this.btn_serve_17_7.BaseColor = System.Drawing.SystemColors.Control;
+            this.btn_serve_17_7.BorderColor = System.Drawing.Color.Black;
+            this.btn_serve_17_7.BorderSize = 1;
+            this.btn_serve_17_7.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btn_serve_17_7.FocusedColor = System.Drawing.Color.Empty;
+            this.btn_serve_17_7.Font = new System.Drawing.Font("Segoe UI", 14F);
+            this.btn_serve_17_7.ForeColor = System.Drawing.Color.Black;
+            this.btn_serve_17_7.Image = null;
+            this.btn_serve_17_7.ImageSize = new System.Drawing.Size(20, 20);
+            this.btn_serve_17_7.Location = new System.Drawing.Point(529, 403);
+            this.btn_serve_17_7.Name = "btn_serve_17_7";
+            this.btn_serve_17_7.OnHoverBaseColor = System.Drawing.Color.Empty;
+            this.btn_serve_17_7.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
+            this.btn_serve_17_7.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
+            this.btn_serve_17_7.OnHoverImage = null;
+            this.btn_serve_17_7.OnPressedColor = System.Drawing.Color.Black;
+            this.btn_serve_17_7.Radius = 10;
+            this.btn_serve_17_7.Size = new System.Drawing.Size(131, 53);
+            this.btn_serve_17_7.TabIndex = 300;
+            this.btn_serve_17_7.Text = "ገንዘብና ንብረት";
+            this.btn_serve_17_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btn_serve_17_7.Click += new System.EventHandler(this.btn_serve_17_7_Click);
+            // 
+            // btn_serve_16_7
+            // 
+            this.btn_serve_16_7.AnimationHoverSpeed = 0.07F;
+            this.btn_serve_16_7.AnimationSpeed = 0.03F;
+            this.btn_serve_16_7.BackColor = System.Drawing.Color.Transparent;
+            this.btn_serve_16_7.BaseColor = System.Drawing.SystemColors.Control;
+            this.btn_serve_16_7.BorderColor = System.Drawing.Color.Black;
+            this.btn_serve_16_7.BorderSize = 1;
+            this.btn_serve_16_7.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btn_serve_16_7.FocusedColor = System.Drawing.Color.Empty;
+            this.btn_serve_16_7.Font = new System.Drawing.Font("Segoe UI", 14F);
+            this.btn_serve_16_7.ForeColor = System.Drawing.Color.Black;
+            this.btn_serve_16_7.Image = null;
+            this.btn_serve_16_7.ImageSize = new System.Drawing.Size(20, 20);
+            this.btn_serve_16_7.Location = new System.Drawing.Point(400, 403);
+            this.btn_serve_16_7.Name = "btn_serve_16_7";
+            this.btn_serve_16_7.OnHoverBaseColor = System.Drawing.Color.Empty;
+            this.btn_serve_16_7.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
+            this.btn_serve_16_7.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
+            this.btn_serve_16_7.OnHoverImage = null;
+            this.btn_serve_16_7.OnPressedColor = System.Drawing.Color.Black;
+            this.btn_serve_16_7.Radius = 10;
+            this.btn_serve_16_7.Size = new System.Drawing.Size(115, 53);
+            this.btn_serve_16_7.TabIndex = 299;
+            this.btn_serve_16_7.Text = "ምክረ-አበው";
+            this.btn_serve_16_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btn_serve_16_7.Click += new System.EventHandler(this.btn_serve_16_7_Click);
+            // 
+            // btn_serve_14_7
+            // 
+            this.btn_serve_14_7.AnimationHoverSpeed = 0.07F;
+            this.btn_serve_14_7.AnimationSpeed = 0.03F;
+            this.btn_serve_14_7.BackColor = System.Drawing.Color.Transparent;
+            this.btn_serve_14_7.BaseColor = System.Drawing.SystemColors.Control;
+            this.btn_serve_14_7.BorderColor = System.Drawing.Color.Black;
+            this.btn_serve_14_7.BorderSize = 1;
+            this.btn_serve_14_7.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btn_serve_14_7.FocusedColor = System.Drawing.Color.Empty;
+            this.btn_serve_14_7.Font = new System.Drawing.Font("Segoe UI", 14F);
+            this.btn_serve_14_7.ForeColor = System.Drawing.Color.Black;
+            this.btn_serve_14_7.Image = null;
+            this.btn_serve_14_7.ImageSize = new System.Drawing.Size(20, 20);
+            this.btn_serve_14_7.Location = new System.Drawing.Point(48, 403);
+            this.btn_serve_14_7.Name = "btn_serve_14_7";
+            this.btn_serve_14_7.OnHoverBaseColor = System.Drawing.Color.Empty;
+            this.btn_serve_14_7.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
+            this.btn_serve_14_7.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
+            this.btn_serve_14_7.OnHoverImage = null;
+            this.btn_serve_14_7.OnPressedColor = System.Drawing.Color.Black;
+            this.btn_serve_14_7.Radius = 10;
+            this.btn_serve_14_7.Size = new System.Drawing.Size(169, 53);
+            this.btn_serve_14_7.TabIndex = 297;
+            this.btn_serve_14_7.Text = "መረጃ እና መዛግብት";
+            this.btn_serve_14_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btn_serve_14_7.Click += new System.EventHandler(this.btn_serve_14_7_Click);
+            // 
+            // btn_serve_15_7
+            // 
+            this.btn_serve_15_7.AnimationHoverSpeed = 0.07F;
+            this.btn_serve_15_7.AnimationSpeed = 0.03F;
+            this.btn_serve_15_7.BackColor = System.Drawing.Color.Transparent;
+            this.btn_serve_15_7.BaseColor = System.Drawing.SystemColors.Control;
+            this.btn_serve_15_7.BorderColor = System.Drawing.Color.Black;
+            this.btn_serve_15_7.BorderSize = 1;
+            this.btn_serve_15_7.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btn_serve_15_7.FocusedColor = System.Drawing.Color.Empty;
+            this.btn_serve_15_7.Font = new System.Drawing.Font("Segoe UI", 14F);
+            this.btn_serve_15_7.ForeColor = System.Drawing.Color.Black;
+            this.btn_serve_15_7.Image = null;
+            this.btn_serve_15_7.ImageSize = new System.Drawing.Size(20, 20);
+            this.btn_serve_15_7.Location = new System.Drawing.Point(232, 403);
+            this.btn_serve_15_7.Name = "btn_serve_15_7";
+            this.btn_serve_15_7.OnHoverBaseColor = System.Drawing.Color.Empty;
+            this.btn_serve_15_7.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
+            this.btn_serve_15_7.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
+            this.btn_serve_15_7.OnHoverImage = null;
+            this.btn_serve_15_7.OnPressedColor = System.Drawing.Color.Black;
+            this.btn_serve_15_7.Radius = 10;
+            this.btn_serve_15_7.Size = new System.Drawing.Size(152, 53);
+            this.btn_serve_15_7.TabIndex = 298;
+            this.btn_serve_15_7.Text = "ኦዲትና ኢንስፔክሽን";
+            this.btn_serve_15_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btn_serve_15_7.Click += new System.EventHandler(this.btn_serve_15_7_Click);
+            // 
+            // btn_serve_13_7
+            // 
+            this.btn_serve_13_7.AnimationHoverSpeed = 0.07F;
+            this.btn_serve_13_7.AnimationSpeed = 0.03F;
+            this.btn_serve_13_7.BackColor = System.Drawing.Color.Transparent;
+            this.btn_serve_13_7.BaseColor = System.Drawing.SystemColors.Control;
+            this.btn_serve_13_7.BorderColor = System.Drawing.Color.Black;
+            this.btn_serve_13_7.BorderSize = 1;
+            this.btn_serve_13_7.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btn_serve_13_7.FocusedColor = System.Drawing.Color.Empty;
+            this.btn_serve_13_7.Font = new System.Drawing.Font("Segoe UI", 14F);
+            this.btn_serve_13_7.ForeColor = System.Drawing.Color.Black;
+            this.btn_serve_13_7.Image = null;
+            this.btn_serve_13_7.ImageSize = new System.Drawing.Size(20, 20);
+            this.btn_serve_13_7.Location = new System.Drawing.Point(568, 330);
+            this.btn_serve_13_7.Name = "btn_serve_13_7";
+            this.btn_serve_13_7.OnHoverBaseColor = System.Drawing.Color.Empty;
+            this.btn_serve_13_7.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
+            this.btn_serve_13_7.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
+            this.btn_serve_13_7.OnHoverImage = null;
+            this.btn_serve_13_7.OnPressedColor = System.Drawing.Color.Black;
+            this.btn_serve_13_7.Radius = 10;
+            this.btn_serve_13_7.Size = new System.Drawing.Size(92, 53);
+            this.btn_serve_13_7.TabIndex = 296;
+            this.btn_serve_13_7.Text = "አርትኦት";
+            this.btn_serve_13_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btn_serve_13_7.Click += new System.EventHandler(this.btn_serve_13_7_Click);
+            // 
+            // btn_serve_12_7
+            // 
+            this.btn_serve_12_7.AnimationHoverSpeed = 0.07F;
+            this.btn_serve_12_7.AnimationSpeed = 0.03F;
+            this.btn_serve_12_7.BackColor = System.Drawing.Color.Transparent;
+            this.btn_serve_12_7.BaseColor = System.Drawing.SystemColors.Control;
+            this.btn_serve_12_7.BorderColor = System.Drawing.Color.Black;
+            this.btn_serve_12_7.BorderSize = 1;
+            this.btn_serve_12_7.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btn_serve_12_7.FocusedColor = System.Drawing.Color.Empty;
+            this.btn_serve_12_7.Font = new System.Drawing.Font("Segoe UI", 14F);
+            this.btn_serve_12_7.ForeColor = System.Drawing.Color.Black;
+            this.btn_serve_12_7.Image = null;
+            this.btn_serve_12_7.ImageSize = new System.Drawing.Size(20, 20);
+            this.btn_serve_12_7.Location = new System.Drawing.Point(456, 330);
+            this.btn_serve_12_7.Name = "btn_serve_12_7";
+            this.btn_serve_12_7.OnHoverBaseColor = System.Drawing.Color.Empty;
+            this.btn_serve_12_7.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
+            this.btn_serve_12_7.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
+            this.btn_serve_12_7.OnHoverImage = null;
+            this.btn_serve_12_7.OnPressedColor = System.Drawing.Color.Black;
+            this.btn_serve_12_7.Radius = 10;
+            this.btn_serve_12_7.Size = new System.Drawing.Size(92, 53);
+            this.btn_serve_12_7.TabIndex = 295;
+            this.btn_serve_12_7.Text = "ሽያጭ";
+            this.btn_serve_12_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btn_serve_12_7.Click += new System.EventHandler(this.btn_serve_12_7_Click);
+            // 
+            // listBox_serve_7
+            // 
+            this.listBox_serve_7.BackColor = System.Drawing.SystemColors.Control;
+            this.listBox_serve_7.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.listBox_serve_7.Enabled = false;
+            this.listBox_serve_7.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.listBox_serve_7.FormattingEnabled = true;
+            this.listBox_serve_7.ItemHeight = 20;
+            this.listBox_serve_7.Location = new System.Drawing.Point(710, 96);
+            this.listBox_serve_7.Name = "listBox_serve_7";
+            this.listBox_serve_7.Size = new System.Drawing.Size(354, 360);
+            this.listBox_serve_7.TabIndex = 302;
+            // 
+            // btn_serve_11_7
+            // 
+            this.btn_serve_11_7.AnimationHoverSpeed = 0.07F;
+            this.btn_serve_11_7.AnimationSpeed = 0.03F;
+            this.btn_serve_11_7.BackColor = System.Drawing.Color.Transparent;
+            this.btn_serve_11_7.BaseColor = System.Drawing.SystemColors.Control;
+            this.btn_serve_11_7.BorderColor = System.Drawing.Color.Black;
+            this.btn_serve_11_7.BorderSize = 1;
+            this.btn_serve_11_7.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btn_serve_11_7.FocusedColor = System.Drawing.Color.Empty;
+            this.btn_serve_11_7.Font = new System.Drawing.Font("Segoe UI", 14F);
+            this.btn_serve_11_7.ForeColor = System.Drawing.Color.Black;
+            this.btn_serve_11_7.Image = null;
+            this.btn_serve_11_7.ImageSize = new System.Drawing.Size(20, 20);
+            this.btn_serve_11_7.Location = new System.Drawing.Point(290, 330);
+            this.btn_serve_11_7.Name = "btn_serve_11_7";
+            this.btn_serve_11_7.OnHoverBaseColor = System.Drawing.Color.Empty;
+            this.btn_serve_11_7.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
+            this.btn_serve_11_7.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
+            this.btn_serve_11_7.OnHoverImage = null;
+            this.btn_serve_11_7.OnPressedColor = System.Drawing.Color.Black;
+            this.btn_serve_11_7.Radius = 10;
+            this.btn_serve_11_7.Size = new System.Drawing.Size(145, 53);
+            this.btn_serve_11_7.TabIndex = 294;
+            this.btn_serve_11_7.Text = "ልዩ ልዩ ጉባኤያት";
+            this.btn_serve_11_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btn_serve_11_7.Click += new System.EventHandler(this.btn_serve_11_7_Click_1);
+            // 
+            // btn_serve_10_7
+            // 
+            this.btn_serve_10_7.AnimationHoverSpeed = 0.07F;
+            this.btn_serve_10_7.AnimationSpeed = 0.03F;
+            this.btn_serve_10_7.BackColor = System.Drawing.Color.Transparent;
+            this.btn_serve_10_7.BaseColor = System.Drawing.SystemColors.Control;
+            this.btn_serve_10_7.BorderColor = System.Drawing.Color.Black;
+            this.btn_serve_10_7.BorderSize = 1;
+            this.btn_serve_10_7.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btn_serve_10_7.FocusedColor = System.Drawing.Color.Empty;
+            this.btn_serve_10_7.Font = new System.Drawing.Font("Segoe UI", 14F);
+            this.btn_serve_10_7.ForeColor = System.Drawing.Color.Black;
+            this.btn_serve_10_7.Image = null;
+            this.btn_serve_10_7.ImageSize = new System.Drawing.Size(20, 20);
+            this.btn_serve_10_7.Location = new System.Drawing.Point(48, 330);
+            this.btn_serve_10_7.Name = "btn_serve_10_7";
+            this.btn_serve_10_7.OnHoverBaseColor = System.Drawing.Color.Empty;
+            this.btn_serve_10_7.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
+            this.btn_serve_10_7.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
+            this.btn_serve_10_7.OnHoverImage = null;
+            this.btn_serve_10_7.OnPressedColor = System.Drawing.Color.Black;
+            this.btn_serve_10_7.Radius = 10;
+            this.btn_serve_10_7.Size = new System.Drawing.Size(216, 53);
+            this.btn_serve_10_7.TabIndex = 293;
+            this.btn_serve_10_7.Text = "ጥናት ፣ ምርምርና ስልጠና";
+            this.btn_serve_10_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btn_serve_10_7.Click += new System.EventHandler(this.btn_serve_10_7_Click_1);
+            // 
+            // btn_serve_9_7
+            // 
+            this.btn_serve_9_7.AnimationHoverSpeed = 0.07F;
+            this.btn_serve_9_7.AnimationSpeed = 0.03F;
+            this.btn_serve_9_7.BackColor = System.Drawing.Color.Transparent;
+            this.btn_serve_9_7.BaseColor = System.Drawing.SystemColors.Control;
+            this.btn_serve_9_7.BorderColor = System.Drawing.Color.Black;
+            this.btn_serve_9_7.BorderSize = 1;
+            this.btn_serve_9_7.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btn_serve_9_7.FocusedColor = System.Drawing.Color.Empty;
+            this.btn_serve_9_7.Font = new System.Drawing.Font("Segoe UI", 14F);
+            this.btn_serve_9_7.ForeColor = System.Drawing.Color.Black;
+            this.btn_serve_9_7.Image = null;
+            this.btn_serve_9_7.ImageSize = new System.Drawing.Size(20, 20);
+            this.btn_serve_9_7.Location = new System.Drawing.Point(503, 254);
+            this.btn_serve_9_7.Name = "btn_serve_9_7";
+            this.btn_serve_9_7.OnHoverBaseColor = System.Drawing.Color.Empty;
+            this.btn_serve_9_7.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
+            this.btn_serve_9_7.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
+            this.btn_serve_9_7.OnHoverImage = null;
+            this.btn_serve_9_7.OnPressedColor = System.Drawing.Color.Black;
+            this.btn_serve_9_7.Radius = 10;
+            this.btn_serve_9_7.Size = new System.Drawing.Size(157, 53);
+            this.btn_serve_9_7.TabIndex = 292;
+            this.btn_serve_9_7.Text = "ማኅበራት አንድነት";
+            this.btn_serve_9_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btn_serve_9_7.Click += new System.EventHandler(this.btn_serve_9_7_Click_1);
+            // 
+            // btn_serve_8_7
+            // 
+            this.btn_serve_8_7.AnimationHoverSpeed = 0.07F;
+            this.btn_serve_8_7.AnimationSpeed = 0.03F;
+            this.btn_serve_8_7.BackColor = System.Drawing.Color.Transparent;
+            this.btn_serve_8_7.BaseColor = System.Drawing.SystemColors.Control;
+            this.btn_serve_8_7.BorderColor = System.Drawing.Color.Black;
+            this.btn_serve_8_7.BorderSize = 1;
+            this.btn_serve_8_7.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btn_serve_8_7.FocusedColor = System.Drawing.Color.Empty;
+            this.btn_serve_8_7.Font = new System.Drawing.Font("Segoe UI", 14F);
+            this.btn_serve_8_7.ForeColor = System.Drawing.Color.Black;
+            this.btn_serve_8_7.Image = null;
+            this.btn_serve_8_7.ImageSize = new System.Drawing.Size(20, 20);
+            this.btn_serve_8_7.Location = new System.Drawing.Point(48, 254);
+            this.btn_serve_8_7.Name = "btn_serve_8_7";
+            this.btn_serve_8_7.OnHoverBaseColor = System.Drawing.Color.Empty;
+            this.btn_serve_8_7.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
+            this.btn_serve_8_7.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
+            this.btn_serve_8_7.OnHoverImage = null;
+            this.btn_serve_8_7.OnPressedColor = System.Drawing.Color.Black;
+            this.btn_serve_8_7.Radius = 10;
+            this.btn_serve_8_7.Size = new System.Drawing.Size(129, 53);
+            this.btn_serve_8_7.TabIndex = 290;
+            this.btn_serve_8_7.Text = "ውጪ ግንኙነት";
+            this.btn_serve_8_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btn_serve_8_7.Click += new System.EventHandler(this.btn_serve_8_7_Click_1);
+            // 
+            // btn_serve_7_7
+            // 
+            this.btn_serve_7_7.AnimationHoverSpeed = 0.07F;
+            this.btn_serve_7_7.AnimationSpeed = 0.03F;
+            this.btn_serve_7_7.BackColor = System.Drawing.Color.Transparent;
+            this.btn_serve_7_7.BaseColor = System.Drawing.SystemColors.Control;
+            this.btn_serve_7_7.BorderColor = System.Drawing.Color.Black;
+            this.btn_serve_7_7.BorderSize = 1;
+            this.btn_serve_7_7.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btn_serve_7_7.FocusedColor = System.Drawing.Color.Empty;
+            this.btn_serve_7_7.Font = new System.Drawing.Font("Segoe UI", 14F);
+            this.btn_serve_7_7.ForeColor = System.Drawing.Color.Black;
+            this.btn_serve_7_7.Image = null;
+            this.btn_serve_7_7.ImageSize = new System.Drawing.Size(20, 20);
+            this.btn_serve_7_7.Location = new System.Drawing.Point(196, 254);
+            this.btn_serve_7_7.Name = "btn_serve_7_7";
+            this.btn_serve_7_7.OnHoverBaseColor = System.Drawing.Color.Empty;
+            this.btn_serve_7_7.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
+            this.btn_serve_7_7.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
+            this.btn_serve_7_7.OnHoverImage = null;
+            this.btn_serve_7_7.OnPressedColor = System.Drawing.Color.Black;
+            this.btn_serve_7_7.Radius = 10;
+            this.btn_serve_7_7.Size = new System.Drawing.Size(292, 53);
+            this.btn_serve_7_7.TabIndex = 291;
+            this.btn_serve_7_7.Text = "የበጎ አድራጎትና ሙያ አገልግሎት ክፍል";
+            this.btn_serve_7_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btn_serve_7_7.Click += new System.EventHandler(this.btn_serve_7_7_Click_1);
+            // 
+            // btn_serve_6_7
+            // 
+            this.btn_serve_6_7.AnimationHoverSpeed = 0.07F;
+            this.btn_serve_6_7.AnimationSpeed = 0.03F;
+            this.btn_serve_6_7.BackColor = System.Drawing.Color.Transparent;
+            this.btn_serve_6_7.BaseColor = System.Drawing.SystemColors.Control;
+            this.btn_serve_6_7.BorderColor = System.Drawing.Color.Black;
+            this.btn_serve_6_7.BorderSize = 1;
+            this.btn_serve_6_7.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btn_serve_6_7.FocusedColor = System.Drawing.Color.Empty;
+            this.btn_serve_6_7.Font = new System.Drawing.Font("Segoe UI", 14F);
+            this.btn_serve_6_7.ForeColor = System.Drawing.Color.Black;
+            this.btn_serve_6_7.Image = null;
+            this.btn_serve_6_7.ImageSize = new System.Drawing.Size(20, 20);
+            this.btn_serve_6_7.Location = new System.Drawing.Point(503, 180);
+            this.btn_serve_6_7.Name = "btn_serve_6_7";
+            this.btn_serve_6_7.OnHoverBaseColor = System.Drawing.Color.Empty;
+            this.btn_serve_6_7.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
+            this.btn_serve_6_7.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
+            this.btn_serve_6_7.OnHoverImage = null;
+            this.btn_serve_6_7.OnPressedColor = System.Drawing.Color.Black;
+            this.btn_serve_6_7.Radius = 10;
+            this.btn_serve_6_7.Size = new System.Drawing.Size(157, 53);
+            this.btn_serve_6_7.TabIndex = 289;
+            this.btn_serve_6_7.Text = "ጉዞና ጉብኝት ክፍል ";
+            this.btn_serve_6_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btn_serve_6_7.Click += new System.EventHandler(this.btn_serve_6_7_Click_1);
+            // 
+            // btn_serve_4_7
+            // 
+            this.btn_serve_4_7.AnimationHoverSpeed = 0.07F;
+            this.btn_serve_4_7.AnimationSpeed = 0.03F;
+            this.btn_serve_4_7.BackColor = System.Drawing.Color.Transparent;
+            this.btn_serve_4_7.BaseColor = System.Drawing.SystemColors.Control;
+            this.btn_serve_4_7.BorderColor = System.Drawing.Color.Black;
+            this.btn_serve_4_7.BorderSize = 1;
+            this.btn_serve_4_7.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btn_serve_4_7.FocusedColor = System.Drawing.Color.Empty;
+            this.btn_serve_4_7.Font = new System.Drawing.Font("Segoe UI", 14F);
+            this.btn_serve_4_7.ForeColor = System.Drawing.Color.Black;
+            this.btn_serve_4_7.Image = null;
+            this.btn_serve_4_7.ImageSize = new System.Drawing.Size(20, 20);
+            this.btn_serve_4_7.Location = new System.Drawing.Point(48, 180);
+            this.btn_serve_4_7.Name = "btn_serve_4_7";
+            this.btn_serve_4_7.OnHoverBaseColor = System.Drawing.Color.Empty;
+            this.btn_serve_4_7.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
+            this.btn_serve_4_7.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
+            this.btn_serve_4_7.OnHoverImage = null;
+            this.btn_serve_4_7.OnPressedColor = System.Drawing.Color.Black;
+            this.btn_serve_4_7.Radius = 10;
+            this.btn_serve_4_7.Size = new System.Drawing.Size(114, 53);
+            this.btn_serve_4_7.TabIndex = 287;
+            this.btn_serve_4_7.Text = "ልማት ክፍል ";
+            this.btn_serve_4_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btn_serve_4_7.Click += new System.EventHandler(this.btn_serve_4_7_Click_1);
+            // 
+            // btn_serve_5_7
+            // 
+            this.btn_serve_5_7.AnimationHoverSpeed = 0.07F;
+            this.btn_serve_5_7.AnimationSpeed = 0.03F;
+            this.btn_serve_5_7.BackColor = System.Drawing.Color.Transparent;
+            this.btn_serve_5_7.BaseColor = System.Drawing.SystemColors.Control;
+            this.btn_serve_5_7.BorderColor = System.Drawing.Color.Black;
+            this.btn_serve_5_7.BorderSize = 1;
+            this.btn_serve_5_7.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btn_serve_5_7.FocusedColor = System.Drawing.Color.Empty;
+            this.btn_serve_5_7.Font = new System.Drawing.Font("Segoe UI", 14F);
+            this.btn_serve_5_7.ForeColor = System.Drawing.Color.Black;
+            this.btn_serve_5_7.Image = null;
+            this.btn_serve_5_7.ImageSize = new System.Drawing.Size(20, 20);
+            this.btn_serve_5_7.Location = new System.Drawing.Point(179, 180);
+            this.btn_serve_5_7.Name = "btn_serve_5_7";
+            this.btn_serve_5_7.OnHoverBaseColor = System.Drawing.Color.Empty;
+            this.btn_serve_5_7.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
+            this.btn_serve_5_7.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
+            this.btn_serve_5_7.OnHoverImage = null;
+            this.btn_serve_5_7.OnPressedColor = System.Drawing.Color.Black;
+            this.btn_serve_5_7.Radius = 10;
+            this.btn_serve_5_7.Size = new System.Drawing.Size(309, 53);
+            this.btn_serve_5_7.TabIndex = 288;
+            this.btn_serve_5_7.Text = "አባላት ግንኙነት እና ሥነ-ምግባር ክፍል";
+            this.btn_serve_5_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btn_serve_5_7.Click += new System.EventHandler(this.btn_serve_5_7_Click_1);
+            // 
+            // btn_serve_3_7
+            // 
+            this.btn_serve_3_7.AnimationHoverSpeed = 0.07F;
+            this.btn_serve_3_7.AnimationSpeed = 0.03F;
+            this.btn_serve_3_7.BackColor = System.Drawing.Color.Transparent;
+            this.btn_serve_3_7.BaseColor = System.Drawing.SystemColors.Control;
+            this.btn_serve_3_7.BorderColor = System.Drawing.Color.Black;
+            this.btn_serve_3_7.BorderSize = 1;
+            this.btn_serve_3_7.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btn_serve_3_7.FocusedColor = System.Drawing.Color.Empty;
+            this.btn_serve_3_7.Font = new System.Drawing.Font("Segoe UI", 14F);
+            this.btn_serve_3_7.ForeColor = System.Drawing.Color.Black;
+            this.btn_serve_3_7.Image = null;
+            this.btn_serve_3_7.ImageSize = new System.Drawing.Size(20, 20);
+            this.btn_serve_3_7.Location = new System.Drawing.Point(400, 110);
+            this.btn_serve_3_7.Name = "btn_serve_3_7";
+            this.btn_serve_3_7.OnHoverBaseColor = System.Drawing.Color.Empty;
+            this.btn_serve_3_7.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
+            this.btn_serve_3_7.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
+            this.btn_serve_3_7.OnHoverImage = null;
+            this.btn_serve_3_7.OnPressedColor = System.Drawing.Color.Black;
+            this.btn_serve_3_7.Radius = 10;
+            this.btn_serve_3_7.Size = new System.Drawing.Size(260, 53);
+            this.btn_serve_3_7.TabIndex = 286;
+            this.btn_serve_3_7.Text = "ሕጻናት እና ማዕከላውያን ክፍል";
+            this.btn_serve_3_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btn_serve_3_7.Click += new System.EventHandler(this.btn_serve_3_7_Click_1);
+            // 
+            // btn_serve_2_7
+            // 
+            this.btn_serve_2_7.AnimationHoverSpeed = 0.07F;
+            this.btn_serve_2_7.AnimationSpeed = 0.03F;
+            this.btn_serve_2_7.BackColor = System.Drawing.Color.Transparent;
+            this.btn_serve_2_7.BaseColor = System.Drawing.SystemColors.Control;
+            this.btn_serve_2_7.BorderColor = System.Drawing.Color.Black;
+            this.btn_serve_2_7.BorderSize = 1;
+            this.btn_serve_2_7.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btn_serve_2_7.FocusedColor = System.Drawing.Color.Empty;
+            this.btn_serve_2_7.Font = new System.Drawing.Font("Segoe UI", 14F);
+            this.btn_serve_2_7.ForeColor = System.Drawing.Color.Black;
+            this.btn_serve_2_7.Image = null;
+            this.btn_serve_2_7.ImageSize = new System.Drawing.Size(20, 20);
+            this.btn_serve_2_7.Location = new System.Drawing.Point(231, 110);
+            this.btn_serve_2_7.Name = "btn_serve_2_7";
+            this.btn_serve_2_7.OnHoverBaseColor = System.Drawing.Color.Empty;
+            this.btn_serve_2_7.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
+            this.btn_serve_2_7.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
+            this.btn_serve_2_7.OnHoverImage = null;
+            this.btn_serve_2_7.OnPressedColor = System.Drawing.Color.Black;
+            this.btn_serve_2_7.Radius = 10;
+            this.btn_serve_2_7.Size = new System.Drawing.Size(157, 53);
+            this.btn_serve_2_7.TabIndex = 285;
+            this.btn_serve_2_7.Text = "መዝሙር ክፍል ";
+            this.btn_serve_2_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btn_serve_2_7.Click += new System.EventHandler(this.btn_serve_2_7_Click_1);
+            // 
+            // btn_serve_1_7
+            // 
+            this.btn_serve_1_7.AnimationHoverSpeed = 0.07F;
+            this.btn_serve_1_7.AnimationSpeed = 0.03F;
+            this.btn_serve_1_7.BackColor = System.Drawing.Color.Transparent;
+            this.btn_serve_1_7.BaseColor = System.Drawing.SystemColors.Control;
+            this.btn_serve_1_7.BorderColor = System.Drawing.Color.Black;
+            this.btn_serve_1_7.BorderSize = 1;
+            this.btn_serve_1_7.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btn_serve_1_7.FocusedColor = System.Drawing.Color.Empty;
+            this.btn_serve_1_7.Font = new System.Drawing.Font("Segoe UI", 14F);
+            this.btn_serve_1_7.ForeColor = System.Drawing.Color.Black;
+            this.btn_serve_1_7.Image = null;
+            this.btn_serve_1_7.ImageSize = new System.Drawing.Size(20, 20);
+            this.btn_serve_1_7.Location = new System.Drawing.Point(48, 110);
+            this.btn_serve_1_7.Name = "btn_serve_1_7";
+            this.btn_serve_1_7.OnHoverBaseColor = System.Drawing.Color.Empty;
+            this.btn_serve_1_7.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
+            this.btn_serve_1_7.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
+            this.btn_serve_1_7.OnHoverImage = null;
+            this.btn_serve_1_7.OnPressedColor = System.Drawing.Color.Black;
+            this.btn_serve_1_7.Radius = 10;
+            this.btn_serve_1_7.Size = new System.Drawing.Size(169, 53);
+            this.btn_serve_1_7.TabIndex = 284;
+            this.btn_serve_1_7.Text = "ትምህርት ክፍል ";
+            this.btn_serve_1_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btn_serve_1_7.Click += new System.EventHandler(this.btn_serve_1_7_Click_1);
+            // 
+            // label41
+            // 
+            this.label41.AutoSize = true;
+            this.label41.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label41.Location = new System.Drawing.Point(43, 40);
+            this.label41.Name = "label41";
+            this.label41.Size = new System.Drawing.Size(627, 25);
+            this.label41.TabIndex = 301;
+            this.label41.Text = "በሰ/ት/ቤቱ ለማገልገል የሚፈልጉባቸው ክፍላት ምርጫዎን ቅደም ተከተል በቁጥር ይግለጹ! ";
+            // 
             // btn_serve_hidden_7
             // 
             this.btn_serve_hidden_7.AnimationHoverSpeed = 0.07F;
@@ -4950,505 +5449,6 @@
             this.indivigualCrystalReportViewer.Size = new System.Drawing.Size(1101, 602);
             this.indivigualCrystalReportViewer.TabIndex = 0;
             this.indivigualCrystalReportViewer.ToolPanelView = CrystalDecisions.Windows.Forms.ToolPanelViewType.None;
-            // 
-            // btn_serve_17_7
-            // 
-            this.btn_serve_17_7.AnimationHoverSpeed = 0.07F;
-            this.btn_serve_17_7.AnimationSpeed = 0.03F;
-            this.btn_serve_17_7.BackColor = System.Drawing.Color.Transparent;
-            this.btn_serve_17_7.BaseColor = System.Drawing.SystemColors.Control;
-            this.btn_serve_17_7.BorderColor = System.Drawing.Color.Black;
-            this.btn_serve_17_7.BorderSize = 1;
-            this.btn_serve_17_7.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.btn_serve_17_7.FocusedColor = System.Drawing.Color.Empty;
-            this.btn_serve_17_7.Font = new System.Drawing.Font("Segoe UI", 14F);
-            this.btn_serve_17_7.ForeColor = System.Drawing.Color.Black;
-            this.btn_serve_17_7.Image = null;
-            this.btn_serve_17_7.ImageSize = new System.Drawing.Size(20, 20);
-            this.btn_serve_17_7.Location = new System.Drawing.Point(529, 403);
-            this.btn_serve_17_7.Name = "btn_serve_17_7";
-            this.btn_serve_17_7.OnHoverBaseColor = System.Drawing.Color.Empty;
-            this.btn_serve_17_7.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
-            this.btn_serve_17_7.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
-            this.btn_serve_17_7.OnHoverImage = null;
-            this.btn_serve_17_7.OnPressedColor = System.Drawing.Color.Black;
-            this.btn_serve_17_7.Radius = 10;
-            this.btn_serve_17_7.Size = new System.Drawing.Size(131, 53);
-            this.btn_serve_17_7.TabIndex = 300;
-            this.btn_serve_17_7.Text = "ገንዘብና ንብረት";
-            this.btn_serve_17_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.btn_serve_17_7.Click += new System.EventHandler(this.btn_serve_17_7_Click);
-            // 
-            // btn_serve_16_7
-            // 
-            this.btn_serve_16_7.AnimationHoverSpeed = 0.07F;
-            this.btn_serve_16_7.AnimationSpeed = 0.03F;
-            this.btn_serve_16_7.BackColor = System.Drawing.Color.Transparent;
-            this.btn_serve_16_7.BaseColor = System.Drawing.SystemColors.Control;
-            this.btn_serve_16_7.BorderColor = System.Drawing.Color.Black;
-            this.btn_serve_16_7.BorderSize = 1;
-            this.btn_serve_16_7.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.btn_serve_16_7.FocusedColor = System.Drawing.Color.Empty;
-            this.btn_serve_16_7.Font = new System.Drawing.Font("Segoe UI", 14F);
-            this.btn_serve_16_7.ForeColor = System.Drawing.Color.Black;
-            this.btn_serve_16_7.Image = null;
-            this.btn_serve_16_7.ImageSize = new System.Drawing.Size(20, 20);
-            this.btn_serve_16_7.Location = new System.Drawing.Point(400, 403);
-            this.btn_serve_16_7.Name = "btn_serve_16_7";
-            this.btn_serve_16_7.OnHoverBaseColor = System.Drawing.Color.Empty;
-            this.btn_serve_16_7.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
-            this.btn_serve_16_7.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
-            this.btn_serve_16_7.OnHoverImage = null;
-            this.btn_serve_16_7.OnPressedColor = System.Drawing.Color.Black;
-            this.btn_serve_16_7.Radius = 10;
-            this.btn_serve_16_7.Size = new System.Drawing.Size(115, 53);
-            this.btn_serve_16_7.TabIndex = 299;
-            this.btn_serve_16_7.Text = "ምክረ-አበው";
-            this.btn_serve_16_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.btn_serve_16_7.Click += new System.EventHandler(this.btn_serve_16_7_Click);
-            // 
-            // btn_serve_14_7
-            // 
-            this.btn_serve_14_7.AnimationHoverSpeed = 0.07F;
-            this.btn_serve_14_7.AnimationSpeed = 0.03F;
-            this.btn_serve_14_7.BackColor = System.Drawing.Color.Transparent;
-            this.btn_serve_14_7.BaseColor = System.Drawing.SystemColors.Control;
-            this.btn_serve_14_7.BorderColor = System.Drawing.Color.Black;
-            this.btn_serve_14_7.BorderSize = 1;
-            this.btn_serve_14_7.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.btn_serve_14_7.FocusedColor = System.Drawing.Color.Empty;
-            this.btn_serve_14_7.Font = new System.Drawing.Font("Segoe UI", 14F);
-            this.btn_serve_14_7.ForeColor = System.Drawing.Color.Black;
-            this.btn_serve_14_7.Image = null;
-            this.btn_serve_14_7.ImageSize = new System.Drawing.Size(20, 20);
-            this.btn_serve_14_7.Location = new System.Drawing.Point(48, 403);
-            this.btn_serve_14_7.Name = "btn_serve_14_7";
-            this.btn_serve_14_7.OnHoverBaseColor = System.Drawing.Color.Empty;
-            this.btn_serve_14_7.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
-            this.btn_serve_14_7.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
-            this.btn_serve_14_7.OnHoverImage = null;
-            this.btn_serve_14_7.OnPressedColor = System.Drawing.Color.Black;
-            this.btn_serve_14_7.Radius = 10;
-            this.btn_serve_14_7.Size = new System.Drawing.Size(169, 53);
-            this.btn_serve_14_7.TabIndex = 297;
-            this.btn_serve_14_7.Text = "መረጃ እና መዛግብት";
-            this.btn_serve_14_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.btn_serve_14_7.Click += new System.EventHandler(this.btn_serve_14_7_Click);
-            // 
-            // btn_serve_15_7
-            // 
-            this.btn_serve_15_7.AnimationHoverSpeed = 0.07F;
-            this.btn_serve_15_7.AnimationSpeed = 0.03F;
-            this.btn_serve_15_7.BackColor = System.Drawing.Color.Transparent;
-            this.btn_serve_15_7.BaseColor = System.Drawing.SystemColors.Control;
-            this.btn_serve_15_7.BorderColor = System.Drawing.Color.Black;
-            this.btn_serve_15_7.BorderSize = 1;
-            this.btn_serve_15_7.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.btn_serve_15_7.FocusedColor = System.Drawing.Color.Empty;
-            this.btn_serve_15_7.Font = new System.Drawing.Font("Segoe UI", 14F);
-            this.btn_serve_15_7.ForeColor = System.Drawing.Color.Black;
-            this.btn_serve_15_7.Image = null;
-            this.btn_serve_15_7.ImageSize = new System.Drawing.Size(20, 20);
-            this.btn_serve_15_7.Location = new System.Drawing.Point(232, 403);
-            this.btn_serve_15_7.Name = "btn_serve_15_7";
-            this.btn_serve_15_7.OnHoverBaseColor = System.Drawing.Color.Empty;
-            this.btn_serve_15_7.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
-            this.btn_serve_15_7.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
-            this.btn_serve_15_7.OnHoverImage = null;
-            this.btn_serve_15_7.OnPressedColor = System.Drawing.Color.Black;
-            this.btn_serve_15_7.Radius = 10;
-            this.btn_serve_15_7.Size = new System.Drawing.Size(152, 53);
-            this.btn_serve_15_7.TabIndex = 298;
-            this.btn_serve_15_7.Text = "ኦዲትና ኢንስፔክሽን";
-            this.btn_serve_15_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.btn_serve_15_7.Click += new System.EventHandler(this.btn_serve_15_7_Click);
-            // 
-            // btn_serve_13_7
-            // 
-            this.btn_serve_13_7.AnimationHoverSpeed = 0.07F;
-            this.btn_serve_13_7.AnimationSpeed = 0.03F;
-            this.btn_serve_13_7.BackColor = System.Drawing.Color.Transparent;
-            this.btn_serve_13_7.BaseColor = System.Drawing.SystemColors.Control;
-            this.btn_serve_13_7.BorderColor = System.Drawing.Color.Black;
-            this.btn_serve_13_7.BorderSize = 1;
-            this.btn_serve_13_7.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.btn_serve_13_7.FocusedColor = System.Drawing.Color.Empty;
-            this.btn_serve_13_7.Font = new System.Drawing.Font("Segoe UI", 14F);
-            this.btn_serve_13_7.ForeColor = System.Drawing.Color.Black;
-            this.btn_serve_13_7.Image = null;
-            this.btn_serve_13_7.ImageSize = new System.Drawing.Size(20, 20);
-            this.btn_serve_13_7.Location = new System.Drawing.Point(568, 330);
-            this.btn_serve_13_7.Name = "btn_serve_13_7";
-            this.btn_serve_13_7.OnHoverBaseColor = System.Drawing.Color.Empty;
-            this.btn_serve_13_7.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
-            this.btn_serve_13_7.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
-            this.btn_serve_13_7.OnHoverImage = null;
-            this.btn_serve_13_7.OnPressedColor = System.Drawing.Color.Black;
-            this.btn_serve_13_7.Radius = 10;
-            this.btn_serve_13_7.Size = new System.Drawing.Size(92, 53);
-            this.btn_serve_13_7.TabIndex = 296;
-            this.btn_serve_13_7.Text = "አርትኦት";
-            this.btn_serve_13_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.btn_serve_13_7.Click += new System.EventHandler(this.btn_serve_13_7_Click);
-            // 
-            // btn_serve_12_7
-            // 
-            this.btn_serve_12_7.AnimationHoverSpeed = 0.07F;
-            this.btn_serve_12_7.AnimationSpeed = 0.03F;
-            this.btn_serve_12_7.BackColor = System.Drawing.Color.Transparent;
-            this.btn_serve_12_7.BaseColor = System.Drawing.SystemColors.Control;
-            this.btn_serve_12_7.BorderColor = System.Drawing.Color.Black;
-            this.btn_serve_12_7.BorderSize = 1;
-            this.btn_serve_12_7.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.btn_serve_12_7.FocusedColor = System.Drawing.Color.Empty;
-            this.btn_serve_12_7.Font = new System.Drawing.Font("Segoe UI", 14F);
-            this.btn_serve_12_7.ForeColor = System.Drawing.Color.Black;
-            this.btn_serve_12_7.Image = null;
-            this.btn_serve_12_7.ImageSize = new System.Drawing.Size(20, 20);
-            this.btn_serve_12_7.Location = new System.Drawing.Point(456, 330);
-            this.btn_serve_12_7.Name = "btn_serve_12_7";
-            this.btn_serve_12_7.OnHoverBaseColor = System.Drawing.Color.Empty;
-            this.btn_serve_12_7.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
-            this.btn_serve_12_7.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
-            this.btn_serve_12_7.OnHoverImage = null;
-            this.btn_serve_12_7.OnPressedColor = System.Drawing.Color.Black;
-            this.btn_serve_12_7.Radius = 10;
-            this.btn_serve_12_7.Size = new System.Drawing.Size(92, 53);
-            this.btn_serve_12_7.TabIndex = 295;
-            this.btn_serve_12_7.Text = "ሽያጭ";
-            this.btn_serve_12_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.btn_serve_12_7.Click += new System.EventHandler(this.btn_serve_12_7_Click);
-            // 
-            // listBox_serve_7
-            // 
-            this.listBox_serve_7.BackColor = System.Drawing.SystemColors.Control;
-            this.listBox_serve_7.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.listBox_serve_7.Enabled = false;
-            this.listBox_serve_7.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.listBox_serve_7.FormattingEnabled = true;
-            this.listBox_serve_7.ItemHeight = 20;
-            this.listBox_serve_7.Location = new System.Drawing.Point(710, 96);
-            this.listBox_serve_7.Name = "listBox_serve_7";
-            this.listBox_serve_7.Size = new System.Drawing.Size(354, 360);
-            this.listBox_serve_7.TabIndex = 302;
-            // 
-            // btn_serve_11_7
-            // 
-            this.btn_serve_11_7.AnimationHoverSpeed = 0.07F;
-            this.btn_serve_11_7.AnimationSpeed = 0.03F;
-            this.btn_serve_11_7.BackColor = System.Drawing.Color.Transparent;
-            this.btn_serve_11_7.BaseColor = System.Drawing.SystemColors.Control;
-            this.btn_serve_11_7.BorderColor = System.Drawing.Color.Black;
-            this.btn_serve_11_7.BorderSize = 1;
-            this.btn_serve_11_7.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.btn_serve_11_7.FocusedColor = System.Drawing.Color.Empty;
-            this.btn_serve_11_7.Font = new System.Drawing.Font("Segoe UI", 14F);
-            this.btn_serve_11_7.ForeColor = System.Drawing.Color.Black;
-            this.btn_serve_11_7.Image = null;
-            this.btn_serve_11_7.ImageSize = new System.Drawing.Size(20, 20);
-            this.btn_serve_11_7.Location = new System.Drawing.Point(290, 330);
-            this.btn_serve_11_7.Name = "btn_serve_11_7";
-            this.btn_serve_11_7.OnHoverBaseColor = System.Drawing.Color.Empty;
-            this.btn_serve_11_7.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
-            this.btn_serve_11_7.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
-            this.btn_serve_11_7.OnHoverImage = null;
-            this.btn_serve_11_7.OnPressedColor = System.Drawing.Color.Black;
-            this.btn_serve_11_7.Radius = 10;
-            this.btn_serve_11_7.Size = new System.Drawing.Size(145, 53);
-            this.btn_serve_11_7.TabIndex = 294;
-            this.btn_serve_11_7.Text = "ልዩ ልዩ ጉባኤያት";
-            this.btn_serve_11_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.btn_serve_11_7.Click += new System.EventHandler(this.btn_serve_11_7_Click_1);
-            // 
-            // btn_serve_10_7
-            // 
-            this.btn_serve_10_7.AnimationHoverSpeed = 0.07F;
-            this.btn_serve_10_7.AnimationSpeed = 0.03F;
-            this.btn_serve_10_7.BackColor = System.Drawing.Color.Transparent;
-            this.btn_serve_10_7.BaseColor = System.Drawing.SystemColors.Control;
-            this.btn_serve_10_7.BorderColor = System.Drawing.Color.Black;
-            this.btn_serve_10_7.BorderSize = 1;
-            this.btn_serve_10_7.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.btn_serve_10_7.FocusedColor = System.Drawing.Color.Empty;
-            this.btn_serve_10_7.Font = new System.Drawing.Font("Segoe UI", 14F);
-            this.btn_serve_10_7.ForeColor = System.Drawing.Color.Black;
-            this.btn_serve_10_7.Image = null;
-            this.btn_serve_10_7.ImageSize = new System.Drawing.Size(20, 20);
-            this.btn_serve_10_7.Location = new System.Drawing.Point(48, 330);
-            this.btn_serve_10_7.Name = "btn_serve_10_7";
-            this.btn_serve_10_7.OnHoverBaseColor = System.Drawing.Color.Empty;
-            this.btn_serve_10_7.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
-            this.btn_serve_10_7.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
-            this.btn_serve_10_7.OnHoverImage = null;
-            this.btn_serve_10_7.OnPressedColor = System.Drawing.Color.Black;
-            this.btn_serve_10_7.Radius = 10;
-            this.btn_serve_10_7.Size = new System.Drawing.Size(216, 53);
-            this.btn_serve_10_7.TabIndex = 293;
-            this.btn_serve_10_7.Text = "ጥናት ፣ ምርምርና ስልጠና";
-            this.btn_serve_10_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.btn_serve_10_7.Click += new System.EventHandler(this.btn_serve_10_7_Click_1);
-            // 
-            // btn_serve_9_7
-            // 
-            this.btn_serve_9_7.AnimationHoverSpeed = 0.07F;
-            this.btn_serve_9_7.AnimationSpeed = 0.03F;
-            this.btn_serve_9_7.BackColor = System.Drawing.Color.Transparent;
-            this.btn_serve_9_7.BaseColor = System.Drawing.SystemColors.Control;
-            this.btn_serve_9_7.BorderColor = System.Drawing.Color.Black;
-            this.btn_serve_9_7.BorderSize = 1;
-            this.btn_serve_9_7.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.btn_serve_9_7.FocusedColor = System.Drawing.Color.Empty;
-            this.btn_serve_9_7.Font = new System.Drawing.Font("Segoe UI", 14F);
-            this.btn_serve_9_7.ForeColor = System.Drawing.Color.Black;
-            this.btn_serve_9_7.Image = null;
-            this.btn_serve_9_7.ImageSize = new System.Drawing.Size(20, 20);
-            this.btn_serve_9_7.Location = new System.Drawing.Point(503, 254);
-            this.btn_serve_9_7.Name = "btn_serve_9_7";
-            this.btn_serve_9_7.OnHoverBaseColor = System.Drawing.Color.Empty;
-            this.btn_serve_9_7.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
-            this.btn_serve_9_7.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
-            this.btn_serve_9_7.OnHoverImage = null;
-            this.btn_serve_9_7.OnPressedColor = System.Drawing.Color.Black;
-            this.btn_serve_9_7.Radius = 10;
-            this.btn_serve_9_7.Size = new System.Drawing.Size(157, 53);
-            this.btn_serve_9_7.TabIndex = 292;
-            this.btn_serve_9_7.Text = "ማኅበራት አንድነት";
-            this.btn_serve_9_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.btn_serve_9_7.Click += new System.EventHandler(this.btn_serve_9_7_Click_1);
-            // 
-            // btn_serve_8_7
-            // 
-            this.btn_serve_8_7.AnimationHoverSpeed = 0.07F;
-            this.btn_serve_8_7.AnimationSpeed = 0.03F;
-            this.btn_serve_8_7.BackColor = System.Drawing.Color.Transparent;
-            this.btn_serve_8_7.BaseColor = System.Drawing.SystemColors.Control;
-            this.btn_serve_8_7.BorderColor = System.Drawing.Color.Black;
-            this.btn_serve_8_7.BorderSize = 1;
-            this.btn_serve_8_7.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.btn_serve_8_7.FocusedColor = System.Drawing.Color.Empty;
-            this.btn_serve_8_7.Font = new System.Drawing.Font("Segoe UI", 14F);
-            this.btn_serve_8_7.ForeColor = System.Drawing.Color.Black;
-            this.btn_serve_8_7.Image = null;
-            this.btn_serve_8_7.ImageSize = new System.Drawing.Size(20, 20);
-            this.btn_serve_8_7.Location = new System.Drawing.Point(48, 254);
-            this.btn_serve_8_7.Name = "btn_serve_8_7";
-            this.btn_serve_8_7.OnHoverBaseColor = System.Drawing.Color.Empty;
-            this.btn_serve_8_7.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
-            this.btn_serve_8_7.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
-            this.btn_serve_8_7.OnHoverImage = null;
-            this.btn_serve_8_7.OnPressedColor = System.Drawing.Color.Black;
-            this.btn_serve_8_7.Radius = 10;
-            this.btn_serve_8_7.Size = new System.Drawing.Size(129, 53);
-            this.btn_serve_8_7.TabIndex = 290;
-            this.btn_serve_8_7.Text = "ውጪ ግንኙነት";
-            this.btn_serve_8_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.btn_serve_8_7.Click += new System.EventHandler(this.btn_serve_8_7_Click_1);
-            // 
-            // btn_serve_7_7
-            // 
-            this.btn_serve_7_7.AnimationHoverSpeed = 0.07F;
-            this.btn_serve_7_7.AnimationSpeed = 0.03F;
-            this.btn_serve_7_7.BackColor = System.Drawing.Color.Transparent;
-            this.btn_serve_7_7.BaseColor = System.Drawing.SystemColors.Control;
-            this.btn_serve_7_7.BorderColor = System.Drawing.Color.Black;
-            this.btn_serve_7_7.BorderSize = 1;
-            this.btn_serve_7_7.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.btn_serve_7_7.FocusedColor = System.Drawing.Color.Empty;
-            this.btn_serve_7_7.Font = new System.Drawing.Font("Segoe UI", 14F);
-            this.btn_serve_7_7.ForeColor = System.Drawing.Color.Black;
-            this.btn_serve_7_7.Image = null;
-            this.btn_serve_7_7.ImageSize = new System.Drawing.Size(20, 20);
-            this.btn_serve_7_7.Location = new System.Drawing.Point(196, 254);
-            this.btn_serve_7_7.Name = "btn_serve_7_7";
-            this.btn_serve_7_7.OnHoverBaseColor = System.Drawing.Color.Empty;
-            this.btn_serve_7_7.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
-            this.btn_serve_7_7.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
-            this.btn_serve_7_7.OnHoverImage = null;
-            this.btn_serve_7_7.OnPressedColor = System.Drawing.Color.Black;
-            this.btn_serve_7_7.Radius = 10;
-            this.btn_serve_7_7.Size = new System.Drawing.Size(292, 53);
-            this.btn_serve_7_7.TabIndex = 291;
-            this.btn_serve_7_7.Text = "የበጎ አድራጎትና ሙያ አገልግሎት ክፍል";
-            this.btn_serve_7_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.btn_serve_7_7.Click += new System.EventHandler(this.btn_serve_7_7_Click_1);
-            // 
-            // btn_serve_6_7
-            // 
-            this.btn_serve_6_7.AnimationHoverSpeed = 0.07F;
-            this.btn_serve_6_7.AnimationSpeed = 0.03F;
-            this.btn_serve_6_7.BackColor = System.Drawing.Color.Transparent;
-            this.btn_serve_6_7.BaseColor = System.Drawing.SystemColors.Control;
-            this.btn_serve_6_7.BorderColor = System.Drawing.Color.Black;
-            this.btn_serve_6_7.BorderSize = 1;
-            this.btn_serve_6_7.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.btn_serve_6_7.FocusedColor = System.Drawing.Color.Empty;
-            this.btn_serve_6_7.Font = new System.Drawing.Font("Segoe UI", 14F);
-            this.btn_serve_6_7.ForeColor = System.Drawing.Color.Black;
-            this.btn_serve_6_7.Image = null;
-            this.btn_serve_6_7.ImageSize = new System.Drawing.Size(20, 20);
-            this.btn_serve_6_7.Location = new System.Drawing.Point(503, 180);
-            this.btn_serve_6_7.Name = "btn_serve_6_7";
-            this.btn_serve_6_7.OnHoverBaseColor = System.Drawing.Color.Empty;
-            this.btn_serve_6_7.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
-            this.btn_serve_6_7.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
-            this.btn_serve_6_7.OnHoverImage = null;
-            this.btn_serve_6_7.OnPressedColor = System.Drawing.Color.Black;
-            this.btn_serve_6_7.Radius = 10;
-            this.btn_serve_6_7.Size = new System.Drawing.Size(157, 53);
-            this.btn_serve_6_7.TabIndex = 289;
-            this.btn_serve_6_7.Text = "ጉዞና ጉብኝት ክፍል ";
-            this.btn_serve_6_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.btn_serve_6_7.Click += new System.EventHandler(this.btn_serve_6_7_Click_1);
-            // 
-            // btn_serve_4_7
-            // 
-            this.btn_serve_4_7.AnimationHoverSpeed = 0.07F;
-            this.btn_serve_4_7.AnimationSpeed = 0.03F;
-            this.btn_serve_4_7.BackColor = System.Drawing.Color.Transparent;
-            this.btn_serve_4_7.BaseColor = System.Drawing.SystemColors.Control;
-            this.btn_serve_4_7.BorderColor = System.Drawing.Color.Black;
-            this.btn_serve_4_7.BorderSize = 1;
-            this.btn_serve_4_7.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.btn_serve_4_7.FocusedColor = System.Drawing.Color.Empty;
-            this.btn_serve_4_7.Font = new System.Drawing.Font("Segoe UI", 14F);
-            this.btn_serve_4_7.ForeColor = System.Drawing.Color.Black;
-            this.btn_serve_4_7.Image = null;
-            this.btn_serve_4_7.ImageSize = new System.Drawing.Size(20, 20);
-            this.btn_serve_4_7.Location = new System.Drawing.Point(48, 180);
-            this.btn_serve_4_7.Name = "btn_serve_4_7";
-            this.btn_serve_4_7.OnHoverBaseColor = System.Drawing.Color.Empty;
-            this.btn_serve_4_7.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
-            this.btn_serve_4_7.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
-            this.btn_serve_4_7.OnHoverImage = null;
-            this.btn_serve_4_7.OnPressedColor = System.Drawing.Color.Black;
-            this.btn_serve_4_7.Radius = 10;
-            this.btn_serve_4_7.Size = new System.Drawing.Size(114, 53);
-            this.btn_serve_4_7.TabIndex = 287;
-            this.btn_serve_4_7.Text = "ልማት ክፍል ";
-            this.btn_serve_4_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.btn_serve_4_7.Click += new System.EventHandler(this.btn_serve_4_7_Click_1);
-            // 
-            // btn_serve_5_7
-            // 
-            this.btn_serve_5_7.AnimationHoverSpeed = 0.07F;
-            this.btn_serve_5_7.AnimationSpeed = 0.03F;
-            this.btn_serve_5_7.BackColor = System.Drawing.Color.Transparent;
-            this.btn_serve_5_7.BaseColor = System.Drawing.SystemColors.Control;
-            this.btn_serve_5_7.BorderColor = System.Drawing.Color.Black;
-            this.btn_serve_5_7.BorderSize = 1;
-            this.btn_serve_5_7.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.btn_serve_5_7.FocusedColor = System.Drawing.Color.Empty;
-            this.btn_serve_5_7.Font = new System.Drawing.Font("Segoe UI", 14F);
-            this.btn_serve_5_7.ForeColor = System.Drawing.Color.Black;
-            this.btn_serve_5_7.Image = null;
-            this.btn_serve_5_7.ImageSize = new System.Drawing.Size(20, 20);
-            this.btn_serve_5_7.Location = new System.Drawing.Point(190, 180);
-            this.btn_serve_5_7.Name = "btn_serve_5_7";
-            this.btn_serve_5_7.OnHoverBaseColor = System.Drawing.Color.Empty;
-            this.btn_serve_5_7.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
-            this.btn_serve_5_7.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
-            this.btn_serve_5_7.OnHoverImage = null;
-            this.btn_serve_5_7.OnPressedColor = System.Drawing.Color.Black;
-            this.btn_serve_5_7.Radius = 10;
-            this.btn_serve_5_7.Size = new System.Drawing.Size(289, 53);
-            this.btn_serve_5_7.TabIndex = 288;
-            this.btn_serve_5_7.Text = "አባላት ግንኙነት እና ሥነ-ምግባር ክፍል";
-            this.btn_serve_5_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.btn_serve_5_7.Click += new System.EventHandler(this.btn_serve_5_7_Click_1);
-            // 
-            // btn_serve_3_7
-            // 
-            this.btn_serve_3_7.AnimationHoverSpeed = 0.07F;
-            this.btn_serve_3_7.AnimationSpeed = 0.03F;
-            this.btn_serve_3_7.BackColor = System.Drawing.Color.Transparent;
-            this.btn_serve_3_7.BaseColor = System.Drawing.SystemColors.Control;
-            this.btn_serve_3_7.BorderColor = System.Drawing.Color.Black;
-            this.btn_serve_3_7.BorderSize = 1;
-            this.btn_serve_3_7.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.btn_serve_3_7.FocusedColor = System.Drawing.Color.Empty;
-            this.btn_serve_3_7.Font = new System.Drawing.Font("Segoe UI", 14F);
-            this.btn_serve_3_7.ForeColor = System.Drawing.Color.Black;
-            this.btn_serve_3_7.Image = null;
-            this.btn_serve_3_7.ImageSize = new System.Drawing.Size(20, 20);
-            this.btn_serve_3_7.Location = new System.Drawing.Point(418, 110);
-            this.btn_serve_3_7.Name = "btn_serve_3_7";
-            this.btn_serve_3_7.OnHoverBaseColor = System.Drawing.Color.Empty;
-            this.btn_serve_3_7.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
-            this.btn_serve_3_7.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
-            this.btn_serve_3_7.OnHoverImage = null;
-            this.btn_serve_3_7.OnPressedColor = System.Drawing.Color.Black;
-            this.btn_serve_3_7.Radius = 10;
-            this.btn_serve_3_7.Size = new System.Drawing.Size(242, 53);
-            this.btn_serve_3_7.TabIndex = 286;
-            this.btn_serve_3_7.Text = "ሕጻናት እና ማዕከላውያን ክፍል";
-            this.btn_serve_3_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.btn_serve_3_7.Click += new System.EventHandler(this.btn_serve_3_7_Click_1);
-            // 
-            // btn_serve_2_7
-            // 
-            this.btn_serve_2_7.AnimationHoverSpeed = 0.07F;
-            this.btn_serve_2_7.AnimationSpeed = 0.03F;
-            this.btn_serve_2_7.BackColor = System.Drawing.Color.Transparent;
-            this.btn_serve_2_7.BaseColor = System.Drawing.SystemColors.Control;
-            this.btn_serve_2_7.BorderColor = System.Drawing.Color.Black;
-            this.btn_serve_2_7.BorderSize = 1;
-            this.btn_serve_2_7.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.btn_serve_2_7.FocusedColor = System.Drawing.Color.Empty;
-            this.btn_serve_2_7.Font = new System.Drawing.Font("Segoe UI", 14F);
-            this.btn_serve_2_7.ForeColor = System.Drawing.Color.Black;
-            this.btn_serve_2_7.Image = null;
-            this.btn_serve_2_7.ImageSize = new System.Drawing.Size(20, 20);
-            this.btn_serve_2_7.Location = new System.Drawing.Point(242, 110);
-            this.btn_serve_2_7.Name = "btn_serve_2_7";
-            this.btn_serve_2_7.OnHoverBaseColor = System.Drawing.Color.Empty;
-            this.btn_serve_2_7.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
-            this.btn_serve_2_7.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
-            this.btn_serve_2_7.OnHoverImage = null;
-            this.btn_serve_2_7.OnPressedColor = System.Drawing.Color.Black;
-            this.btn_serve_2_7.Radius = 10;
-            this.btn_serve_2_7.Size = new System.Drawing.Size(142, 53);
-            this.btn_serve_2_7.TabIndex = 285;
-            this.btn_serve_2_7.Text = "መዝሙር ክፍል ";
-            this.btn_serve_2_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.btn_serve_2_7.Click += new System.EventHandler(this.btn_serve_2_7_Click_1);
-            // 
-            // btn_serve_1_7
-            // 
-            this.btn_serve_1_7.AnimationHoverSpeed = 0.07F;
-            this.btn_serve_1_7.AnimationSpeed = 0.03F;
-            this.btn_serve_1_7.BackColor = System.Drawing.Color.Transparent;
-            this.btn_serve_1_7.BaseColor = System.Drawing.SystemColors.Control;
-            this.btn_serve_1_7.BorderColor = System.Drawing.Color.Black;
-            this.btn_serve_1_7.BorderSize = 1;
-            this.btn_serve_1_7.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.btn_serve_1_7.FocusedColor = System.Drawing.Color.Empty;
-            this.btn_serve_1_7.Font = new System.Drawing.Font("Segoe UI", 14F);
-            this.btn_serve_1_7.ForeColor = System.Drawing.Color.Black;
-            this.btn_serve_1_7.Image = null;
-            this.btn_serve_1_7.ImageSize = new System.Drawing.Size(20, 20);
-            this.btn_serve_1_7.Location = new System.Drawing.Point(48, 110);
-            this.btn_serve_1_7.Name = "btn_serve_1_7";
-            this.btn_serve_1_7.OnHoverBaseColor = System.Drawing.Color.Empty;
-            this.btn_serve_1_7.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
-            this.btn_serve_1_7.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
-            this.btn_serve_1_7.OnHoverImage = null;
-            this.btn_serve_1_7.OnPressedColor = System.Drawing.Color.Black;
-            this.btn_serve_1_7.Radius = 10;
-            this.btn_serve_1_7.Size = new System.Drawing.Size(141, 53);
-            this.btn_serve_1_7.TabIndex = 284;
-            this.btn_serve_1_7.Text = "ትምህርት ክፍል ";
-            this.btn_serve_1_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.btn_serve_1_7.Click += new System.EventHandler(this.btn_serve_1_7_Click_1);
-            // 
-            // label41
-            // 
-            this.label41.AutoSize = true;
-            this.label41.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label41.Location = new System.Drawing.Point(43, 40);
-            this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(627, 25);
-            this.label41.TabIndex = 301;
-            this.label41.Text = "በሰ/ት/ቤቱ ለማገልገል የሚፈልጉባቸው ክፍላት ምርጫዎን ቅደም ተከተል በቁጥር ይግለጹ! ";
             // 
             // RegisterUserControl
             // 

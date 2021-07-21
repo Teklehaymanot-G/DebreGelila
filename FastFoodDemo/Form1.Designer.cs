@@ -31,6 +31,7 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btn_menu_attendance_report = new System.Windows.Forms.Button();
             this.btn_menu_attendance = new System.Windows.Forms.Button();
             this.btn_menu_filter = new System.Windows.Forms.Button();
             this.SidePanel = new System.Windows.Forms.Panel();
@@ -54,17 +55,19 @@
             this.btn_logout = new Guna.UI.WinForms.GunaImageButton();
             this.pictureBox_login_photo = new System.Windows.Forms.PictureBox();
             this.btn_exit = new System.Windows.Forms.Button();
-            this.firstCustomControl1 = new FastFoodDemo.FirstCustomControl();
-            this.mySecondCustmControl1 = new FastFoodDemo.MySecondCustmControl();
-            this.registerUserControl1 = new FastFoodDemo.Register.RegisterUserControl();
-            this.listDataUserControl1 = new FastFoodDemo.ListData.ListDataUserControl();
-            this.loginUserControl1 = new FastFoodDemo.Register.LoginUserControl();
-            this.simpleSearch1 = new FastFoodDemo.Register.SimpleSearch();
-            this.editUserControl1 = new FastFoodDemo.Register.EditUserControl();
-            this.settingUserControl1 = new FastFoodDemo.Register.SettingUserControl();
-            this.filterUserControl1 = new FastFoodDemo.Register.FilterUserControl();
-            this.reportViewerUserControl1 = new FastFoodDemo.Register.ReportViewerUserControl();
             this.loginUserControl2 = new FastFoodDemo.Register.LoginUserControl();
+            this.reportViewerUserControl1 = new FastFoodDemo.Register.ReportViewerUserControl();
+            this.filterUserControl1 = new FastFoodDemo.Register.FilterUserControl();
+            this.settingUserControl1 = new FastFoodDemo.Register.SettingUserControl();
+            this.editUserControl1 = new FastFoodDemo.Register.EditUserControl();
+            this.simpleSearch1 = new FastFoodDemo.Register.SimpleSearch();
+            this.loginUserControl1 = new FastFoodDemo.Register.LoginUserControl();
+            this.listDataUserControl1 = new FastFoodDemo.ListData.ListDataUserControl();
+            this.registerUserControl1 = new FastFoodDemo.Register.RegisterUserControl();
+            this.mySecondCustmControl1 = new FastFoodDemo.MySecondCustmControl();
+            this.firstCustomControl1 = new FastFoodDemo.FirstCustomControl();
+            this.attendanceAddUserControl1 = new FastFoodDemo.Register.AttendanceAddUserControl();
+            this.attendanceReportUserControl1 = new FastFoodDemo.Register.AttendanceReportUserControl();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -74,6 +77,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(40)))));
+            this.panel1.Controls.Add(this.btn_menu_attendance_report);
             this.panel1.Controls.Add(this.btn_menu_attendance);
             this.panel1.Controls.Add(this.btn_menu_filter);
             this.panel1.Controls.Add(this.SidePanel);
@@ -86,6 +90,23 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(211, 783);
             this.panel1.TabIndex = 0;
+            // 
+            // btn_menu_attendance_report
+            // 
+            this.btn_menu_attendance_report.FlatAppearance.BorderSize = 0;
+            this.btn_menu_attendance_report.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_menu_attendance_report.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_menu_attendance_report.ForeColor = System.Drawing.Color.White;
+            this.btn_menu_attendance_report.Image = ((System.Drawing.Image)(resources.GetObject("btn_menu_attendance_report.Image")));
+            this.btn_menu_attendance_report.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_menu_attendance_report.Location = new System.Drawing.Point(6, 347);
+            this.btn_menu_attendance_report.Name = "btn_menu_attendance_report";
+            this.btn_menu_attendance_report.Size = new System.Drawing.Size(199, 54);
+            this.btn_menu_attendance_report.TabIndex = 7;
+            this.btn_menu_attendance_report.Text = "     አቴንዳስ ሪፖርት";
+            this.btn_menu_attendance_report.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btn_menu_attendance_report.UseVisualStyleBackColor = true;
+            this.btn_menu_attendance_report.Click += new System.EventHandler(this.btn_menu_attendance_report_Click);
             // 
             // btn_menu_attendance
             // 
@@ -209,7 +230,7 @@
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(8)))), ((int)(((byte)(55)))));
             this.panel3.Controls.Add(this.pictureBox1);
-            this.panel3.Location = new System.Drawing.Point(243, 0);
+            this.panel3.Location = new System.Drawing.Point(244, 0);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(111, 143);
             this.panel3.TabIndex = 2;
@@ -228,20 +249,20 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(400, 42);
+            this.label4.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(476, 13);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(198, 21);
+            this.label4.Size = new System.Drawing.Size(279, 28);
             this.label4.TabIndex = 3;
             this.label4.Text = "የደብረ ገሊላ ዐማኑኤል ካቴድራል";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(371, 61);
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(420, 43);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(262, 21);
+            this.label1.Size = new System.Drawing.Size(374, 28);
             this.label1.TabIndex = 9;
             this.label1.Text = "እግዚአብሔር ምስሌነ ሰንበት ትምህርት ቤት";
             // 
@@ -284,7 +305,7 @@
             this.lbl_login_name.AutoSize = true;
             this.lbl_login_name.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_login_name.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lbl_login_name.Location = new System.Drawing.Point(863, 65);
+            this.lbl_login_name.Location = new System.Drawing.Point(1009, 33);
             this.lbl_login_name.Name = "lbl_login_name";
             this.lbl_login_name.Size = new System.Drawing.Size(86, 20);
             this.lbl_login_name.TabIndex = 17;
@@ -295,7 +316,7 @@
             this.lbl_login_participation_number.AutoSize = true;
             this.lbl_login_participation_number.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_login_participation_number.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lbl_login_participation_number.Location = new System.Drawing.Point(865, 85);
+            this.lbl_login_participation_number.Location = new System.Drawing.Point(1011, 53);
             this.lbl_login_participation_number.Name = "lbl_login_participation_number";
             this.lbl_login_participation_number.Size = new System.Drawing.Size(130, 13);
             this.lbl_login_participation_number.TabIndex = 18;
@@ -304,10 +325,10 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(383, 82);
+            this.label2.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(439, 73);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(235, 21);
+            this.label2.Size = new System.Drawing.Size(338, 28);
             this.label2.TabIndex = 326;
             this.label2.Text = "አባላት ግንኙነት እና ሥነ-ምግባር ክፍል ";
             // 
@@ -315,7 +336,8 @@
             // 
             this.lbl_header_line.AutoSize = true;
             this.lbl_header_line.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(8)))), ((int)(((byte)(55)))));
-            this.lbl_header_line.Location = new System.Drawing.Point(357, 102);
+            this.lbl_header_line.Location = new System.Drawing.Point(358, 102);
+            this.lbl_header_line.Margin = new System.Windows.Forms.Padding(0);
             this.lbl_header_line.Name = "lbl_header_line";
             this.lbl_header_line.Size = new System.Drawing.Size(649, 13);
             this.lbl_header_line.TabIndex = 327;
@@ -337,9 +359,9 @@
             // 
             // pictureBox_login_photo
             // 
-            this.pictureBox_login_photo.Location = new System.Drawing.Point(868, 22);
+            this.pictureBox_login_photo.Location = new System.Drawing.Point(911, 16);
             this.pictureBox_login_photo.Name = "pictureBox_login_photo";
-            this.pictureBox_login_photo.Size = new System.Drawing.Size(40, 40);
+            this.pictureBox_login_photo.Size = new System.Drawing.Size(92, 85);
             this.pictureBox_login_photo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox_login_photo.TabIndex = 19;
             this.pictureBox_login_photo.TabStop = false;
@@ -360,83 +382,6 @@
             this.btn_exit.UseVisualStyleBackColor = true;
             this.btn_exit.Click += new System.EventHandler(this.btn_exit_Click);
             // 
-            // firstCustomControl1
-            // 
-            this.firstCustomControl1.Location = new System.Drawing.Point(211, 149);
-            this.firstCustomControl1.Name = "firstCustomControl1";
-            this.firstCustomControl1.Size = new System.Drawing.Size(1115, 634);
-            this.firstCustomControl1.TabIndex = 328;
-            // 
-            // mySecondCustmControl1
-            // 
-            this.mySecondCustmControl1.Location = new System.Drawing.Point(211, 149);
-            this.mySecondCustmControl1.Name = "mySecondCustmControl1";
-            this.mySecondCustmControl1.Size = new System.Drawing.Size(1115, 634);
-            this.mySecondCustmControl1.TabIndex = 329;
-            // 
-            // registerUserControl1
-            // 
-            this.registerUserControl1.Location = new System.Drawing.Point(211, 149);
-            this.registerUserControl1.Name = "registerUserControl1";
-            this.registerUserControl1.Size = new System.Drawing.Size(1115, 634);
-            this.registerUserControl1.TabIndex = 330;
-            // 
-            // listDataUserControl1
-            // 
-            this.listDataUserControl1.Location = new System.Drawing.Point(211, 149);
-            this.listDataUserControl1.Name = "listDataUserControl1";
-            this.listDataUserControl1.Padding = new System.Windows.Forms.Padding(40);
-            this.listDataUserControl1.Size = new System.Drawing.Size(1115, 634);
-            this.listDataUserControl1.TabIndex = 331;
-            this.listDataUserControl1.Click += new System.EventHandler(this.btn_edit_Click);
-            // 
-            // loginUserControl1
-            // 
-            this.loginUserControl1.Location = new System.Drawing.Point(211, 149);
-            this.loginUserControl1.Name = "loginUserControl1";
-            this.loginUserControl1.Padding = new System.Windows.Forms.Padding(40);
-            this.loginUserControl1.Size = new System.Drawing.Size(1115, 634);
-            this.loginUserControl1.TabIndex = 332;
-            // 
-            // simpleSearch1
-            // 
-            this.simpleSearch1.Location = new System.Drawing.Point(211, 149);
-            this.simpleSearch1.Name = "simpleSearch1";
-            this.simpleSearch1.Padding = new System.Windows.Forms.Padding(40);
-            this.simpleSearch1.Size = new System.Drawing.Size(1115, 634);
-            this.simpleSearch1.TabIndex = 333;
-            // 
-            // editUserControl1
-            // 
-            this.editUserControl1.Location = new System.Drawing.Point(211, 149);
-            this.editUserControl1.Name = "editUserControl1";
-            this.editUserControl1.Size = new System.Drawing.Size(1115, 634);
-            this.editUserControl1.TabIndex = 334;
-            // 
-            // settingUserControl1
-            // 
-            this.settingUserControl1.Location = new System.Drawing.Point(211, 149);
-            this.settingUserControl1.Name = "settingUserControl1";
-            this.settingUserControl1.Padding = new System.Windows.Forms.Padding(40);
-            this.settingUserControl1.Size = new System.Drawing.Size(1115, 631);
-            this.settingUserControl1.TabIndex = 335;
-            // 
-            // filterUserControl1
-            // 
-            this.filterUserControl1.Location = new System.Drawing.Point(211, 149);
-            this.filterUserControl1.Name = "filterUserControl1";
-            this.filterUserControl1.Padding = new System.Windows.Forms.Padding(40);
-            this.filterUserControl1.Size = new System.Drawing.Size(1115, 634);
-            this.filterUserControl1.TabIndex = 336;
-            // 
-            // reportViewerUserControl1
-            // 
-            this.reportViewerUserControl1.Location = new System.Drawing.Point(211, 149);
-            this.reportViewerUserControl1.Name = "reportViewerUserControl1";
-            this.reportViewerUserControl1.Padding = new System.Windows.Forms.Padding(40);
-            this.reportViewerUserControl1.Size = new System.Drawing.Size(1115, 634);
-            this.reportViewerUserControl1.TabIndex = 337;
-            // 
             // loginUserControl2
             // 
             this.loginUserControl2.Location = new System.Drawing.Point(211, 149);
@@ -447,11 +392,106 @@
             this.loginUserControl2.Load += new System.EventHandler(this.loginUserControl2_Load);
             this.loginUserControl2.Click += new System.EventHandler(this.btn_login_Click);
             // 
+            // reportViewerUserControl1
+            // 
+            this.reportViewerUserControl1.Location = new System.Drawing.Point(211, 149);
+            this.reportViewerUserControl1.Name = "reportViewerUserControl1";
+            this.reportViewerUserControl1.Padding = new System.Windows.Forms.Padding(40);
+            this.reportViewerUserControl1.Size = new System.Drawing.Size(1115, 634);
+            this.reportViewerUserControl1.TabIndex = 337;
+            // 
+            // filterUserControl1
+            // 
+            this.filterUserControl1.Location = new System.Drawing.Point(211, 149);
+            this.filterUserControl1.Name = "filterUserControl1";
+            this.filterUserControl1.Padding = new System.Windows.Forms.Padding(40);
+            this.filterUserControl1.Size = new System.Drawing.Size(1115, 634);
+            this.filterUserControl1.TabIndex = 336;
+            // 
+            // settingUserControl1
+            // 
+            this.settingUserControl1.Location = new System.Drawing.Point(211, 149);
+            this.settingUserControl1.Name = "settingUserControl1";
+            this.settingUserControl1.Padding = new System.Windows.Forms.Padding(40);
+            this.settingUserControl1.Size = new System.Drawing.Size(1115, 631);
+            this.settingUserControl1.TabIndex = 335;
+            // 
+            // editUserControl1
+            // 
+            this.editUserControl1.Location = new System.Drawing.Point(211, 149);
+            this.editUserControl1.Name = "editUserControl1";
+            this.editUserControl1.Size = new System.Drawing.Size(1115, 634);
+            this.editUserControl1.TabIndex = 334;
+            // 
+            // simpleSearch1
+            // 
+            this.simpleSearch1.Location = new System.Drawing.Point(211, 149);
+            this.simpleSearch1.Name = "simpleSearch1";
+            this.simpleSearch1.Padding = new System.Windows.Forms.Padding(40);
+            this.simpleSearch1.Size = new System.Drawing.Size(1115, 634);
+            this.simpleSearch1.TabIndex = 333;
+            // 
+            // loginUserControl1
+            // 
+            this.loginUserControl1.Location = new System.Drawing.Point(211, 149);
+            this.loginUserControl1.Name = "loginUserControl1";
+            this.loginUserControl1.Padding = new System.Windows.Forms.Padding(40);
+            this.loginUserControl1.Size = new System.Drawing.Size(1115, 634);
+            this.loginUserControl1.TabIndex = 332;
+            // 
+            // listDataUserControl1
+            // 
+            this.listDataUserControl1.Location = new System.Drawing.Point(211, 149);
+            this.listDataUserControl1.Name = "listDataUserControl1";
+            this.listDataUserControl1.Padding = new System.Windows.Forms.Padding(40);
+            this.listDataUserControl1.Size = new System.Drawing.Size(1115, 634);
+            this.listDataUserControl1.TabIndex = 331;
+            this.listDataUserControl1.Click += new System.EventHandler(this.btn_edit_Click);
+            // 
+            // registerUserControl1
+            // 
+            this.registerUserControl1.Location = new System.Drawing.Point(211, 149);
+            this.registerUserControl1.Name = "registerUserControl1";
+            this.registerUserControl1.Size = new System.Drawing.Size(1115, 634);
+            this.registerUserControl1.TabIndex = 330;
+            // 
+            // mySecondCustmControl1
+            // 
+            this.mySecondCustmControl1.Location = new System.Drawing.Point(211, 149);
+            this.mySecondCustmControl1.Name = "mySecondCustmControl1";
+            this.mySecondCustmControl1.Size = new System.Drawing.Size(1115, 634);
+            this.mySecondCustmControl1.TabIndex = 329;
+            // 
+            // firstCustomControl1
+            // 
+            this.firstCustomControl1.Location = new System.Drawing.Point(211, 149);
+            this.firstCustomControl1.Name = "firstCustomControl1";
+            this.firstCustomControl1.Size = new System.Drawing.Size(1115, 634);
+            this.firstCustomControl1.TabIndex = 328;
+            // 
+            // attendanceAddUserControl1
+            // 
+            this.attendanceAddUserControl1.Location = new System.Drawing.Point(211, 149);
+            this.attendanceAddUserControl1.Name = "attendanceAddUserControl1";
+            this.attendanceAddUserControl1.Padding = new System.Windows.Forms.Padding(30);
+            this.attendanceAddUserControl1.Size = new System.Drawing.Size(1115, 634);
+            this.attendanceAddUserControl1.TabIndex = 339;
+            // 
+            // attendanceReportUserControl1
+            // 
+            this.attendanceReportUserControl1.Location = new System.Drawing.Point(211, 149);
+            this.attendanceReportUserControl1.Name = "attendanceReportUserControl1";
+            this.attendanceReportUserControl1.Padding = new System.Windows.Forms.Padding(40);
+            this.attendanceReportUserControl1.Size = new System.Drawing.Size(1115, 634);
+            this.attendanceReportUserControl1.TabIndex = 340;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1326, 783);
+            this.Controls.Add(this.attendanceReportUserControl1);
+            this.Controls.Add(this.attendanceAddUserControl1);
             this.Controls.Add(this.loginUserControl2);
             this.Controls.Add(this.reportViewerUserControl1);
             this.Controls.Add(this.filterUserControl1);
@@ -528,6 +568,9 @@
         private Register.FilterUserControl filterUserControl1;
         private Register.ReportViewerUserControl reportViewerUserControl1;
         private Register.LoginUserControl loginUserControl2;
+        private System.Windows.Forms.Button btn_menu_attendance_report;
+        private Register.AttendanceAddUserControl attendanceAddUserControl1;
+        private Register.AttendanceReportUserControl attendanceReportUserControl1;
     }
 }
 

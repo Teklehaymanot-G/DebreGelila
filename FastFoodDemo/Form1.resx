@@ -118,6 +118,18 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btn_menu_attendance_report.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABGdBTUEAALGPC/xhBQAAAYVJREFUSEvt
+        ls1Kw0AUhYNvI+LOFgWV6FJ8Cd2ICnWvvlz+3kC6dFEqaNcu3Gg8N5wJ1xhyb5J2pQc+hrmTc247mSmN
+        /iXKsuwcPIPSyXue51e0DxeCFo1giy9yw4hhUoEu0jS9xhia3zKmv0KgF3ouwKfM8UHuq6C+CoFeaBPf
+        JaiagweW/aLRDW2VMNfNH1n2iSY3tNVCbQbCO5+xbEvC+oCrdEhrLdTvgDT+YMlWCFwXjLXVZh4DY221
+        mcfAWFttZoO4KIoDjHMZ8c5P9DpjbSlTLPMkSU67ami0J7WyLLdkxA/IVD3fv3E4rWhy3FUDT6GpjDJX
+        a5vb6uY3xnZP9LrUXNImD2h8xO2Vdzxp7MZGD1cnjLXVZh4DY221mXvwhq3fB/WVYqwtFeK6TopXNNyR
+        dX2lZO5SMCDEe51i+ZaobXNtF7VVWJeaS8HgRU4yrb+aClyypU1OVtKc2/ujqcBYW03jWBhrCw8vm+YR
+        LBhrCw/LH/oXZR7KEofujLF/WlH0DUZE07q/3030AAAAAElFTkSuQmCC
+</value>
+  </data>
   <data name="btn_menu_filter.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAjRJREFUWEft

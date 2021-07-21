@@ -32,6 +32,8 @@
             this.label5 = new System.Windows.Forms.Label();
             this.lb_search_result = new System.Windows.Forms.ListBox();
             this.simpleSearchCrystalReportViewer = new CrystalDecisions.Windows.Forms.CrystalReportViewer();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // txt_search
@@ -41,7 +43,7 @@
             this.txt_search.FocusedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
             this.txt_search.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_search.LineColor = System.Drawing.Color.Gray;
-            this.txt_search.Location = new System.Drawing.Point(43, 75);
+            this.txt_search.Location = new System.Drawing.Point(166, 107);
             this.txt_search.Name = "txt_search";
             this.txt_search.PasswordChar = '\0';
             this.txt_search.Size = new System.Drawing.Size(344, 26);
@@ -53,7 +55,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(118, 40);
+            this.label5.Location = new System.Drawing.Point(241, 72);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(203, 20);
             this.label5.TabIndex = 201;
@@ -63,10 +65,12 @@
             // 
             this.lb_search_result.BackColor = System.Drawing.SystemColors.Control;
             this.lb_search_result.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.lb_search_result.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lb_search_result.FormattingEnabled = true;
-            this.lb_search_result.Location = new System.Drawing.Point(680, 43);
+            this.lb_search_result.ItemHeight = 16;
+            this.lb_search_result.Location = new System.Drawing.Point(8, 8);
             this.lb_search_result.Name = "lb_search_result";
-            this.lb_search_result.Size = new System.Drawing.Size(392, 91);
+            this.lb_search_result.Size = new System.Drawing.Size(406, 96);
             this.lb_search_result.TabIndex = 205;
             this.lb_search_result.MouseClick += new System.Windows.Forms.MouseEventHandler(this.lb_search_result_MouseClick);
             this.lb_search_result.SelectedIndexChanged += new System.EventHandler(this.lb_search_result_SelectedIndexChanged);
@@ -83,17 +87,28 @@
             this.simpleSearchCrystalReportViewer.TabIndex = 206;
             this.simpleSearchCrystalReportViewer.ToolPanelView = CrystalDecisions.Windows.Forms.ToolPanelViewType.None;
             // 
+            // panel1
+            // 
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.lb_search_result);
+            this.panel1.Location = new System.Drawing.Point(516, 21);
+            this.panel1.Name = "panel1";
+            this.panel1.Padding = new System.Windows.Forms.Padding(5);
+            this.panel1.Size = new System.Drawing.Size(422, 112);
+            this.panel1.TabIndex = 207;
+            // 
             // SimpleSearch
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.simpleSearchCrystalReportViewer);
-            this.Controls.Add(this.lb_search_result);
             this.Controls.Add(this.txt_search);
             this.Controls.Add(this.label5);
             this.Name = "SimpleSearch";
             this.Padding = new System.Windows.Forms.Padding(40);
             this.Size = new System.Drawing.Size(1115, 634);
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -104,5 +119,6 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.ListBox lb_search_result;
         private CrystalDecisions.Windows.Forms.CrystalReportViewer simpleSearchCrystalReportViewer;
+        private System.Windows.Forms.Panel panel1;
     }
 }

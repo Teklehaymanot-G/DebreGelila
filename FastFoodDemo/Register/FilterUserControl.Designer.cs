@@ -34,6 +34,7 @@
             this.cmb_married = new Guna.UI.WinForms.GunaComboBox();
             this.cmb_course_before = new Guna.UI.WinForms.GunaComboBox();
             this.btn_filter = new Guna.UI.WinForms.GunaImageButton();
+            this.gunaComboBox1 = new Guna.UI.WinForms.GunaComboBox();
             this.SuspendLayout();
             // 
             // filterCrystalReportViewer
@@ -123,7 +124,7 @@
             this.btn_filter.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_filter.Image = ((System.Drawing.Image)(resources.GetObject("btn_filter.Image")));
             this.btn_filter.ImageSize = new System.Drawing.Size(32, 32);
-            this.btn_filter.Location = new System.Drawing.Point(741, 40);
+            this.btn_filter.Location = new System.Drawing.Point(877, 37);
             this.btn_filter.Name = "btn_filter";
             this.btn_filter.OnHoverImage = null;
             this.btn_filter.OnHoverImageOffset = new System.Drawing.Point(0, 0);
@@ -131,10 +132,35 @@
             this.btn_filter.TabIndex = 325;
             this.btn_filter.Click += new System.EventHandler(this.btn_filter_Click);
             // 
+            // gunaComboBox1
+            // 
+            this.gunaComboBox1.BackColor = System.Drawing.Color.Transparent;
+            this.gunaComboBox1.BaseColor = System.Drawing.Color.White;
+            this.gunaComboBox1.BorderColor = System.Drawing.Color.Silver;
+            this.gunaComboBox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.gunaComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.gunaComboBox1.FocusedColor = System.Drawing.Color.Empty;
+            this.gunaComboBox1.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.gunaComboBox1.ForeColor = System.Drawing.Color.Black;
+            this.gunaComboBox1.FormattingEnabled = true;
+            this.gunaComboBox1.Items.AddRange(new object[] {
+            "ኮርስ",
+            "ተምሬያለሁ",
+            "አልተማርኩም",
+            "እየተማርኩኝ ነው"});
+            this.gunaComboBox1.Location = new System.Drawing.Point(741, 43);
+            this.gunaComboBox1.Name = "gunaComboBox1";
+            this.gunaComboBox1.OnHoverItemBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
+            this.gunaComboBox1.OnHoverItemForeColor = System.Drawing.Color.White;
+            this.gunaComboBox1.Size = new System.Drawing.Size(130, 26);
+            this.gunaComboBox1.StartIndex = 0;
+            this.gunaComboBox1.TabIndex = 326;
+            // 
             // FilterUserControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.gunaComboBox1);
             this.Controls.Add(this.btn_filter);
             this.Controls.Add(this.cmb_course_before);
             this.Controls.Add(this.cmb_married);
@@ -155,5 +181,6 @@
         private Guna.UI.WinForms.GunaComboBox cmb_married;
         private Guna.UI.WinForms.GunaComboBox cmb_course_before;
         private Guna.UI.WinForms.GunaImageButton btn_filter;
+        private Guna.UI.WinForms.GunaComboBox gunaComboBox1;
     }
 }

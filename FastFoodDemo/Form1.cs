@@ -20,7 +20,6 @@ namespace FastFoodDemo
         public bool loginSuccess = false;
         public int loginMemberId = -1;
         public bool is_listDataUserControl_1 = true;
-        AttendanceUserControl2 attendanceUserControl2 = new AttendanceUserControl2();
 
         public Form1()
         {
@@ -31,13 +30,6 @@ namespace FastFoodDemo
 
             // clear text before login
             change_login_name("", "");
-
-            //firstUserControl1.BringToFront();
-
-
-            Controls.Add(attendanceUserControl2);
-            attendanceUserControl2.Dock = editUserControl1.Dock;
-            attendanceUserControl2.Location = editUserControl1.Location;
         }
 
         public Form1(bool loginSuccess, int loginMemberId, UserControl userControl, Button menu)
@@ -164,9 +156,9 @@ namespace FastFoodDemo
                     if (status == 1)
                     {
                         loginMemberId = general_info_id;
-                        change_login_name(reader.GetString(2), participation_number);
+                        change_login_name(""+reader.GetString(2), participation_number);
 
-                        if (reader.GetString(3) != "")
+                        if(reader[3].GetType() != typeof(DBNull))
                         {
                             String dest = Application.StartupPath + @"\upload\" + reader.GetString(3);
                             if (File.Exists(dest))
@@ -252,7 +244,7 @@ namespace FastFoodDemo
             {
                 SidePanel.Height = btn_menu_attendance.Height;
                 SidePanel.Top = btn_menu_attendance.Top;
-                attendanceUserControl2.BringToFront();
+                attendanceAddUserControl1.BringToFront();
             }
         }
 
@@ -272,6 +264,16 @@ namespace FastFoodDemo
                     listDataUserControl1.loginMemberId = loginMemberId.ToString();
                     lbl_header_line.Text = "_____________________________________________________________________________________________________________";
                 }
+            }
+        }
+
+        private void btn_menu_attendance_report_Click(object sender, EventArgs e)
+        {
+            if (loginMemberId != -1)
+            {
+                SidePanel.Height = btn_menu_attendance.Height;
+                SidePanel.Top = btn_menu_attendance_report.Top;
+                attendanceReportUserControl1.BringToFront();
             }
         }
     }

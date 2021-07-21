@@ -153,11 +153,17 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Register\AttendanceUserControl2.cs">
+    <Compile Include="Register\AttendanceAddUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Register\AttendanceUserControl2.Designer.cs">
-      <DependentUpon>AttendanceUserControl2.cs</DependentUpon>
+    <Compile Include="Register\AttendanceAddUserControl.Designer.cs">
+      <DependentUpon>AttendanceAddUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Register\AttendanceReportUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Register\AttendanceReportUserControl.Designer.cs">
+      <DependentUpon>AttendanceReportUserControl.cs</DependentUpon>
     </Compile>
     <Compile Include="Register\SimpleSearch.cs">
       <SubType>UserControl</SubType>
@@ -239,8 +245,11 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="Register\AttendanceUserControl2.resx">
-      <DependentUpon>AttendanceUserControl2.cs</DependentUpon>
+    <EmbeddedResource Include="Register\AttendanceAddUserControl.resx">
+      <DependentUpon>AttendanceAddUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Register\AttendanceReportUserControl.resx">
+      <DependentUpon>AttendanceReportUserControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Register\SimpleSearch.resx">
       <DependentUpon>SimpleSearch.cs</DependentUpon>

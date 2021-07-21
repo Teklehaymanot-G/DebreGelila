@@ -1238,11 +1238,11 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(108, 291);
+            this.label7.Location = new System.Drawing.Point(92, 294);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(177, 20);
+            this.label7.Size = new System.Drawing.Size(193, 20);
             this.label7.TabIndex = 311;
-            this.label7.Text = "የተዘገቡበት ቀን ፣ ወር ፣ ዓ.ም.";
+            this.label7.Text = "የተመዘገቡበት ቀን ፣ ወር ፣ ዓ.ም.";
             // 
             // label8
             // 

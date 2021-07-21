@@ -646,7 +646,6 @@ namespace FastFoodDemo.Register
             children_count = (int)num_children_count_5.Value;
 
 
-
             // panel sixth
             emergency_name = txt_emergency_name_6.Text;
             emergency_phone = txt_emergency_phone_6.Text;

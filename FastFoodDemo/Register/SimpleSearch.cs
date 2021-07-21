@@ -31,9 +31,12 @@ namespace FastFoodDemo.Register
             {
                 try
                 {
-                    String sql = "SELECT general_info_id, full_name, participation_number FROM general_info WHERE " +
-                        "participation_number LIKE '%" + txt_search.Text + "%' OR " +
-                        "full_name LIKE N'%" + txt_search.Text + "%'";
+                    String sql = "SELECT general_info_id, full_name, participation_number FROM view_for_simple_search WHERE " +
+                            "participation_number LIKE '%" + txt_search.Text + "%' OR " +
+                            "full_name LIKE N'%" + txt_search.Text + "%' OR " +
+                            "educational_level LIKE N'%" + txt_search.Text + "%' OR " +
+                            "educational_qualification LIKE N'%" + txt_search.Text + "%' OR " +
+                            "skill LIKE N'%" + txt_search.Text + "%'";
 
                     SqlConnection conn = DatabaseConnection.getConnection();
                     SqlCommand cmd = new SqlCommand(sql, conn);
@@ -57,11 +60,15 @@ namespace FastFoodDemo.Register
                         lb_search_result.DataSource = member;
                         lb_search_result.ClearSelected();
                     }
+                    else
+                    {
+                        lb_search_result.DataSource = null;
+                    }
                     conn.Close();
                 }
                 catch (SqlException ex)
                 {
-                    //MessageBox.Show(ex.Message);
+                    MessageBox.Show(ex.Message);
                 }
             }
         }
@@ -78,7 +85,7 @@ namespace FastFoodDemo.Register
                 string sql = "SELECT * FROM general_info WHERE general_info_id='" + general_info_id + "'";
                 SqlConnection conn = DatabaseConnection.getConnection();
                 SqlCommand cmd = new SqlCommand(sql, conn);
-                
+
                 conn.Open();
                 SqlDataReader reader = cmd.ExecuteReader();
                 if (reader.Read())
@@ -116,7 +123,7 @@ namespace FastFoodDemo.Register
                     putDataOnReport(crpt, "Section2", "txt_emergency_phone_1", getSqlStringData(reader, "emergency_phone"));
                     putDataOnReport(crpt, "Section2", "txt_repentance_father_name_1", getSqlStringData(reader, "repentance_father_name"));
                     putDataOnReport(crpt, "Section2", "txt_repentance_father_place_1", getSqlStringData(reader, "repentance_father_place"));
-                    
+
                     putDataOnReport(crpt, "Section2", "txt_partner_name_1", getPartnerInfo(getSqlStringData(reader, "partner_member_id"), "general_info", "full_name"));
                     putDataOnReport(crpt, "Section2", "txt_partner_phone_1", getPartnerInfo(getSqlStringData(reader, "partner_member_id"), "address_info", "cell_phone"));
                     putDataOnReport(crpt, "Section2", "txt_partner_date_1", getSqlStringData(reader, "partner_date"));
@@ -155,7 +162,7 @@ namespace FastFoodDemo.Register
             }
             catch(SqlException ex)
             {
-                //MessageBox.Show(ex.Message);
+                MessageBox.Show(ex.Message);
             }
         }
 
@@ -171,23 +178,27 @@ namespace FastFoodDemo.Register
                 SqlDataReader reader = cmd.ExecuteReader();
                 while (reader.Read())
                 {
-                    if (reader.GetString(reader.GetOrdinal("type")) == "መንፈሳዊ")
-                    {
-                        putDataOnReport(crpt, "Section2", "txt_spritual_educational_level_1", getSqlStringData(reader, "educational_level"));
-                        putDataOnReport(crpt, "Section2", "txt_spritual_educational_qualification_1", getSqlStringData(reader, "educational_qualification"));
+                    if (reader[3].GetType() != typeof(DBNull))
+                    { 
+                        if (reader.GetString(reader.GetOrdinal("type")) == "መንፈሳዊ")
+                        {
+                            putDataOnReport(crpt, "Section2", "txt_spritual_educational_level_1", getSqlStringData(reader, "educational_level"));
+                            putDataOnReport(crpt, "Section2", "txt_spritual_educational_qualification_1", getSqlStringData(reader, "educational_qualification"));
+                        }
+                        else if (reader.GetString(reader.GetOrdinal("type")) == "ዓለማዊ")
+                        {
+                            putDataOnReport(crpt, "Section2", "txt_secular_education_level_1", getSqlStringData(reader, "educational_level"));
+                            putDataOnReport(crpt, "Section2", "txt_secular_education_qualification_1", getSqlStringData(reader, "educational_qualification"));
+                        }
                     }
-                    else if (reader.GetString(reader.GetOrdinal("type")) == "ዓለማዊ")
-                    {
-                        putDataOnReport(crpt, "Section2", "txt_secular_education_level_1", getSqlStringData(reader, "educational_level"));
-                        putDataOnReport(crpt, "Section2", "txt_secular_education_qualification_1", getSqlStringData(reader, "educational_qualification"));
-                    }
-                    putDataOnReport(crpt, "Section2", "txt_school_name_1", getSqlStringData(reader, "school_name"));
-                }
+                //putDataOnReport(crpt, "Section2", "txt_school_name_1", getSqlStringData(reader, "school_name"));
+
+            }
                 conn.Close();
             }
             catch (SqlException ex)
             {
-                //MessageBox.Show(ex.Message);
+                MessageBox.Show(ex.Message);
             }
         }
 
@@ -371,7 +382,8 @@ namespace FastFoodDemo.Register
         {
             try
             {
-                return reader.GetString(reader.GetOrdinal(col));
+                if (reader[col].GetType() != typeof(DBNull))
+                    return reader.GetString(reader.GetOrdinal(col));
             }
             catch (Exception e)
             {
@@ -384,7 +396,8 @@ namespace FastFoodDemo.Register
         {
             try
             {
-                return reader.GetInt32(reader.GetOrdinal(col));
+                if (reader[col].GetType() != typeof(DBNull))
+                    return reader.GetInt32(reader.GetOrdinal(col));
             }
             catch (Exception e)
             {
@@ -429,13 +442,16 @@ namespace FastFoodDemo.Register
                 {
                     try
                     {
-                        String sql = "SELECT general_info_id, full_name, participation_number FROM general_info WHERE " +
+                        String sql = "SELECT general_info_id, full_name, participation_number FROM view_for_simple_search WHERE " +
                             "participation_number LIKE '%" + txt_search.Text + "%' OR " +
-                            "full_name LIKE N'%" + txt_search.Text + "%'";
-
+                            "full_name LIKE N'%" + txt_search.Text + "%' OR " +
+                            "educational_level LIKE N'%" + txt_search.Text + "%' OR " +
+                            "educational_qualification LIKE N'%" + txt_search.Text + "%' OR " +
+                            "skill LIKE N'%" + txt_search.Text + "%'";
+                        txt_search.Text = sql;
                         SqlConnection conn = DatabaseConnection.getConnection();
                         SqlCommand cmd = new SqlCommand(sql, conn);
-
+                        
                         conn.Open();
                         SqlDataReader reader = cmd.ExecuteReader();
                         if (reader.HasRows)
@@ -473,6 +489,7 @@ namespace FastFoodDemo.Register
             try
             {
                 CrystalReports.registerCrystalReport crpt = new CrystalReports.registerCrystalReport();
+                
                 getGeneralInfo(lb_search_result.SelectedValue.ToString(), crpt);
                 getAddressInfo(lb_search_result.SelectedValue.ToString(), crpt);
                 getEducationalBackgroundInfo(lb_search_result.SelectedValue.ToString(), crpt);
@@ -480,7 +497,6 @@ namespace FastFoodDemo.Register
                 getServiceInfo(lb_search_result.SelectedValue.ToString(), crpt);
                 getSpritualEducationBackgroundInfo(lb_search_result.SelectedValue.ToString(), crpt);
                 getWorkInfo(lb_search_result.SelectedValue.ToString(), crpt);
-
                 /*string sql = "SELECT * FROM view_for_simple_search " +
                     "WHERE dbo.general_info.general_info_id='"+lb_search_result.SelectedValue+"'";
                 SqlConnection conn = DatabaseConnection.getConnection();
